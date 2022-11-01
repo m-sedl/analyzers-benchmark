@@ -1,0 +1,50 @@
+[submodule "projects/efcore"]
+	path = projects/efcore
+	url = https://github.com/dotnet/efcore
+[submodule "projects/litedb"]
+	path = projects/litedb
+	url = https://github.com/mbdavid/litedb
+[submodule "projects/moq4"]
+	path = projects/moq4
+	url = https://github.com/Moq/moq4
+[submodule "projects/NLog"]
+	path = projects/NLog
+	url = https://github.com/NLog/NLog
+[submodule "projects/nunit"]
+	path = projects/nunit
+	url = https://github.com/nunit/nunit
+[submodule "projects/xunit"]
+	path = projects/xunit
+	url = https://github.com/xunit/xunit
+[submodule "projects/btcpayserver"]
+	path = projects/btcpayserver
+	url = https://github.com/btcpayserver/btcpayserver
+[submodule "projects/AutoMapper"]
+	path = projects/AutoMapper
+	url = https://github.com/AutoMapper/AutoMapper
+[submodule "projects/PowerShell"]
+	path = projects/PowerShell
+	url = https://github.com/PowerShell/PowerShell
+[submodule "projects/shadowsocks-windows"]
+	path = projects/shadowsocks-windows
+	url = https://github.com/shadowsocks/shadowsocks-windows
+[submodule "projects/ISEbd-22_Nugaev_D.N._DoubleDeckerBus_Base"]
+	path = projects/ISEbd-22_Nugaev_D.N._DoubleDeckerBus_Base
+	url = http://student.git.athene.tech/Damir_Nugaev_ISEbd-22/ISEbd-22_Nugaev_D.N._DoubleDeckerBus_Base
+	branch = Lab_work04
+[submodule "projects/PIbd-12_Karamushko_M.K._AirFighter._Base"]
+	path = projects/PIbd-12_Karamushko_M.K._AirFighter._Base
+	url = http://student.git.athene.tech/maxKarme/PIbd-12_Karamushko_M.K._AirFighter._Base
+	branch = lab5_base
+[submodule "projects/PIbd-21_Pyatakov_KM_Stormtrooper_Base"]
+	path = projects/PIbd-21_Pyatakov_KM_Stormtrooper_Base
+	url = http://student.git.athene.tech/ker73rus/PIbd-21_Pyatakov_KM_Stormtrooper_Base
+	branch = LabWork3
+[submodule "projects/PIbd-23_Nevaeva_K.A._ContainerShip_Base"]
+	path = projects/PIbd-23_Nevaeva_K.A._ContainerShip_Base
+	url = http://student.git.athene.tech/ksenia_nevaeva/PIbd-23_Nevaeva_K.A._ContainerShip_Base
+	branch = Lab_4
+[submodule "projects/PIbd-21_Nikiforova_V.M._AccordionBus._Base"]
+	path = projects/PIbd-21_Nikiforova_V.M._AccordionBus._Base
+	url = http://student.git.athene.tech/NikiforovaValeria/PIbd-21_Nikiforova_V.M._AccordionBus._Base
+	branch = LabWork05
