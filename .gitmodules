@@ -48,3 +48,6 @@
 	path = projects/PIbd-21_Nikiforova_V.M._AccordionBus._Base
 	url = http://student.git.athene.tech/NikiforovaValeria/PIbd-21_Nikiforova_V.M._AccordionBus._Base
 	branch = LabWork05
+[submodule "spbu-homeworks-1"]
+	path = projects/spbu-homeworks-1
+	url = https://github.com/ElenaBakova/Homeworks
