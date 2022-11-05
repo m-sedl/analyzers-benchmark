@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"sarif-viewer.connectToGithubCodeScanning": "off",
+		"files.exclude": {
+			//"projects/**": true
+		},
+		"editor.formatOnSave": true
+	}
+}
