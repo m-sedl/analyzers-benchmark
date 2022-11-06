@@ -51,3 +51,24 @@
 [submodule "spbu-homeworks-1"]
 	path = projects/spbu-homeworks-1
 	url = https://github.com/ElenaBakova/Homeworks
+[submodule "projects/BenchmarkDotNet"]
+	path = projects/BenchmarkDotNet
+	url = https://github.com/dotnet/BenchmarkDotNet
+[submodule "projects/aspnetcore"]
+	path = projects/aspnetcore
+	url = https://github.com/dotnet/aspnetcore
+[submodule "projects/ILSpy"]
+	path = projects/ILSpy
+	url = https://github.com/icsharpcode/ILSpy
+[submodule "projects/Avalonia"]
+	path = projects/Avalonia
+	url = https://github.com/AvaloniaUI/Avalonia
+[submodule "tools/OpenRA"]
+	path = projects/OpenRA
+	url = https://github.com/OpenRA/OpenRA
+[submodule "projects/Newtonsoft.Json"]
+	path = projects/Newtonsoft.Json
+	url = https://github.com/JamesNK/Newtonsoft.Json
+[submodule "projects/RestSharp"]
+	path = projects/RestSharp
+	url = https://github.com/restsharp/RestSharp
