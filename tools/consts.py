@@ -2,10 +2,12 @@ solutions = [
     "litedb/LiteDB.sln",
     "NLog/src/NLog.sln",
     "moq4/Moq.sln",
-    # "parallel-programming-2-thread-pool/ThreadPool.sln", -- .NET 4.x
     "btcpayserver/btcpayserver.sln",
+
+    # "parallel-programming-2-thread-pool/ThreadPool.sln", -- .NET 4.x
     # "parallel-programming-2-sync/ThreadSynchronization.sln", -- .NET 4.x
     # "shadowsocks-windows/shadowsocks-windows.sln", -- windows only
+
     "parallel-programming-3-thread-pool/Task2.sln",
     "xunit",
     "parallel-programming-1-sync/synchronization.sln",
@@ -44,6 +46,8 @@ solutions = [
     # "PowerShell/PowerShell.sln",
 
     "parallel-programming-1-thread-pool/thread-pool.sln"
+    "BenchmarkDotNet",
+    "ILSpy/ILSpy.XPlat.slnf"
 ]
 
 bin_directories = [
@@ -177,24 +181,25 @@ bin_directories = [
     # "efcore/artifacts/bin/EFCore.Abstractions",
     # "efcore/artifacts/bin/EFCore.Analyzers",
     # "efcore/artifacts/bin/EFCore.Analyzers.Tests", --- ERROR
-    "efcore/artifacts/bin/EFCore.Benchmarks",
-    "efcore/artifacts/bin/EFCore.Cosmos",
-    "efcore/artifacts/bin/Microsoft.Data.Sqlite",
-    "efcore/artifacts/bin/Microsoft.Data.Sqlite.Core",
-    "efcore/artifacts/bin/EFCore.Design",
-    "efcore/artifacts/bin/EFCore.InMemory",
-    "efcore/artifacts/bin/EFCore.Proxies",
-    "efcore/artifacts/bin/EFCore.Relational",
-    "efcore/artifacts/bin/EFCore.Sqlite",
-    "efcore/artifacts/bin/EFCore.Sqlite.Benchmarks",
-    "efcore/artifacts/bin/EFCore.Sqlite.Core",
-    "efcore/artifacts/bin/EFCore.Sqlite.NTS",
-    "efcore/artifacts/bin/EFCore.SqlServer",
-    "efcore/artifacts/bin/EFCore.SqlServer.Benchmarks",
-    "efcore/artifacts/bin/EFCore.SqlServer.NTS",
-    "efcore/artifacts/bin/EFCore.Templates",
-    "efcore/artifacts/bin/EFCore.Tools",
-    "efcore/artifacts/bin/EFCore.Cosmos.FunctionalTests",
+
+    # "efcore/artifacts/bin/EFCore.Benchmarks",
+    # "efcore/artifacts/bin/EFCore.Cosmos",
+    # "efcore/artifacts/bin/Microsoft.Data.Sqlite",
+    # "efcore/artifacts/bin/Microsoft.Data.Sqlite.Core",
+    # "efcore/artifacts/bin/EFCore.Design",
+    # "efcore/artifacts/bin/EFCore.InMemory",
+    # "efcore/artifacts/bin/EFCore.Proxies",
+    # "efcore/artifacts/bin/EFCore.Relational",
+    # "efcore/artifacts/bin/EFCore.Sqlite",
+    # "efcore/artifacts/bin/EFCore.Sqlite.Benchmarks",
+    # "efcore/artifacts/bin/EFCore.Sqlite.Core",
+    # "efcore/artifacts/bin/EFCore.Sqlite.NTS",
+    # "efcore/artifacts/bin/EFCore.SqlServer",
+    # "efcore/artifacts/bin/EFCore.SqlServer.Benchmarks",
+    # "efcore/artifacts/bin/EFCore.SqlServer.NTS",
+    # "efcore/artifacts/bin/EFCore.Templates",
+    # "efcore/artifacts/bin/EFCore.Tools",
+    # "efcore/artifacts/bin/EFCore.Cosmos.FunctionalTests",
 
     # Зависает, больше не пробовал
     # "efcore/artifacts/bin/EFCore.Cosmos.Tests",
@@ -222,6 +227,47 @@ bin_directories = [
     # "efcore/artifacts/bin/EFCore.AspNet.Specification.Tests",
     # "efcore/artifacts/bin/EFCore.AspNet.Sqlite.FunctionalTests",
     # "efcore/artifacts/bin/EFCore.AspNet.SqlServer.FunctionalTests",
+    "BenchmarkDotNet/src/BenchmarkDotNet.Annotations/bin",
+    "BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/bin",
+    "BenchmarkDotNet/src/BenchmarkDotNet/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.ConfigPerAssembly/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.VisualBasic/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.DisabledOptimizations/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.FSharp/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.EnabledOptimizations/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.ManualRunning/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.CustomPaths/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.Tests/bin",
+    "BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests.Static/bin",
+    "BenchmarkDotNet/samples/BenchmarkDotNet.Samples.FSharp/bin",
+    "BenchmarkDotNet/samples/BenchmarkDotNet.Samples/bin",
+    "BenchmarkDotNet/samples/BenchmarkDotNet.Samples.Forms/bin",
+    "ILSpy/ICSharpCode.ILSpyCmd/bin",
+    "ILSpy/ILSpy-tests/mcs/5.23/bin",
+    "ILSpy/ILSpy-tests/mcs/2.6.4/bin",
+    "ILSpy/ICSharpCode.Decompiler/bin",
+    "ILSpy/ICSharpCode.ILSpyX/bin",
+    "ILSpy/ICSharpCode.Decompiler.TestRunner/bin",
+    "ILSpy/ICSharpCode.Decompiler.PowerShell/bin",
+    "ILSpy/ICSharpCode.Decompiler.Tests/bin",
+    "OpenRA/bin",
+    "Newtonsoft.Json/Src/Newtonsoft.Json/bin",
+    "Newtonsoft.Json/Src/Newtonsoft.Json.Tests/bin",
+    "Newtonsoft.Json/Src/Newtonsoft.Json.TestConsole/bin",
+    "RestSharp/test/RestSharp.Tests.Integrated/bin",
+    "RestSharp/test/RestSharp.Tests.Serializers.Xml/bin",
+    "RestSharp/test/RestSharp.Tests.Shared/bin",
+    "RestSharp/test/RestSharp.Tests.Legacy/bin",
+    "RestSharp/test/RestSharp.Tests/bin",
+    "RestSharp/test/RestSharp.InteractiveTests/bin",
+    "RestSharp/test/RestSharp.Tests.Serializers.Json/bin",
+    "RestSharp/test/RestSharp.Tests.Serializers.Csv/bin",
+    "RestSharp/benchmarks/RestSharp.Benchmarks/bin",
+    "RestSharp/src/RestSharp.Serializers.Xml/bin",
+    "RestSharp/src/RestSharp/bin",
+    "RestSharp/src/RestSharp.Serializers.NewtonsoftJson/bin",
+    "RestSharp/src/RestSharp.Serializers.CsvHelper/bin",
 ]
 
 HEADER = '\033[95m'

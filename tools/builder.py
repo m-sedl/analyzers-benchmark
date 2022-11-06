@@ -9,6 +9,8 @@ def get_build_command(solution):
         return ["bash", f"{path}/build", "build"]
     elif solution == "efcore":
         return ["bash", f"{path}/build.sh"]
+    elif solution == "BenchmarkDotNet":
+        return ["bash", f"{path}/build.sh", "--SkipTests"]
     else:
         return ["dotnet", "build", path]
 

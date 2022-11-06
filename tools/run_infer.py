@@ -16,7 +16,7 @@ def analyze(bin_directory):
     if process.returncode == 0:
         file_name = \
             bin_directory.replace("/", "_").replace("_bin", "") + ".sarif"
-        shutil.copyfile(f"{abspath}/report.sarif", f"./reports/{file_name}")
+        shutil.copyfile(f"{abspath}/report.sarif", f"./reports/infer/{file_name}")
 
     return process.returncode == 0
 
