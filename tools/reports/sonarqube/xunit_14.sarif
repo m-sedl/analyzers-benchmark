@@ -1,0 +1,439 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'runnerReporters' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 34,
+                  "endLine": 29,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'logger' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 17,
+                  "endLine": 28,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 30,
+                  "endLine": 56,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 3,
+                  "endLine": 58,
+                  "endColumn": 5
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 4,
+                  "endLine": 70,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 5,
+                  "endLine": 88,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 4,
+                  "endLine": 96,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 4,
+                  "endLine": 103,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 4,
+                  "endLine": 114,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 30,
+                  "endLine": 114,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 4,
+                  "endLine": 119,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 4,
+                  "endLine": 121,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 4,
+                  "endLine": 124,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 4,
+                  "endLine": 127,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 74,
+                  "endLine": 135,
+                  "endColumn": 75
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 56,
+                  "endLine": 135,
+                  "endColumn": 58
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 3,
+                  "endLine": 137,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 4,
+                  "endLine": 139,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 4,
+                  "endLine": 144,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 5,
+                  "endLine": 146,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 35,
+                  "endLine": 152,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 4,
+                  "endLine": 156,
+                  "endColumn": 6
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+1",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'testCasesDiscovered'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 8,
+                  "endLine": 224,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'PrintHeader' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 7,
+                  "endLine": 173,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

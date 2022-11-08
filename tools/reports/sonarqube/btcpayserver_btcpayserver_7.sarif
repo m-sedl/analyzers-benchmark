@@ -1,0 +1,1198 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'AddressInvoiceData.Address' is obsolete: 'Use GetHash instead'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/AddressInvoiceData.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 30,
+                  "endLine": 26,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0612",
+          "level": "warning",
+          "message": "'WalletTransactionData' is obsolete",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 13,
+                  "endLine": 119,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'ApplicationUser.U2FDevices' is obsolete: 'U2F support has been replace with FIDO2'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/U2FDevice.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 32,
+                  "endLine": 29,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 13,
+                  "endLine": 91,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 13,
+                  "endLine": 97,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 13,
+                  "endLine": 100,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 13,
+                  "endLine": 105,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 13,
+                  "endLine": 108,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 13,
+                  "endLine": 111,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 13,
+                  "endLine": 124,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'Remove_OpenIddict' to match pascal case naming rules, consider using 'RemoveOpenIddict'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20200224134444_Remove_OpenIddict.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'defaultcrypto' to match pascal case naming rules, consider using 'Defaultcrypto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180109021122_defaultcrypto.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 26,
+                  "endLine": 9,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'AddU2fDevices' to match pascal case naming rules, consider using 'AddU2FDevices'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20190425081749_AddU2fDevices.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 26,
+                  "endLine": 9,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'events' to match pascal case naming rules, consider using 'Events'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180114123253_events.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'sort_paymentrequests' to match pascal case naming rules, consider using 'Sortpaymentrequests'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20190701082105_sort_paymentrequests.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'appdata' to match pascal case naming rules, consider using 'Appdata'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180402095640_appdata.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'legacyapikey' to match pascal case naming rules, consider using 'Legacyapikey'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180429083930_legacyapikey.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 26,
+                  "endLine": 9,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'refundnotificationpullpayments' to match pascal case naming rules, consider using 'Refundnotificationpullpayments'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20200625064111_refundnotificationpullpayments.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'u2fDeviceCascade' to match pascal case naming rules, consider using 'U2FDeviceCascade'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20201007090617_u2fDeviceCascade.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 26,
+                  "endLine": 9,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'webhooks' to match pascal case naming rules, consider using 'Webhooks'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20201108054749_webhooks.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 26,
+                  "endLine": 10,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'invoice_created_idx' to match pascal case naming rules, consider using 'Invoicecreatedidx'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20220518061525_invoice_created_idx.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 26,
+                  "endLine": 11,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'invoicesorderindex' to match pascal case naming rules, consider using 'Invoicesorderindex'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20201208054211_invoicesorderindex.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 26,
+                  "endLine": 9,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'remove_historical_addresses' to match pascal case naming rules, consider using 'Removehistoricaladdresses'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20220523022603_remove_historical_addresses.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 26,
+                  "endLine": 12,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PairedSINData' to match pascal case naming rules, consider using 'PairedSinData'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/PairedSINData.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1041",
+          "level": "note",
+          "message": "Provide a message for the ObsoleteAttribute that marks WalletTransactionData as Obsolete",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/WalletTransactionData.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 6,
+                  "endLine": 6,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1123",
+          "level": "warning",
+          "message": "Add an explanation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/WalletTransactionData.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 6,
+                  "endLine": 6,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1041",
+          "level": "note",
+          "message": "Provide a message for the ObsoleteAttribute that marks WalletData as Obsolete",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/WalletData.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 6,
+                  "endLine": 6,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1123",
+          "level": "warning",
+          "message": "Add an explanation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/WalletData.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 6,
+                  "endLine": 6,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/WalletObjectData.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 22,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'APIKeyData' to match pascal case naming rules, consider using 'ApiKeyData'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/APIKeyData.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'APIKeyBlob' to match pascal case naming rules, consider using 'ApiKeyBlob'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/APIKeyData.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 18,
+                  "endLine": 42,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2342",
+          "level": "warning",
+          "message": "Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Data/APIKeyData.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 17,
+                  "endLine": 50,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1041",
+          "level": "note",
+          "message": "Provide a message for the ObsoleteAttribute that marks Wallets as Obsolete",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 10,
+                  "endLine": 62,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1041",
+          "level": "note",
+          "message": "Provide a message for the ObsoleteAttribute that marks WalletTransactions as Obsolete",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 10,
+                  "endLine": 66,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1123",
+          "level": "warning",
+          "message": "Add an explanation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 10,
+                  "endLine": 62,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1123",
+          "level": "warning",
+          "message": "Add an explanation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/ApplicationDbContext.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 10,
+                  "endLine": 66,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20171023101754_StoreBlob.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20171221054550_AltcoinSupport.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20171105235734_PaymentAccounted.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180106095215_DerivationStrategies.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180109021122_defaultcrypto.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180429083930_legacyapikey.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20180719095626_CanDeleteStores.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20190219032533_AppsTagging.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20190701082105_sort_paymentrequests.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18,
+                  "endLine": 14,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'maxLength'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20170926084408_RequiresEmailConfirmation.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 18,
+                  "endLine": 13,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'ReplaceOldTable' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/btcpayserver/BTCPayServer.Data/Migrations/20200110064617_OpenIddictUpdate.cs",
+                "region": {
+                  "startLine": 232,
+                  "startColumn": 22,
+                  "endLine": 232,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1041": {
+          "id": "CA1041",
+          "shortDescription": "Provide ObsoleteAttribute message",
+          "fullDescription": "A type or member is marked by using a System.ObsoleteAttribute attribute that does not have its ObsoleteAttribute.Message property specified. When a type or member that is marked by using ObsoleteAttribute is compiled, the Message property of the attribute is displayed. This gives the user information about the obsolete type or member.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1041",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0612": {
+          "id": "CS0612",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0612)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1123": {
+          "id": "S1123",
+          "shortDescription": "\"Obsolete\" attributes should include explanations",
+          "fullDescription": "The Obsolete attribute can be applied with or without arguments, but marking something Obsolete without including advice as to why it’s obsolete or on what to use instead will lead maintainers to waste time trying to figure those things out - every single time the warning is encountered.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1123",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2342": {
+          "id": "S2342",
+          "shortDescription": "Enumeration types should comply with a naming convention",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks that all enum names match a provided regular expression.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2342",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

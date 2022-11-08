@@ -1,0 +1,2779 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-2.22426.8 (7886fad5)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.FromSqlQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "FromSqlQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindDbFunctionsQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindDbFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindDbFunctionsQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Cosmos.EmbeddedDocumentsTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Cosmos.EmbeddedDocumentsTest.CosmosFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/EmbeddedDocumentsTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 14,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Cosmos.EmbeddedDocumentsTest.CosmosFixture",
+              "TFixtureName": "CosmosFixture",
+              "TestClassName": "EmbeddedDocumentsTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.InheritanceQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.InheritanceQueryCosmosFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/InheritanceQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.InheritanceQueryCosmosFixture",
+              "TFixtureName": "InheritanceQueryCosmosFixture",
+              "TestClassName": "InheritanceQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindKeylessEntitiesQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindKeylessEntitiesQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindKeylessEntitiesQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindFunctionsQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindFunctionsQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindAggregateOperatorsQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindAggregateOperatorsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 14,
+                  "endLine": 11,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindAggregateOperatorsQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.OwnedQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.OwnedQueryCosmosTest.OwnedQueryCosmosFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.OwnedQueryCosmosTest.OwnedQueryCosmosFixture",
+              "TFixtureName": "OwnedQueryCosmosFixture",
+              "TestClassName": "OwnedQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSelectQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindSelectQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindSelectQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindWhereQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindWhereQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindWhereQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindMiscellaneousQueryCosmosTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindMiscellaneousQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 14,
+                  "endLine": 13,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQueryCosmosFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQueryCosmosFixture",
+              "TestClassName": "NorthwindMiscellaneousQueryCosmosTest"
+            }
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 26,
+                  "endLine": 16,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 26,
+                  "endLine": 20,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 26,
+                  "endLine": 24,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 26,
+                  "endLine": 28,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 26,
+                  "endLine": 32,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 26,
+                  "endLine": 41,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/BuiltInDataTypesCosmosTest.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 26,
+                  "endLine": 45,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/ConcurrencyDetectorDisabledCosmosTest.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 26,
+                  "endLine": 15,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/FindCosmosTest.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 26,
+                  "endLine": 15,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/FindCosmosTest.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 26,
+                  "endLine": 22,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/FindCosmosTest.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 26,
+                  "endLine": 18,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/FindCosmosTest.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 26,
+                  "endLine": 25,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/ConcurrencyDetectorEnabledCosmosTest.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 26,
+                  "endLine": 15,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/ConfigPatternsCosmosTest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 23,
+                  "endLine": 50,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/TestUtilities/CustomPartitionKeyIdGenerator.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 28,
+                  "endLine": 27,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 26,
+                  "endLine": 17,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/TestUtilities/CustomPartitionKeyIdGenerator.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 28,
+                  "endLine": 58,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/TestUtilities/CustomPartitionKeyIdGenerator.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 36,
+                  "endLine": 77,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 26,
+                  "endLine": 21,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 26,
+                  "endLine": 25,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 26,
+                  "endLine": 29,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 26,
+                  "endLine": 33,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 26,
+                  "endLine": 37,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 26,
+                  "endLine": 41,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 26,
+                  "endLine": 45,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 26,
+                  "endLine": 49,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 26,
+                  "endLine": 53,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 26,
+                  "endLine": 57,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 26,
+                  "endLine": 61,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 26,
+                  "endLine": 65,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/CustomConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 26,
+                  "endLine": 121,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/OverzealousInitializationCosmosTest.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 26,
+                  "endLine": 15,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 26,
+                  "endLine": 14,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 26,
+                  "endLine": 18,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 26,
+                  "endLine": 22,
+                  "endColumn": 109
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 26,
+                  "endLine": 26,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 26,
+                  "endLine": 30,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 26,
+                  "endLine": 34,
+                  "endColumn": 109
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 26,
+                  "endLine": 42,
+                  "endColumn": 100
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 26,
+                  "endLine": 46,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 26,
+                  "endLine": 50,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 26,
+                  "endLine": 38,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 26,
+                  "endLine": 58,
+                  "endColumn": 116
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 26,
+                  "endLine": 54,
+                  "endColumn": 116
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 26,
+                  "endLine": 62,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 26,
+                  "endLine": 66,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 26,
+                  "endLine": 70,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 26,
+                  "endLine": 74,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 26,
+                  "endLine": 78,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 26,
+                  "endLine": 82,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 26,
+                  "endLine": 86,
+                  "endColumn": 116
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 26,
+                  "endLine": 90,
+                  "endColumn": 116
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 26,
+                  "endLine": 94,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 26,
+                  "endLine": 98,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 26,
+                  "endLine": 102,
+                  "endColumn": 124
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 26,
+                  "endLine": 106,
+                  "endColumn": 124
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 26,
+                  "endLine": 110,
+                  "endColumn": 112
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 26,
+                  "endLine": 114,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 26,
+                  "endLine": 118,
+                  "endColumn": 112
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 26,
+                  "endLine": 122,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 26,
+                  "endLine": 126,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 26,
+                  "endLine": 130,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 26,
+                  "endLine": 134,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 26,
+                  "endLine": 138,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 26,
+                  "endLine": 142,
+                  "endColumn": 109
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/TestUtilities/TestSqlLoggerFactory.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 27,
+                  "endLine": 73,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 26,
+                  "endLine": 16,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 26,
+                  "endLine": 20,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/KeysWithConvertersCosmosTest.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 26,
+                  "endLine": 146,
+                  "endColumn": 115
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/ConfigPatternsCosmosTest.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 23,
+                  "endLine": 92,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 26,
+                  "endLine": 125,
+                  "endColumn": 113
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 26,
+                  "endLine": 129,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 26,
+                  "endLine": 133,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 26,
+                  "endLine": 137,
+                  "endColumn": 112
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 26,
+                  "endLine": 141,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 26,
+                  "endLine": 145,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 26,
+                  "endLine": 149,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 26,
+                  "endLine": 153,
+                  "endColumn": 103
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 9,
+                  "endLine": 158,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 26,
+                  "endLine": 163,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 26,
+                  "endLine": 167,
+                  "endColumn": 96
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 26,
+                  "endLine": 171,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 26,
+                  "endLine": 175,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 26,
+                  "endLine": 179,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 26,
+                  "endLine": 183,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 26,
+                  "endLine": 187,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 48,
+                  "endLine": 118,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 26,
+                  "endLine": 203,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 26,
+                  "endLine": 207,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 26,
+                  "endLine": 211,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 26,
+                  "endLine": 215,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 26,
+                  "endLine": 219,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 26,
+                  "endLine": 223,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 26,
+                  "endLine": 231,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 26,
+                  "endLine": 235,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 26,
+                  "endLine": 239,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 26,
+                  "endLine": 227,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 48,
+                  "endLine": 146,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/OwnedQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 26,
+                  "endLine": 430,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 56,
+                  "endLine": 177,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 56,
+                  "endLine": 191,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1370,
+                  "startColumn": 49,
+                  "endLine": 1370,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1387,
+                  "startColumn": 49,
+                  "endLine": 1387,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1404,
+                  "startColumn": 49,
+                  "endLine": 1404,
+                  "endColumn": 106
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1421,
+                  "startColumn": 49,
+                  "endLine": 1421,
+                  "endColumn": 107
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1438,
+                  "startColumn": 49,
+                  "endLine": 1438,
+                  "endColumn": 120
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1456,
+                  "startColumn": 22,
+                  "endLine": 1456,
+                  "endColumn": 119
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1473,
+                  "startColumn": 53,
+                  "endLine": 1473,
+                  "endColumn": 112
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 56,
+                  "endLine": 220,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/FromSqlQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 56,
+                  "endLine": 234,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindSelectQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1832,
+                  "startColumn": 26,
+                  "endLine": 1832,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindSelectQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1836,
+                  "startColumn": 26,
+                  "endLine": 1836,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindSelectQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1840,
+                  "startColumn": 26,
+                  "endLine": 1840,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "SYSLIB1045",
+          "level": "note",
+          "message": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Cosmos.FunctionalTests/Query/NorthwindFunctionsQueryCosmosTest.cs",
+                "region": {
+                  "startLine": 1482,
+                  "startColumn": 33,
+                  "endLine": 1482,
+                  "endColumn": 118
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1834": {
+          "id": "CA1834",
+          "shortDescription": "Consider using 'StringBuilder.Append(char)' when applicable",
+          "fullDescription": "'StringBuilder.Append(char)' is more efficient than 'StringBuilder.Append(string)' when the string is a single character. When calling 'Append' with a constant, prefer using a constant char rather than a constant string containing one character.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1834",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1845": {
+          "id": "CA1845",
+          "shortDescription": "Use span-based 'string.Concat'",
+          "fullDescription": "It is more efficient to use 'AsSpan' and 'string.Concat', instead of 'Substring' and a concatenation operator.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1847": {
+          "id": "CA1847",
+          "shortDescription": "Use char literal for a single character lookup",
+          "fullDescription": "'string.Contains(char)' is available as a better performing overload for single char lookup.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "SYSLIB1045": {
+          "id": "SYSLIB1045",
+          "shortDescription": "Convert to 'GeneratedRegexAttribute'.",
+          "defaultLevel": "note",
+          "properties": {
+            "category": "GeneratedRegex",
+            "isEnabledByDefault": true
+          }
+        },
+        "xUnit1033": {
+          "id": "xUnit1033",
+          "shortDescription": "Test classes decorated with 'Xunit.IClassFixture<TFixture>' or 'Xunit.ICollectionFixture<TFixture>' should add a constructor argument of type TFixture",
+          "defaultLevel": "note",
+          "helpUri": "https://xunit.net/xunit.analyzers/rules/xUnit1033",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

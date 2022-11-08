@@ -1,0 +1,856 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'IAppDomain' is obsolete: 'For unit testing only. Marked obsolete on NLog 5.0'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/ApiTests.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 24,
+                  "endLine": 142,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'StaticAndPublic' on test class 'MethodCallTests' should be marked as a Theory.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 28,
+                  "endLine": 50,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'StaticAndPublicWrongParameters' on test class 'MethodCallTests' should be marked as a Theory.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 28,
+                  "endLine": 55,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'StaticAndPublicTooLessParameters' on test class 'MethodCallTests' should be marked as a Theory.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 28,
+                  "endLine": 60,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'StaticAndPublicTooManyParameters' on test class 'MethodCallTests' should be marked as a Theory.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 28,
+                  "endLine": 65,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'StaticAndPublicOptional' on test class 'MethodCallTests' should be marked as a Theory.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 28,
+                  "endLine": 70,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'NonStaticAndPublic' on test class 'MethodCallTests' should be marked as a Fact.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 21,
+                  "endLine": 75,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'StaticAndPrivate' on test class 'MethodCallTests' should be marked as a Fact.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MethodCallTests.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 28,
+                  "endLine": 81,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'Process' on test class 'ConcurrentFileTargetTests' should be marked as a Theory.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/ConcurrentFileTargetTests.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 21,
+                  "endLine": 101,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1013",
+          "level": "warning",
+          "message": "Public method 'HelloWorld' on test class 'AppDomainPartialTrustTests' should be marked as a Fact.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/AppDomainPartialTrustTests.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 28,
+                  "endLine": 128,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/GetLoggerTests.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 21,
+                  "endLine": 138,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LogFactoryTests.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 21,
+                  "endLine": 76,
+                  "endColumn": 93
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionParserTests.cs",
+                "region": {
+                  "startLine": 205,
+                  "startColumn": 21,
+                  "endLine": 205,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionParserTests.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 21,
+                  "endLine": 215,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LogFactoryTests.cs",
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 21,
+                  "endLine": 283,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1004",
+          "level": "note",
+          "message": "Test methods should not be skipped",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Common/InternalLoggerTests_Trace.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 15,
+                  "endLine": 239,
+                  "endColumn": 233
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/ExtensionTests.cs",
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 21,
+                  "endLine": 331,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/ExtensionTests.cs",
+                "region": {
+                  "startLine": 344,
+                  "startColumn": 21,
+                  "endLine": 344,
+                  "endColumn": 102
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/ExtensionTests.cs",
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 21,
+                  "endLine": 356,
+                  "endColumn": 106
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/MessageTemplates/ParserTests.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 21,
+                  "endLine": 81,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 21,
+                  "endLine": 63,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/RegressionTests.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 21,
+                  "endLine": 72,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/ColoredConsoleTargetTests.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 21,
+                  "endLine": 274,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/LogFactorySetupTests.cs",
+                "region": {
+                  "startLine": 702,
+                  "startColumn": 21,
+                  "endLine": 702,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/WebServiceTargetTests.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 21,
+                  "endLine": 64,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/ConsoleTargetTests.cs",
+                "region": {
+                  "startLine": 217,
+                  "startColumn": 21,
+                  "endLine": 217,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/TargetConfigurationTests.cs",
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 21,
+                  "endLine": 513,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/TargetConfigurationTests.cs",
+                "region": {
+                  "startLine": 550,
+                  "startColumn": 21,
+                  "endLine": 550,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/AsyncTargetWrapperTests.cs",
+                "region": {
+                  "startLine": 414,
+                  "startColumn": 21,
+                  "endLine": 414,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/FileAppenders/FileAppenderCacheTests.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 21,
+                  "endLine": 137,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs",
+                "region": {
+                  "startLine": 732,
+                  "startColumn": 21,
+                  "endLine": 732,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+                "region": {
+                  "startLine": 703,
+                  "startColumn": 21,
+                  "endLine": 703,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/MailTargetTests.cs",
+                "region": {
+                  "startLine": 691,
+                  "startColumn": 21,
+                  "endLine": 691,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+                "region": {
+                  "startLine": 3348,
+                  "startColumn": 21,
+                  "endLine": 3348,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+                "region": {
+                  "startLine": 3379,
+                  "startColumn": 21,
+                  "endLine": 3379,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+                "region": {
+                  "startLine": 4263,
+                  "startColumn": 21,
+                  "endLine": 4263,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "xUnit1004": {
+          "id": "xUnit1004",
+          "shortDescription": "Test methods should not be skipped",
+          "defaultLevel": "note",
+          "helpUri": "https://xunit.github.io/xunit.analyzers/rules/xUnit1004",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "xUnit1013": {
+          "id": "xUnit1013",
+          "shortDescription": "Public method should be marked as test",
+          "fullDescription": "Public methods on a test class that return void or Task should be marked as tests or have their accessibility reduced. While test methods do not have to be public  having public non-test methods might indicate that a method was intended to be a test but the annotation was not applied.",
+          "defaultLevel": "warning",
+          "helpUri": "https://xunit.github.io/xunit.analyzers/rules/xUnit1013",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

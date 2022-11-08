@@ -1,0 +1,1998 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-2.22426.8 (7886fad5)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3871",
+          "level": "warning",
+          "message": "Make this exception 'public'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandException.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3871",
+          "level": "warning",
+          "message": "Make this exception 'public'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandParsingException.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2344",
+          "level": "warning",
+          "message": "Rename this enumeration to remove the 'Flags' suffix.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/CodeAnnotations.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 15,
+                  "endLine": 81,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2344",
+          "level": "warning",
+          "message": "Rename this enumeration to remove the 'Flags' suffix.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/CodeAnnotations.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 15,
+                  "endLine": 91,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3881",
+          "level": "warning",
+          "message": "Fix this implementation of 'IDisposable' to conform to the dispose pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/OperationExecutorBase.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 25,
+                  "endLine": 13,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/OperationExecutorBase.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 25,
+                  "endLine": 13,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/OperationExecutorBase.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 25,
+                  "endLine": 61,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/OperationExecutorBase.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 12,
+                  "endLine": 61,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Provide 'protected' overridable implementation of 'Dispose(bool)' on 'OperationExecutorBase' or mark the type as 'sealed'.",
+              "1": "'OperationExecutorBase.Dispose()' should call 'Dispose(true)' and 'GC.SuppressFinalize(this)'.",
+              "2": "'OperationExecutorBase.Dispose()' should not be 'virtual' or 'abstract'."
+            }
+          }
+        },
+        {
+          "ruleId": "S3871",
+          "level": "warning",
+          "message": "Make this exception 'public'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/WrappedException.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 16,
+                  "endLine": 8,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_output' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/MigrationsBundleCommand.Configure.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 28,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_force' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/MigrationsBundleCommand.Configure.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 28,
+                  "endLine": 12,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_selfContained' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/MigrationsBundleCommand.Configure.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 28,
+                  "endLine": 13,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_runtime' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/MigrationsBundleCommand.Configure.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 28,
+                  "endLine": 14,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 27,
+                  "endLine": 50,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 9,
+                  "endLine": 53,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 13,
+                  "endLine": 55,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 13,
+                  "endLine": 60,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 13,
+                  "endLine": 67,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 13,
+                  "endLine": 77,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 17,
+                  "endLine": 79,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 25,
+                  "endLine": 82,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 25,
+                  "endLine": 96,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 29,
+                  "endLine": 98,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 29,
+                  "endLine": 102,
+                  "endColumn": 33
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/dotnet-ef/Exe.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+5 (incl 4 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this constructor to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 12,
+                  "endLine": 11,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 9,
+                  "endLine": 17,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 13,
+                  "endLine": 19,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 13,
+                  "endLine": 23,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 17,
+                  "endLine": 28,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 21,
+                  "endLine": 29,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 17,
+                  "endLine": 33,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 13,
+                  "endLine": 38,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 22,
+                  "endLine": 39,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 13,
+                  "endLine": 43,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 22,
+                  "endLine": 44,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 13,
+                  "endLine": 49,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 9,
+                  "endLine": 55,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandOption.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 13,
+                  "endLine": 56,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "2": "+1",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplicationExtensions.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 19,
+                  "endLine": 17,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 16,
+                  "endLine": 115,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 9,
+                  "endLine": 120,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 13,
+                  "endLine": 127,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 17,
+                  "endLine": 132,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 34,
+                  "endLine": 132,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 21,
+                  "endLine": 135,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 21,
+                  "endLine": 141,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 17,
+                  "endLine": 147,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 21,
+                  "endLine": 150,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 21,
+                  "endLine": 154,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 25,
+                  "endLine": 158,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 25,
+                  "endLine": 162,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+1",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+1",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified with \"LINQ\" expressions",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 36,
+                  "endLine": 272,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 17,
+                  "endLine": 274,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 38,
+                  "endLine": 178,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 47,
+                  "endLine": 189,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 9,
+                  "endLine": 193,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 9,
+                  "endLine": 198,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 9,
+                  "endLine": 206,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 13,
+                  "endLine": 208,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 17,
+                  "endLine": 209,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 17,
+                  "endLine": 214,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 13,
+                  "endLine": 219,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 9,
+                  "endLine": 226,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 230,
+                  "startColumn": 9,
+                  "endLine": 230,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 9,
+                  "endLine": 234,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 13,
+                  "endLine": 236,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 17,
+                  "endLine": 238,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 13,
+                  "endLine": 246,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 17,
+                  "endLine": 248,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 21,
+                  "endLine": 249,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 17,
+                  "endLine": 254,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 258,
+                  "startColumn": 21,
+                  "endLine": 258,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+2 (incl 1 for nesting)",
+              "12": "+3 (incl 2 for nesting)",
+              "13": "+1",
+              "14": "+3 (incl 2 for nesting)",
+              "15": "+1",
+              "16": "+1",
+              "17": "+4 (incl 3 for nesting)",
+              "2": "+1",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+1",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 17,
+                  "endLine": 326,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 9,
+                  "endLine": 330,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 13,
+                  "endLine": 333,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 17,
+                  "endLine": 334,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 13,
+                  "endLine": 339,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 347,
+                  "startColumn": 9,
+                  "endLine": 347,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 348,
+                  "startColumn": 13,
+                  "endLine": 348,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 9,
+                  "endLine": 352,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 13,
+                  "endLine": 356,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 13,
+                  "endLine": 360,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 9,
+                  "endLine": 373,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 13,
+                  "endLine": 375,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 377,
+                  "startColumn": 17,
+                  "endLine": 377,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 17,
+                  "endLine": 382,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 392,
+                  "startColumn": 9,
+                  "endLine": 392,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 394,
+                  "startColumn": 13,
+                  "endLine": 394,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 397,
+                  "startColumn": 17,
+                  "endLine": 397,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 408,
+                  "startColumn": 9,
+                  "endLine": 408,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 416,
+                  "startColumn": 13,
+                  "endLine": 416,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 423,
+                  "startColumn": 9,
+                  "endLine": 423,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 13,
+                  "endLine": 431,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 437,
+                  "startColumn": 13,
+                  "endLine": 437,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 445,
+                  "startColumn": 9,
+                  "endLine": 445,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 446,
+                  "startColumn": 13,
+                  "endLine": 446,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 448,
+                  "startColumn": 64,
+                  "endLine": 448,
+                  "endColumn": 65
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 450,
+                  "startColumn": 13,
+                  "endLine": 450,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+3 (incl 2 for nesting)",
+              "12": "+3 (incl 2 for nesting)",
+              "13": "+1",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+3 (incl 2 for nesting)",
+              "16": "+1",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+1",
+              "19": "+2 (incl 1 for nesting)",
+              "2": "+1",
+              "20": "+2 (incl 1 for nesting)",
+              "21": "+1",
+              "22": "+1",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loop should be simplified by calling Select(opt => opt.Template))",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 499,
+                  "startColumn": 29,
+                  "endLine": 499,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loop should be simplified by calling Select(cmd => cmd.Name))",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 510,
+                  "startColumn": 29,
+                  "endLine": 510,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loop should be simplified by calling Select(arg => arg.Name))",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 521,
+                  "startColumn": 29,
+                  "endLine": 521,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1168",
+          "level": "warning",
+          "message": "Return an empty collection instead of null.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/CommandLineUtils/CommandLineApplication.cs",
+                "region": {
+                  "startLine": 577,
+                  "startColumn": 13,
+                  "endLine": 577,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Reporter.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 15,
+                  "endLine": 47,
+                  "endColumn": 113
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/ReflectionOperationExecutor.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 17,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3885",
+          "level": "warning",
+          "message": "Replace this call to 'Assembly.LoadFrom' with 'Assembly.Load'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/ReflectionOperationExecutor.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 37,
+                  "endLine": 97,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/ReflectionOperationExecutor.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 17,
+                  "endLine": 101,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'modelNamespace' to 'entityNamespace' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/OperationExecutorBase.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 17,
+                  "endLine": 164,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'contextNamespace' to 'dbContextNamespace' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/OperationExecutorBase.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 17,
+                  "endLine": 165,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Json.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 15,
+                  "endLine": 23,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S107",
+          "level": "warning",
+          "message": "Method has 14 parameters, which is greater than the 7 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/IOperationExecutor.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 32,
+                  "endLine": 35,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3011",
+          "level": "warning",
+          "message": "Make sure that this accessibility bypass is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/ProjectCommandBase.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 80,
+                  "endLine": 93,
+                  "endColumn": 102
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3011",
+          "level": "warning",
+          "message": "Make sure that this accessibility bypass is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/ProjectCommandBase.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 83,
+                  "endLine": 96,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3011",
+          "level": "warning",
+          "message": "Make sure that this accessibility bypass is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/ProjectCommandBase.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 78,
+                  "endLine": 100,
+                  "endColumn": 100
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2486",
+          "level": "warning",
+          "message": "Handle the exception or explain in a comment why it can be ignored.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/ProjectCommandBase.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 25,
+                  "endLine": 105,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S108",
+          "level": "warning",
+          "message": "Either remove or fill this block of code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/ProjectCommandBase.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 25,
+                  "endLine": 105,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/ef/Commands/DbContextListCommand.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 19,
+                  "endLine": 44,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S107": {
+          "id": "S107",
+          "shortDescription": "Methods should not have too many parameters",
+          "fullDescription": "A long parameter list can indicate that a new structure should be created to wrap the numerous parameters or that the function is doing too many things.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-107",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S108": {
+          "id": "S108",
+          "shortDescription": "Nested blocks of code should not be left empty",
+          "fullDescription": "Most of the time a block of code is empty when a piece of code is really missing. So such empty block must be either filled or removed.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-108",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1168": {
+          "id": "S1168",
+          "shortDescription": "Empty arrays and collections should be returned instead of null",
+          "fullDescription": "Returning null instead of an actual array, collection or map forces callers of the method to explicitly test for nullity, making them more complex and less readable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1168",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2344": {
+          "id": "S2344",
+          "shortDescription": "Enumeration type names should not have \"Flags\" or \"Enum\" suffixes",
+          "fullDescription": "The information that an enumeration type is actually an enumeration or a set of flags should not be duplicated in its name.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2344",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2486": {
+          "id": "S2486",
+          "shortDescription": "Generic exceptions should not be ignored",
+          "fullDescription": "When exceptions occur, it is usually a bad idea to simply ignore them. Instead, it is better to handle them properly, or at least to log them.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2486",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3011": {
+          "id": "S3011",
+          "shortDescription": "Reflection should not be used to increase accessibility of classes, methods, or fields",
+          "fullDescription": "This rule raises an issue when reflection is used to change the visibility of a class, method or field, and when it is used to directly update a field value. Altering or bypassing the accessibility of classes, methods, or fields violates the encapsulation principle and could lead to run-time errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3011",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3871": {
+          "id": "S3871",
+          "shortDescription": "Exception types should be \"public\"",
+          "fullDescription": "The point of having custom exception types is to convey more information than is available in standard types. But custom exception types must be public for that to work.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3871",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3881": {
+          "id": "S3881",
+          "shortDescription": "\"IDisposable\" should be implemented correctly",
+          "fullDescription": "The IDisposable interface is a mechanism to release unmanaged resources, if not implemented correctly this could result in resource leaks or more severe bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3881",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3885": {
+          "id": "S3885",
+          "shortDescription": "\"Assembly.Load\" should be used",
+          "fullDescription": "The parameter to Assembly.Load includes the full specification of the dll to be loaded. Use another method, and you might end up with a dll other than the one you expected.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3885",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

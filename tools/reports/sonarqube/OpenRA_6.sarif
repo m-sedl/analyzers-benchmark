@@ -1,0 +1,2059 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3241",
+          "level": "warning",
+          "message": "Change return type to 'void'; not a single caller uses the returned value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 3,
+                  "endLine": 54,
+                  "endColumn": 7
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kSoundResourcesLoader' to match pascal case naming rules, consider using 'D2KSoundResourcesLoader'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/PackageLoaders/D2kSoundResources.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 15,
+                  "endLine": 20,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'ImportD2kMapCommand' to match pascal case naming rules, consider using 'ImportD2KMapCommand'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/ImportD2kMapCommand.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 8,
+                  "endLine": 18,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kSoundResources' to match pascal case naming rules, consider using 'D2KSoundResources'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/PackageLoaders/D2kSoundResources.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 16,
+                  "endLine": 22,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kMapImporter' to match pascal case naming rules, consider using 'D2KMapImporter'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 15,
+                  "endLine": 21,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2386",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'PlayerReferenceDataByPlayerName'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 17,
+                  "endLine": 27,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2386",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'ActorDataByActorCode'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 17,
+                  "endLine": 39,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 67,
+                  "endLine": 37,
+                  "endColumn": 4
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 63,
+                  "endLine": 269,
+                  "endColumn": 4
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'PlayerReferenceDataByPlayerName' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 67,
+                  "endLine": 27,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'ActorDataByActorCode' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 63,
+                  "endLine": 39,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kActorPreviewPlaceBuildingPreviewInfo' to match pascal case naming rules, consider using 'D2KActorPreviewPlaceBuildingPreviewInfo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 15,
+                  "endLine": 25,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3887",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'UnsafeTerrainTypes'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 19,
+                  "endLine": 28,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3887",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'RequiresPrerequisites'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 19,
+                  "endLine": 31,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kActorPreviewPlaceBuildingPreview' to match pascal case naming rules, consider using 'D2KActorPreviewPlaceBuildingPreview'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 15,
+                  "endLine": 59,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3887",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'GrowthTerrainTypes'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 19,
+                  "endLine": 38,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kActorPreviewPlaceBuildingPreviewPreview' to match pascal case naming rules, consider using 'D2KActorPreviewPlaceBuildingPreviewPreview'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 8,
+                  "endLine": 61,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kBuildingInfo' to match pascal case naming rules, consider using 'D2KBuildingInfo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 15,
+                  "endLine": 22,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3887",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'ConcretePrerequisites'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 19,
+                  "endLine": 47,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kFogPaletteInfo' to match pascal case naming rules, consider using 'D2KFogPaletteInfo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/World/D2kFogPalette.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 8,
+                  "endLine": 20,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kResourceRenderer' to match pascal case naming rules, consider using 'D2KResourceRenderer'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/World/D2kResourceRenderer.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 15,
+                  "endLine": 26,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kFogPalette' to match pascal case naming rules, consider using 'D2KFogPalette'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/World/D2kFogPalette.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 8,
+                  "endLine": 38,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3887",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'SpriteMap'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/World/D2kResourceRenderer.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 26,
+                  "endLine": 45,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kResourceRendererInfo' to match pascal case naming rules, consider using 'D2KResourceRendererInfo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/World/D2kResourceRenderer.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 15,
+                  "endLine": 21,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'D2kBuilding' to match pascal case naming rules, consider using 'D2KBuilding'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 15,
+                  "endLine": 52,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2386",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'SpriteMap'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/World/D2kResourceRenderer.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 26,
+                  "endLine": 45,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2696",
+          "level": "warning",
+          "message": "Remove this set, which updates a 'static' field from an instance method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/ImportD2kMapCommand.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 4,
+                  "endLine": 31,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1006",
+          "level": "warning",
+          "message": "Add the default parameter value defined in the overridden method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/AttackSwallow.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 141,
+                  "endLine": 75,
+                  "endColumn": 156
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1117",
+          "level": "warning",
+          "message": "Rename 'map' which hides the field with the same name.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 312,
+                  "startColumn": 8,
+                  "endLine": 312,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 24,
+                  "endLine": 99,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 4,
+                  "endLine": 101,
+                  "endColumn": 10
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 6,
+                  "endLine": 107,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 6,
+                  "endLine": 112,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 6,
+                  "endLine": 118,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 6,
+                  "endLine": 125,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 35,
+                  "endLine": 132,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 6,
+                  "endLine": 134,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 6,
+                  "endLine": 147,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Activities/SwallowActor.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 6,
+                  "endLine": 153,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 47,
+                  "endLine": 96,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 4,
+                  "endLine": 103,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 5,
+                  "endLine": 105,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 37,
+                  "endLine": 108,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 63,
+                  "endLine": 109,
+                  "endColumn": 64
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 88,
+                  "endLine": 109,
+                  "endColumn": 89
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 72,
+                  "endLine": 110,
+                  "endColumn": 73
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 98,
+                  "endLine": 110,
+                  "endColumn": 99
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 71,
+                  "endLine": 114,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 27,
+                  "endLine": 79,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 4,
+                  "endLine": 83,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 22,
+                  "endLine": 83,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 65,
+                  "endLine": 83,
+                  "endColumn": 67
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 5,
+                  "endLine": 87,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 5,
+                  "endLine": 91,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 6,
+                  "endLine": 94,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 7,
+                  "endLine": 97,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 28,
+                  "endLine": 97,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 7,
+                  "endLine": 101,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 5,
+                  "endLine": 108,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 6,
+                  "endLine": 110,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 7,
+                  "endLine": 115,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 28,
+                  "endLine": 115,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 7,
+                  "endLine": 119,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 4,
+                  "endLine": 127,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 4,
+                  "endLine": 130,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 5,
+                  "endLine": 133,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 4,
+                  "endLine": 137,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 24,
+                  "endLine": 137,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 4,
+                  "endLine": 143,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kBuilding.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 4,
+                  "endLine": 148,
+                  "endColumn": 6
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+3 (incl 2 for nesting)",
+              "11": "+4 (incl 3 for nesting)",
+              "12": "+1",
+              "13": "+4 (incl 3 for nesting)",
+              "14": "+1",
+              "15": "+1",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+1",
+              "18": "+1",
+              "19": "+1",
+              "2": "+1",
+              "20": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+1",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 79,
+                  "endLine": 109,
+                  "endColumn": 112
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/Buildings/D2kActorPreviewPlaceBuildingPreview.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 89,
+                  "endLine": 110,
+                  "endColumn": 124
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 8,
+                  "endLine": 351,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 353,
+                  "startColumn": 4,
+                  "endLine": 353,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 5,
+                  "endLine": 364,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 366,
+                  "startColumn": 5,
+                  "endLine": 366,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 5,
+                  "endLine": 370,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 6,
+                  "endLine": 373,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 6,
+                  "endLine": 375,
+                  "endColumn": 10
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 7,
+                  "endLine": 385,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 401,
+                  "startColumn": 7,
+                  "endLine": 401,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 8,
+                  "endLine": 117,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 4,
+                  "endLine": 120,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 4,
+                  "endLine": 125,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 77,
+                  "endLine": 128,
+                  "endColumn": 79
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 5,
+                  "endLine": 132,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 6,
+                  "endLine": 158,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 7,
+                  "endLine": 161,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 7,
+                  "endLine": 164,
+                  "endColumn": 9
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/Traits/SpiceBloom.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 38,
+                  "endLine": 164,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 67 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 15,
+                  "endLine": 418,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 4,
+                  "endLine": 421,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 423,
+                  "startColumn": 5,
+                  "endLine": 423,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 426,
+                  "startColumn": 5,
+                  "endLine": 426,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 4,
+                  "endLine": 430,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 433,
+                  "startColumn": 5,
+                  "endLine": 433,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 6,
+                  "endLine": 434,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 438,
+                  "startColumn": 5,
+                  "endLine": 438,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 439,
+                  "startColumn": 6,
+                  "endLine": 439,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 443,
+                  "startColumn": 5,
+                  "endLine": 443,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 444,
+                  "startColumn": 6,
+                  "endLine": 444,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 447,
+                  "startColumn": 5,
+                  "endLine": 447,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 451,
+                  "startColumn": 4,
+                  "endLine": 451,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 453,
+                  "startColumn": 5,
+                  "endLine": 453,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 456,
+                  "startColumn": 5,
+                  "endLine": 456,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 459,
+                  "startColumn": 5,
+                  "endLine": 459,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 462,
+                  "startColumn": 5,
+                  "endLine": 462,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 5,
+                  "endLine": 465,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 468,
+                  "startColumn": 5,
+                  "endLine": 468,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 471,
+                  "startColumn": 5,
+                  "endLine": 471,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 474,
+                  "startColumn": 5,
+                  "endLine": 474,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 477,
+                  "startColumn": 5,
+                  "endLine": 477,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 480,
+                  "startColumn": 5,
+                  "endLine": 480,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 483,
+                  "startColumn": 5,
+                  "endLine": 483,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 487,
+                  "startColumn": 5,
+                  "endLine": 487,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 488,
+                  "startColumn": 6,
+                  "endLine": 488,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 492,
+                  "startColumn": 5,
+                  "endLine": 492,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 493,
+                  "startColumn": 6,
+                  "endLine": 493,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 5,
+                  "endLine": 497,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 498,
+                  "startColumn": 6,
+                  "endLine": 498,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 507,
+                  "startColumn": 4,
+                  "endLine": 507,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 41,
+                  "endLine": 513,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 515,
+                  "startColumn": 5,
+                  "endLine": 515,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 519,
+                  "startColumn": 4,
+                  "endLine": 519,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/OpenRA/OpenRA.Mods.D2k/UtilityCommands/D2kMapImporter.cs",
+                "region": {
+                  "startLine": 530,
+                  "startColumn": 68,
+                  "endLine": 530,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+1",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+2 (incl 1 for nesting)",
+              "19": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "20": "+2 (incl 1 for nesting)",
+              "21": "+2 (incl 1 for nesting)",
+              "22": "+2 (incl 1 for nesting)",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+3 (incl 2 for nesting)",
+              "25": "+2 (incl 1 for nesting)",
+              "26": "+3 (incl 2 for nesting)",
+              "27": "+2 (incl 1 for nesting)",
+              "28": "+3 (incl 2 for nesting)",
+              "29": "+1",
+              "3": "+1",
+              "30": "+1",
+              "31": "+2 (incl 1 for nesting)",
+              "32": "+1",
+              "33": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+3 (incl 2 for nesting)"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S1006": {
+          "id": "S1006",
+          "shortDescription": "Method overrides should not change parameter defaults",
+          "fullDescription": "Default arguments are determined by the static type of the object. If a default argument is different for a parameter in an overriding method, the value used in the call will be different when calls are made via the base or derived object, which may be contrary to developer expectations.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1006",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1117": {
+          "id": "S1117",
+          "shortDescription": "Local variables should not shadow class fields",
+          "fullDescription": "Overriding or shadowing a variable declared in an outer scope can strongly impact the readability, and therefore the maintainability, of a piece of code. Further, it could lead maintainers to introduce bugs because they think they’re using one variable but are really using another.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1117",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2223": {
+          "id": "S2223",
+          "shortDescription": "Non-constant static fields should not be visible",
+          "fullDescription": "A static field that is neither constant nor read-only is not thread-safe. Correctly accessing these fields from different threads needs synchronization with locks. Improper synchronization may lead to unexpected results, thus publicly visible static fields are best suited for storing non-changing data shared by many consumers. To enforce this intent, these fields should be marked readonly or converted to constants.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2223",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2386": {
+          "id": "S2386",
+          "shortDescription": "Mutable fields should not be \"public static\"",
+          "fullDescription": "public static mutable fields of classes which are accessed directly should be protected to the degree possible. This can be done by reducing the accessibility of the field or by changing the return type to an immutable type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2386",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2696": {
+          "id": "S2696",
+          "shortDescription": "Instance members should not write to \"static\" fields",
+          "fullDescription": "Correctly updating a static field from a non-static method is tricky to get right and could easily lead to bugs if there are multiple class instances and/or multiple threads in play.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2696",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3241": {
+          "id": "S3241",
+          "shortDescription": "Methods should not return values that are never used",
+          "fullDescription": "Private methods are clearly intended for use only within their own scope. When such methods return values that are never used by any of their callers, then clearly there is no need to actually make the return, and it should be removed in the interests of efficiency and clarity.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3241",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3887": {
+          "id": "S3887",
+          "shortDescription": "Mutable, non-private fields should not be \"readonly\"",
+          "fullDescription": "Using the readonly keyword on a field means that it can’t be changed after initialization. However, when applied to collections or arrays, that’s only partly true. readonly enforces that another instance can’t be assigned to the field, but it cannot keep the contents from being updated. That means that in practice, the field value really can be changed, and the use of readonly on such a field is misleading, and you’re likely to not be getting the behavior you expect.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3887",
+          "properties": {
+            "category": "Minor Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

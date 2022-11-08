@@ -1,0 +1,749 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 6,
+                  "endLine": 218,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/Program.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field 'logger' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 17,
+                  "endLine": 24,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3885",
+          "level": "warning",
+          "message": "Replace this call to 'Assembly.LoadFile' with 'Assembly.Load'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 12,
+                  "endLine": 86,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 30,
+                  "endLine": 34,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 4,
+                  "endLine": 44,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 25,
+                  "endLine": 44,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 4,
+                  "endLine": 64,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 5,
+                  "endLine": 71,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 4,
+                  "endLine": 79,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 4,
+                  "endLine": 86,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 4,
+                  "endLine": 97,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 30,
+                  "endLine": 97,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 4,
+                  "endLine": 102,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 4,
+                  "endLine": 104,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 4,
+                  "endLine": 107,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 4,
+                  "endLine": 110,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 74,
+                  "endLine": 118,
+                  "endColumn": 75
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 56,
+                  "endLine": 118,
+                  "endColumn": 58
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 3,
+                  "endLine": 120,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 4,
+                  "endLine": 122,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 4,
+                  "endLine": 127,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 5,
+                  "endLine": 129,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 35,
+                  "endLine": 135,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 4,
+                  "endLine": 139,
+                  "endColumn": 6
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+1",
+              "14": "+1",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+3 (incl 2 for nesting)",
+              "18": "+2 (incl 1 for nesting)",
+              "19": "+1",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S4457",
+          "level": "warning",
+          "message": "Split this method into two, one handling parameters check and the other handling the asynchronous code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 30,
+                  "endLine": 34,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 11,
+                  "endLine": 65,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 22,
+                  "endLine": 123,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 3,
+                  "endLine": 125,
+                  "endColumn": 5
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 3,
+                  "endLine": 130,
+                  "endColumn": 8
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 4,
+                  "endLine": 132,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 4,
+                  "endLine": 139,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 5,
+                  "endLine": 142,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 108,
+                  "endLine": 142,
+                  "endColumn": 110
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 4,
+                  "endLine": 149,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 4,
+                  "endLine": 153,
+                  "endColumn": 6
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 5,
+                  "endLine": 156,
+                  "endColumn": 7
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/CommandLine.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 58,
+                  "endLine": 156,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'assemblyDisplayName'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 8,
+                  "endLine": 190,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'appDomainSupport'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 8,
+                  "endLine": 191,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'shadowCopy'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 8,
+                  "endLine": 192,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'longRunningSeconds'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console/ConsoleRunner.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 8,
+                  "endLine": 193,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3885": {
+          "id": "S3885",
+          "shortDescription": "\"Assembly.Load\" should be used",
+          "fullDescription": "The parameter to Assembly.Load includes the full specification of the dll to be loaded. Use another method, and you might end up with a dll other than the one you expected.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3885",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4457": {
+          "id": "S4457",
+          "shortDescription": "Parameter validation in \"async\"/\"await\" methods should be wrapped",
+          "fullDescription": "Because of the way async/await methods are rewritten by the compiler, any exceptions thrown during the parameters check will happen only when the task is observed. That could happen far away from the source of the buggy code or never happen for fire-and-forget tasks.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4457",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

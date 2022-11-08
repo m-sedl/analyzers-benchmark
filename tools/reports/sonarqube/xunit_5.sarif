@@ -1,0 +1,3531 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 22,
+                  "endLine": 80,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 22,
+                  "endLine": 27,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 22,
+                  "endLine": 37,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 22,
+                  "endLine": 99,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 22,
+                  "endLine": 116,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 22,
+                  "endLine": 147,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 22,
+                  "endLine": 175,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 22,
+                  "endLine": 208,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 243,
+                  "startColumn": 22,
+                  "endLine": 243,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 22,
+                  "endLine": 275,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 22,
+                  "endLine": 298,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 324,
+                  "startColumn": 22,
+                  "endLine": 324,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 22,
+                  "endLine": 349,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 395,
+                  "startColumn": 22,
+                  "endLine": 395,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 469,
+                  "startColumn": 22,
+                  "endLine": 469,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'XmlTestExecutionVisitor' is obsolete: 'This class has poor performance; please use DelegatingXmlCreationSink instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 22,
+                  "endLine": 56,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 724,
+                  "startColumn": 15,
+                  "endLine": 724,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1339,
+                  "startColumn": 16,
+                  "endLine": 1339,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1345,
+                  "startColumn": 16,
+                  "endLine": 1345,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/DefaultTestCaseOrdererTests.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 15,
+                  "endLine": 46,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/DefaultTestCaseOrdererTests.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 15,
+                  "endLine": 49,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/DefaultTestCaseOrdererTests.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 15,
+                  "endLine": 52,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/DefaultTestCaseOrdererTests.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 15,
+                  "endLine": 43,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/DefaultTestCaseOrdererTests.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 15,
+                  "endLine": 55,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/DefaultTestCaseOrdererTests.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 15,
+                  "endLine": 58,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/FactDiscovererTests.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 15,
+                  "endLine": 71,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/FactDiscovererTests.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 15,
+                  "endLine": 74,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/FactDiscovererTests.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 15,
+                  "endLine": 77,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-generic.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/FactDiscovererTests.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 15,
+                  "endLine": 77,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/CollectionAcceptanceTests.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 15,
+                  "endLine": 53,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/CollectionAcceptanceTests.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 15,
+                  "endLine": 47,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestCaseRunnerTests.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 15,
+                  "endLine": 34,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestInvokerTests.cs",
+                "region": {
+                  "startLine": 322,
+                  "startColumn": 16,
+                  "endLine": 322,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestAssemblyRunnerTests.cs",
+                "region": {
+                  "startLine": 330,
+                  "startColumn": 15,
+                  "endLine": 330,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestAssemblyRunnerTests.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 15,
+                  "endLine": 333,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 623,
+                  "startColumn": 24,
+                  "endLine": 623,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TestMethodTestCaseTests.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 23,
+                  "endLine": 114,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 575,
+                  "startColumn": 16,
+                  "endLine": 575,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1281,
+                  "startColumn": 16,
+                  "endLine": 1281,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1228,
+                  "startColumn": 16,
+                  "endLine": 1228,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 521,
+                  "startColumn": 16,
+                  "endLine": 521,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 499,
+                  "startColumn": 16,
+                  "endLine": 499,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 479,
+                  "startColumn": 16,
+                  "endLine": 479,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 435,
+                  "startColumn": 22,
+                  "endLine": 435,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 429,
+                  "startColumn": 22,
+                  "endLine": 429,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 456,
+                  "startColumn": 16,
+                  "endLine": 456,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 459,
+                  "startColumn": 16,
+                  "endLine": 459,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 16,
+                  "endLine": 442,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 445,
+                  "startColumn": 16,
+                  "endLine": 445,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestInvokerTests.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 15,
+                  "endLine": 164,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestInvokerTests.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 22,
+                  "endLine": 144,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestInvokerTests.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 15,
+                  "endLine": 147,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestInvokerTests.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 15,
+                  "endLine": 156,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1196,
+                  "startColumn": 16,
+                  "endLine": 1196,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 395,
+                  "startColumn": 16,
+                  "endLine": 395,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 398,
+                  "startColumn": 16,
+                  "endLine": 398,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 401,
+                  "startColumn": 16,
+                  "endLine": 401,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 16,
+                  "endLine": 370,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestCaseTests.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 23,
+                  "endLine": 125,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1175,
+                  "startColumn": 16,
+                  "endLine": 1175,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 408,
+                  "startColumn": 23,
+                  "endLine": 408,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 23,
+                  "endLine": 385,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 365,
+                  "startColumn": 23,
+                  "endLine": 365,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 16,
+                  "endLine": 373,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 16,
+                  "endLine": 376,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestMethodRunnerTests.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 15,
+                  "endLine": 176,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestMethodRunnerTests.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 15,
+                  "endLine": 179,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseDescriptorFactoryTests.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 15,
+                  "endLine": 133,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseDescriptorFactoryTests.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 15,
+                  "endLine": 137,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 314,
+                  "startColumn": 23,
+                  "endLine": 314,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTheoryTestCaseRunnerTests.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 15,
+                  "endLine": 197,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTheoryTestCaseRunnerTests.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 15,
+                  "endLine": 132,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestCollectionRunnerTests.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 15,
+                  "endLine": 203,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestCollectionRunnerTests.cs",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 15,
+                  "endLine": 206,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 15,
+                  "endLine": 383,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 310,
+                  "startColumn": 23,
+                  "endLine": 310,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 23,
+                  "endLine": 281,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 23,
+                  "endLine": 255,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 258,
+                  "startColumn": 23,
+                  "endLine": 258,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/XunitTestFrameworkDiscovererTests.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 23,
+                  "endLine": 237,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 22,
+                  "endLine": 333,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseBulkDeserializerTests.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 15,
+                  "endLine": 87,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 22,
+                  "endLine": 308,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseBulkDeserializerTests.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 15,
+                  "endLine": 91,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 15,
+                  "endLine": 274,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 16,
+                  "endLine": 281,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 16,
+                  "endLine": 270,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Reflection/ReflectorTests.cs",
+                "region": {
+                  "startLine": 1169,
+                  "startColumn": 24,
+                  "endLine": 1169,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-generic.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Reflection/ReflectorTests.cs",
+                "region": {
+                  "startLine": 1169,
+                  "startColumn": 24,
+                  "endLine": 1169,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 15,
+                  "endLine": 223,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 15,
+                  "endLine": 176,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 15,
+                  "endLine": 145,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 15,
+                  "endLine": 27,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 15,
+                  "endLine": 123,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 15,
+                  "endLine": 248,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 15,
+                  "endLine": 231,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 328,
+                  "startColumn": 15,
+                  "endLine": 328,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 15,
+                  "endLine": 331,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Reflection/ReflectorTests.cs",
+                "region": {
+                  "startLine": 1129,
+                  "startColumn": 24,
+                  "endLine": 1129,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3433",
+          "level": "warning",
+          "message": "Make this test method non-generic.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Reflection/ReflectorTests.cs",
+                "region": {
+                  "startLine": 1129,
+                  "startColumn": 24,
+                  "endLine": 1129,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 1018,
+                  "startColumn": 16,
+                  "endLine": 1018,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 994,
+                  "startColumn": 16,
+                  "endLine": 994,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 15,
+                  "endLine": 54,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/TestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 339,
+                  "startColumn": 15,
+                  "endLine": 339,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 956,
+                  "startColumn": 16,
+                  "endLine": 956,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/TheoryDiscovererTests.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 15,
+                  "endLine": 78,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 976,
+                  "startColumn": 16,
+                  "endLine": 976,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 16,
+                  "endLine": 334,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 314,
+                  "startColumn": 16,
+                  "endLine": 314,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 15,
+                  "endLine": 238,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 15,
+                  "endLine": 194,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 15,
+                  "endLine": 281,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 16,
+                  "endLine": 204,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 643,
+                  "startColumn": 16,
+                  "endLine": 643,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 15,
+                  "endLine": 144,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 15,
+                  "endLine": 69,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 15,
+                  "endLine": 28,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 15,
+                  "endLine": 49,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestClassRunnerTests.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 15,
+                  "endLine": 89,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 622,
+                  "startColumn": 16,
+                  "endLine": 622,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 16,
+                  "endLine": 180,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2AcceptanceTests.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 16,
+                  "endLine": 183,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 666,
+                  "startColumn": 16,
+                  "endLine": 666,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 507,
+                  "startColumn": 16,
+                  "endLine": 507,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Visitors/XmlTestExecutionVisitorTests.cs",
+                "region": {
+                  "startLine": 412,
+                  "startColumn": 16,
+                  "endLine": 412,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 792,
+                  "startColumn": 16,
+                  "endLine": 792,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 682,
+                  "startColumn": 16,
+                  "endLine": 682,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 15,
+                  "endLine": 565,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 883,
+                  "startColumn": 16,
+                  "endLine": 883,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 523,
+                  "startColumn": 16,
+                  "endLine": 523,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 862,
+                  "startColumn": 16,
+                  "endLine": 862,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 16,
+                  "endLine": 465,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 16,
+                  "endLine": 442,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 233,
+                  "startColumn": 18,
+                  "endLine": 233,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/Xunit2TheoryAcceptanceTests.cs",
+                "region": {
+                  "startLine": 391,
+                  "startColumn": 16,
+                  "endLine": 391,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 16,
+                  "endLine": 87,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 246,
+                  "startColumn": 16,
+                  "endLine": 246,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 16,
+                  "endLine": 309,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 279,
+                  "startColumn": 16,
+                  "endLine": 279,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 16,
+                  "endLine": 341,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 16,
+                  "endLine": 118,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 16,
+                  "endLine": 103,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 403,
+                  "startColumn": 16,
+                  "endLine": 403,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 365,
+                  "startColumn": 16,
+                  "endLine": 365,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 16,
+                  "endLine": 382,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 424,
+                  "startColumn": 16,
+                  "endLine": 424,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 444,
+                  "startColumn": 16,
+                  "endLine": 444,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 478,
+                  "startColumn": 16,
+                  "endLine": 478,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 16,
+                  "endLine": 465,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 501,
+                  "startColumn": 16,
+                  "endLine": 501,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 547,
+                  "startColumn": 16,
+                  "endLine": 547,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 579,
+                  "startColumn": 16,
+                  "endLine": 579,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 16,
+                  "endLine": 63,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 16,
+                  "endLine": 66,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 525,
+                  "startColumn": 16,
+                  "endLine": 525,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 622,
+                  "startColumn": 16,
+                  "endLine": 622,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 16,
+                  "endLine": 133,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 635,
+                  "startColumn": 16,
+                  "endLine": 635,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 16,
+                  "endLine": 152,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 16,
+                  "endLine": 173,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 16,
+                  "endLine": 195,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Acceptance/FixtureAcceptanceTests.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 16,
+                  "endLine": 216,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3415": {
+          "id": "S3415",
+          "shortDescription": "Assertion arguments should be passed in the correct order",
+          "fullDescription": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value. Swap them, and your test will still have the same outcome (succeed/fail when it should) but the error messages will be confusing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3433": {
+          "id": "S3433",
+          "shortDescription": "Test method signatures should be correct",
+          "fullDescription": "A method is detected as test method if marked with one of the following attributes [TestMethod] or [DataTestMethod] (for mstest), [Fact] or [Theory] (for xunit) or [Test], [TestCase], [TestCaseSource] or [Theory] (for nunit). However, whether or not they have a test attribute, non-public methods are not recognized as tests, and therefore not executed. Neither are async void methods, or methods with generics anywhere in their signatures.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3433",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

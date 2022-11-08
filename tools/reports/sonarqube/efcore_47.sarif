@@ -1,0 +1,918 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-2.22426.8 (7886fad5)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 25,
+                  "endLine": 328,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 394,
+                  "startColumn": 25,
+                  "endLine": 395,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 397,
+                  "startColumn": 25,
+                  "endLine": 399,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 799,
+                  "startColumn": 25,
+                  "endLine": 801,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 885,
+                  "startColumn": 25,
+                  "endLine": 886,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 888,
+                  "startColumn": 25,
+                  "endLine": 890,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 25,
+                  "endLine": 563,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 629,
+                  "startColumn": 25,
+                  "endLine": 630,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsInfrastructureSqliteTest.cs",
+                "region": {
+                  "startLine": 632,
+                  "startColumn": 25,
+                  "endLine": 634,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.BuiltInDataTypesSqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.BuiltInDataTypesSqliteTest.BuiltInDataTypesSqliteFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/BuiltInDataTypesSqliteTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.BuiltInDataTypesSqliteTest.BuiltInDataTypesSqliteFixture",
+              "TFixtureName": "BuiltInDataTypesSqliteFixture",
+              "TestClassName": "BuiltInDataTypesSqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Migrations.MigrationsSqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Migrations.MigrationsSqliteTest.MigrationsSqliteFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Migrations/MigrationsSqliteTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 14,
+                  "endLine": 11,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Migrations.MigrationsSqliteTest.MigrationsSqliteFixture",
+              "TFixtureName": "MigrationsSqliteFixture",
+              "TestClassName": "MigrationsSqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqliteFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/ComplexNavigationsSharedTypeQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqliteFixture",
+              "TFixtureName": "ComplexNavigationsSharedTypeQuerySqliteFixture",
+              "TestClassName": "ComplexNavigationsSharedTypeQuerySqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindMiscellaneousQuerySqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/NorthwindMiscellaneousQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqliteFixture",
+              "TestClassName": "NorthwindMiscellaneousQuerySqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindDbFunctionsQuerySqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/NorthwindDbFunctionsQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqliteFixture",
+              "TestClassName": "NorthwindDbFunctionsQuerySqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.BulkUpdates.NorthwindBulkUpdatesSqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.BulkUpdates.NorthwindBulkUpdatesSqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/BulkUpdates/NorthwindBulkUpdatesSqliteTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.BulkUpdates.NorthwindBulkUpdatesSqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindBulkUpdatesSqliteFixture",
+              "TestClassName": "NorthwindBulkUpdatesSqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSelectQuerySqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/NorthwindSelectQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqliteFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqliteFixture",
+              "TestClassName": "NorthwindSelectQuerySqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.GearsOfWarQuerySqliteTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.GearsOfWarQuerySqliteFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/GearsOfWarQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.GearsOfWarQuerySqliteFixture",
+              "TFixtureName": "GearsOfWarQuerySqliteFixture",
+              "TestClassName": "GearsOfWarQuerySqliteTest"
+            }
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/GraphUpdates/GraphUpdatesSqliteTestBase.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 26,
+                  "endLine": 15,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/GraphUpdates/GraphUpdatesSqliteTestBase.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 26,
+                  "endLine": 19,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/GraphUpdates/GraphUpdatesSqliteTestBase.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 26,
+                  "endLine": 23,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/GraphUpdates/GraphUpdatesSqliteTestBase.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 26,
+                  "endLine": 27,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/GraphUpdates/GraphUpdatesSqliteTestBase.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 26,
+                  "endLine": 31,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/GraphUpdates/GraphUpdatesSqliteTestBase.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 26,
+                  "endLine": 35,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 26,
+                  "endLine": 58,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 26,
+                  "endLine": 62,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 26,
+                  "endLine": 66,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 26,
+                  "endLine": 70,
+                  "endColumn": 123
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 26,
+                  "endLine": 74,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 9,
+                  "endLine": 83,
+                  "endColumn": 127
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 26,
+                  "endLine": 78,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 9,
+                  "endLine": 88,
+                  "endColumn": 131
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/NorthwindDbFunctionsQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 41,
+                  "endLine": 28,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/ComplexNavigationsSharedTypeQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 26,
+                  "endLine": 50,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/Query/ComplexNavigationsSharedTypeQuerySqliteTest.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 26,
+                  "endLine": 54,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 26,
+                  "endLine": 92,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 26,
+                  "endLine": 96,
+                  "endColumn": 127
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.Sqlite.FunctionalTests/OptimisticConcurrencySqliteTest.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 26,
+                  "endLine": 100,
+                  "endColumn": 126
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1847": {
+          "id": "CA1847",
+          "shortDescription": "Use char literal for a single character lookup",
+          "fullDescription": "'string.Contains(char)' is available as a better performing overload for single char lookup.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "xUnit1033": {
+          "id": "xUnit1033",
+          "shortDescription": "Test classes decorated with 'Xunit.IClassFixture<TFixture>' or 'Xunit.ICollectionFixture<TFixture>' should add a constructor argument of type TFixture",
+          "defaultLevel": "note",
+          "helpUri": "https://xunit.net/xunit.analyzers/rules/xUnit1033",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

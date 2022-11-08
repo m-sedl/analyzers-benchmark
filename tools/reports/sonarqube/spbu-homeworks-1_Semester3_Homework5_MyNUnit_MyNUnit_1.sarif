@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 32,
+                  "endLine": 180,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 9,
+                  "endLine": 183,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 13,
+                  "endLine": 185,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 17,
+                  "endLine": 187,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 25,
+                  "endLine": 190,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 25,
+                  "endLine": 197,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 25,
+                  "endLine": 201,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 25,
+                  "endLine": 208,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 25,
+                  "endLine": 212,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 25,
+                  "endLine": 219,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 25,
+                  "endLine": 226,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+4 (incl 3 for nesting)",
+              "4": "+4 (incl 3 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 713,
+                  "startColumn": 22,
+                  "endLine": 713,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 720,
+                  "startColumn": 80,
+                  "endLine": 720,
+                  "endColumn": 81
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 725,
+                  "startColumn": 25,
+                  "endLine": 725,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 732,
+                  "startColumn": 25,
+                  "endLine": 732,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 741,
+                  "startColumn": 21,
+                  "endLine": 741,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 745,
+                  "startColumn": 29,
+                  "endLine": 745,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 751,
+                  "startColumn": 25,
+                  "endLine": 751,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 754,
+                  "startColumn": 29,
+                  "endLine": 754,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 762,
+                  "startColumn": 13,
+                  "endLine": 762,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 765,
+                  "startColumn": 17,
+                  "endLine": 765,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+                "region": {
+                  "startLine": 771,
+                  "startColumn": 17,
+                  "endLine": 771,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "2": "+1",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+1",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

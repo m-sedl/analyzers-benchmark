@@ -1,0 +1,4934 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-2.22426.8 (7886fad5)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 20,
+                  "endLine": 282,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 20,
+                  "endLine": 283,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteByteArrayMethodTranslator.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 9,
+                  "endLine": 70,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.RelationalCSharpRuntimeAnnotationCodeGenerator is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 59,
+                  "endLine": 16,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 33,
+                  "endLine": 20,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 33,
+                  "endLine": 28,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 33,
+                  "endLine": 36,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 33,
+                  "endLine": 44,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteSqlTranslatingExpressionVisitor.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 9,
+                  "endLine": 155,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 33,
+                  "endLine": 52,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 33,
+                  "endLine": 60,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 33,
+                  "endLine": 76,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 33,
+                  "endLine": 68,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 33,
+                  "endLine": 84,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 33,
+                  "endLine": 92,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 33,
+                  "endLine": 100,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 33,
+                  "endLine": 116,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 124,
+                  "startColumn": 33,
+                  "endLine": 124,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 33,
+                  "endLine": 132,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 20,
+                  "endLine": 94,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteDatabaseCreator.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 13,
+                  "endLine": 137,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Diagnostics/Internal/SqliteLoggingDefinitions.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 33,
+                  "endLine": 108,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 5,
+                  "endLine": 12,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 5,
+                  "endLine": 24,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 5,
+                  "endLine": 34,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 5,
+                  "endLine": 46,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 5,
+                  "endLine": 52,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 5,
+                  "endLine": 56,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 5,
+                  "endLine": 70,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 5,
+                  "endLine": 78,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 5,
+                  "endLine": 84,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 5,
+                  "endLine": 88,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 5,
+                  "endLine": 92,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 5,
+                  "endLine": 118,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 5,
+                  "endLine": 122,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 5,
+                  "endLine": 138,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 5,
+                  "endLine": 142,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 5,
+                  "endLine": 146,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 5,
+                  "endLine": 160,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 5,
+                  "endLine": 166,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 5,
+                  "endLine": 170,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 5,
+                  "endLine": 174,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 5,
+                  "endLine": 178,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 5,
+                  "endLine": 188,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 5,
+                  "endLine": 195,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 5,
+                  "endLine": 199,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 5,
+                  "endLine": 206,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 5,
+                  "endLine": 216,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 5,
+                  "endLine": 236,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 546,
+                  "startColumn": 9,
+                  "endLine": 546,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 552,
+                  "startColumn": 9,
+                  "endLine": 552,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 558,
+                  "startColumn": 13,
+                  "endLine": 558,
+                  "endColumn": 115
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableMethods.cs",
+                "region": {
+                  "startLine": 573,
+                  "startColumn": 13,
+                  "endLine": 573,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 328,
+                  "startColumn": 12,
+                  "endLine": 328,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2344",
+          "level": "warning",
+          "message": "Rename this enumeration to remove the 'Flags' suffix.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/CodeAnnotations.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 15,
+                  "endLine": 81,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2344",
+          "level": "warning",
+          "message": "Rename this enumeration to remove the 'Flags' suffix.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/CodeAnnotations.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 15,
+                  "endLine": 91,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4136",
+          "level": "warning",
+          "message": "All 'Generate' method overloads should be adjacent.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 483,
+                  "startColumn": 29,
+                  "endLine": 483,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 809,
+                  "startColumn": 29,
+                  "endLine": 809,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 983,
+                  "startColumn": 29,
+                  "endLine": 983,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Non-adjacent overload",
+              "1": "Non-adjacent overload"
+            }
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_sqlExpressionFactory' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 44,
+                  "endLine": 17,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified with \"LINQ\" expressions",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/StringBuilderExtensions.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 31,
+                  "endLine": 55,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/StringBuilderExtensions.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 17,
+                  "endLine": 57,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.CSharpRuntimeAnnotationCodeGeneratorDependencies is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 9,
+                  "endLine": 25,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.RelationalCSharpRuntimeAnnotationCodeGeneratorDependencies is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 9,
+                  "endLine": 26,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.RelationalCSharpRuntimeAnnotationCodeGenerator is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 9,
+                  "endLine": 27,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2436",
+          "level": "warning",
+          "message": "Reduce the number of generic parameters in the 'NonCapturingLazyInitializer.EnsureInitialized' method to no more than the 3 authorized.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/NonCapturingLazyInitializer.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 26,
+                  "endLine": 51,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.CSharpRuntimeAnnotationCodeGeneratorParameters is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 55,
+                  "endLine": 32,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.ICSharpRuntimeAnnotationCodeGenerator is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteDesignTimeServices.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 9,
+                  "endLine": 30,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.CSharpRuntimeAnnotationCodeGeneratorParameters is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 38,
+                  "endLine": 34,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.CSharpRuntimeAnnotationCodeGeneratorParameters is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 25,
+                  "endLine": 35,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "EF1001",
+          "level": "warning",
+          "message": "Microsoft.EntityFrameworkCore.Design.Internal.RelationalCSharpRuntimeAnnotationCodeGenerator is an internal API that supports the Entity Framework Core infrastructure and not subject to the same compatibility standards as public APIs. It may be changed or removed without notice in any release.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Design/Internal/SqliteCSharpRuntimeAnnotationCodeGenerator.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 14,
+                  "endLine": 40,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 15,
+                  "endLine": 72,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 13,
+                  "endLine": 34,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 9,
+                  "endLine": 32,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified with \"LINQ\" expressions",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Graph.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 38,
+                  "endLine": 33,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Graph.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 21,
+                  "endLine": 35,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteDateTimeAddTranslator.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 15,
+                  "endLine": 63,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 35,
+                  "endLine": 36,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 9,
+                  "endLine": 42,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 17,
+                  "endLine": 45,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 13,
+                  "endLine": 47,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 21,
+                  "endLine": 52,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 25,
+                  "endLine": 51,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 21,
+                  "endLine": 54,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 21,
+                  "endLine": 66,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 25,
+                  "endLine": 65,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 21,
+                  "endLine": 68,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 25,
+                  "endLine": 69,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 21,
+                  "endLine": 82,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 25,
+                  "endLine": 81,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 21,
+                  "endLine": 84,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 25,
+                  "endLine": 85,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 21,
+                  "endLine": 98,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 25,
+                  "endLine": 97,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryableAggregateMethodTranslator.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 21,
+                  "endLine": 100,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+1",
+              "11": "+1",
+              "12": "+3 (incl 2 for nesting)",
+              "13": "+1",
+              "14": "+1",
+              "15": "+1",
+              "16": "+3 (incl 2 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+1",
+              "7": "+1",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Check.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 19,
+                  "endLine": 117,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 31,
+                  "endLine": 56,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 9,
+                  "endLine": 67,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 13,
+                  "endLine": 72,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 26,
+                  "endLine": 72,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 17,
+                  "endLine": 75,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 21,
+                  "endLine": 77,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 25,
+                  "endLine": 79,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 17,
+                  "endLine": 92,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 30,
+                  "endLine": 92,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 21,
+                  "endLine": 94,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 21,
+                  "endLine": 100,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 42,
+                  "endLine": 108,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 17,
+                  "endLine": 111,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 21,
+                  "endLine": 113,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 25,
+                  "endLine": 115,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 9,
+                  "endLine": 133,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 13,
+                  "endLine": 135,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 17,
+                  "endLine": 137,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 9,
+                  "endLine": 150,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 9,
+                  "endLine": 155,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 9,
+                  "endLine": 160,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 13,
+                  "endLine": 161,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 13,
+                  "endLine": 174,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteStringTypeMapping.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 13,
+                  "endLine": 179,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+4 (incl 3 for nesting)",
+              "11": "+1",
+              "12": "+4 (incl 3 for nesting)",
+              "13": "+5 (incl 4 for nesting)",
+              "14": "+1",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+1",
+              "18": "+1",
+              "19": "+1",
+              "2": "+1",
+              "20": "+1",
+              "21": "+2 (incl 1 for nesting)",
+              "22": "+2 (incl 1 for nesting)",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+4 (incl 3 for nesting)",
+              "5": "+5 (incl 4 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+1",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteTypeMappingSource.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 12,
+                  "endLine": 189,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1751",
+          "level": "warning",
+          "message": "Refactor the containing loop to do more than one iteration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/EnumerableExtensions.cs",
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 13,
+                  "endLine": 122,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1764",
+          "level": "warning",
+          "message": "Correct one of the identical expressions on both sides of operator '||'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteMathTranslator.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 45,
+                  "endLine": 81,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteMathTranslator.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 17,
+                  "endLine": 81,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 18,
+                  "endLine": 87,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 9,
+                  "endLine": 89,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 9,
+                  "endLine": 94,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 13,
+                  "endLine": 96,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 21,
+                  "endLine": 105,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 25,
+                  "endLine": 106,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 21,
+                  "endLine": 119,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 25,
+                  "endLine": 120,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 21,
+                  "endLine": 125,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 21,
+                  "endLine": 149,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 66,
+                  "endLine": 148,
+                  "endColumn": 68
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Storage/Internal/SqliteRelationalConnection.cs",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 9,
+                  "endLine": 163,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+1",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+1",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 42,
+                  "endLine": 152,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 174,
+                  "startColumn": 9,
+                  "endLine": 174,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 13,
+                  "endLine": 176,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 9,
+                  "endLine": 184,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 13,
+                  "endLine": 186,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 17,
+                  "endLine": 192,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 17,
+                  "endLine": 198,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 17,
+                  "endLine": 207,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 21,
+                  "endLine": 213,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 25,
+                  "endLine": 218,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 232,
+                  "startColumn": 13,
+                  "endLine": 232,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 17,
+                  "endLine": 239,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 24,
+                  "endLine": 240,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 21,
+                  "endLine": 244,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 33,
+                  "endLine": 254,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 21,
+                  "endLine": 256,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 25,
+                  "endLine": 264,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 17,
+                  "endLine": 277,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 85,
+                  "endLine": 283,
+                  "endColumn": 87
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 17,
+                  "endLine": 286,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 288,
+                  "startColumn": 21,
+                  "endLine": 288,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 290,
+                  "startColumn": 25,
+                  "endLine": 290,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 291,
+                  "startColumn": 29,
+                  "endLine": 291,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 17,
+                  "endLine": 309,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 311,
+                  "startColumn": 21,
+                  "endLine": 311,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 332,
+                  "startColumn": 13,
+                  "endLine": 332,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 17,
+                  "endLine": 333,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 25,
+                  "endLine": 337,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 26,
+                  "endLine": 336,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/Multigraph.cs",
+                "region": {
+                  "startLine": 336,
+                  "startColumn": 65,
+                  "endLine": 336,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+3 (incl 2 for nesting)",
+              "11": "+1",
+              "12": "+4 (incl 3 for nesting)",
+              "13": "+1",
+              "14": "+4 (incl 3 for nesting)",
+              "15": "+5 (incl 4 for nesting)",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+1",
+              "18": "+3 (incl 2 for nesting)",
+              "19": "+4 (incl 3 for nesting)",
+              "2": "+1",
+              "20": "+5 (incl 4 for nesting)",
+              "21": "+1",
+              "22": "+3 (incl 2 for nesting)",
+              "23": "+4 (incl 3 for nesting)",
+              "24": "+2 (incl 1 for nesting)",
+              "25": "+1",
+              "26": "+1",
+              "27": "+1",
+              "28": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+5 (incl 4 for nesting)",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'extensionExpression' to 'node' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteQueryTranslationPostprocessor.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 65,
+                  "endLine": 49,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 25,
+                  "endLine": 101,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 9,
+                  "endLine": 103,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 9,
+                  "endLine": 113,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 9,
+                  "endLine": 119,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 13,
+                  "endLine": 127,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 17,
+                  "endLine": 129,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 21,
+                  "endLine": 131,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 25,
+                  "endLine": 133,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 29,
+                  "endLine": 139,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 49,
+                  "endLine": 139,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 13,
+                  "endLine": 150,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 17,
+                  "endLine": 153,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 17,
+                  "endLine": 160,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 21,
+                  "endLine": 165,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 25,
+                  "endLine": 170,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 17,
+                  "endLine": 188,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 44,
+                  "endLine": 188,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 17,
+                  "endLine": 195,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 21,
+                  "endLine": 196,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+3 (incl 2 for nesting)",
+              "11": "+1",
+              "12": "+4 (incl 3 for nesting)",
+              "13": "+5 (incl 4 for nesting)",
+              "14": "+3 (incl 2 for nesting)",
+              "15": "+1",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+1",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+5 (incl 4 for nesting)",
+              "7": "+6 (incl 5 for nesting)",
+              "8": "+1",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified with \"LINQ\" expressions",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 42,
+                  "endLine": 131,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 29,
+                  "endLine": 136,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Remove this hardcoded path-delimiter.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Infrastructure/SpatialiteLoader.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 48,
+                  "endLine": 169,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 35,
+                  "endLine": 107,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 9,
+                  "endLine": 113,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 13,
+                  "endLine": 115,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 13,
+                  "endLine": 134,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 13,
+                  "endLine": 154,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 17,
+                  "endLine": 155,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 54,
+                  "endLine": 158,
+                  "endColumn": 55
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 13,
+                  "endLine": 166,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 13,
+                  "endLine": 177,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 13,
+                  "endLine": 188,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 17,
+                  "endLine": 189,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 13,
+                  "endLine": 195,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 17,
+                  "endLine": 196,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 13,
+                  "endLine": 202,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 17,
+                  "endLine": 203,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 13,
+                  "endLine": 209,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 13,
+                  "endLine": 231,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 13,
+                  "endLine": 236,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 9,
+                  "endLine": 242,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 9,
+                  "endLine": 259,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 9,
+                  "endLine": 270,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+1",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+1",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+1",
+              "18": "+1",
+              "19": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+1",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 25,
+                  "endLine": 321,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Query/Internal/SqliteStringMethodTranslator.cs",
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 52,
+                  "endLine": 326,
+                  "endColumn": 108
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 501,
+                  "startColumn": 25,
+                  "endLine": 501,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 509,
+                  "startColumn": 9,
+                  "endLine": 509,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 510,
+                  "startColumn": 13,
+                  "endLine": 510,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 517,
+                  "startColumn": 36,
+                  "endLine": 517,
+                  "endColumn": 37
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 519,
+                  "startColumn": 9,
+                  "endLine": 519,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 521,
+                  "startColumn": 13,
+                  "endLine": 521,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 526,
+                  "startColumn": 13,
+                  "endLine": 526,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 532,
+                  "startColumn": 9,
+                  "endLine": 532,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 534,
+                  "startColumn": 13,
+                  "endLine": 534,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 536,
+                  "startColumn": 17,
+                  "endLine": 536,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 541,
+                  "startColumn": 17,
+                  "endLine": 541,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 550,
+                  "startColumn": 9,
+                  "endLine": 550,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 559,
+                  "startColumn": 9,
+                  "endLine": 559,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 562,
+                  "startColumn": 13,
+                  "endLine": 562,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 13,
+                  "endLine": 568,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/Shared/SharedTypeExtensions.cs",
+                "region": {
+                  "startLine": 501,
+                  "startColumn": 25,
+                  "endLine": 501,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+1 (recursion)",
+              "2": "+1",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+1",
+              "6": "+1",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 489,
+                  "startColumn": 18,
+                  "endLine": 489,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 504,
+                  "startColumn": 9,
+                  "endLine": 504,
+                  "endColumn": 14
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 515,
+                  "startColumn": 13,
+                  "endLine": 515,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 551,
+                  "startColumn": 17,
+                  "endLine": 551,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 559,
+                  "startColumn": 67,
+                  "endLine": 559,
+                  "endColumn": 68
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 561,
+                  "startColumn": 21,
+                  "endLine": 561,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 21,
+                  "endLine": 568,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 574,
+                  "startColumn": 21,
+                  "endLine": 574,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Scaffolding/Internal/SqliteDatabaseModelFactory.cs",
+                "region": {
+                  "startLine": 587,
+                  "startColumn": 13,
+                  "endLine": 587,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 47,
+                  "endLine": 63,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 9,
+                  "endLine": 69,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 13,
+                  "endLine": 71,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 21,
+                  "endLine": 108,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 21,
+                  "endLine": 112,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 21,
+                  "endLine": 136,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 25,
+                  "endLine": 137,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 29,
+                  "endLine": 138,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 25,
+                  "endLine": 152,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 21,
+                  "endLine": 155,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 21,
+                  "endLine": 167,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 21,
+                  "endLine": 177,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 25,
+                  "endLine": 178,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 21,
+                  "endLine": 183,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 21,
+                  "endLine": 195,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 25,
+                  "endLine": 197,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 21,
+                  "endLine": 212,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 21,
+                  "endLine": 244,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 21,
+                  "endLine": 256,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 273,
+                  "startColumn": 13,
+                  "endLine": 273,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 280,
+                  "startColumn": 13,
+                  "endLine": 280,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 287,
+                  "startColumn": 13,
+                  "endLine": 287,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 300,
+                  "startColumn": 13,
+                  "endLine": 300,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 305,
+                  "startColumn": 13,
+                  "endLine": 305,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 17,
+                  "endLine": 308,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 320,
+                  "startColumn": 29,
+                  "endLine": 320,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 25,
+                  "endLine": 319,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 13,
+                  "endLine": 333,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 338,
+                  "startColumn": 13,
+                  "endLine": 338,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 343,
+                  "startColumn": 13,
+                  "endLine": 343,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 13,
+                  "endLine": 351,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 353,
+                  "startColumn": 17,
+                  "endLine": 353,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 353,
+                  "startColumn": 36,
+                  "endLine": 353,
+                  "endColumn": 38
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 17,
+                  "endLine": 359,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 13,
+                  "endLine": 368,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 17,
+                  "endLine": 370,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 371,
+                  "startColumn": 21,
+                  "endLine": 371,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 17,
+                  "endLine": 376,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 380,
+                  "startColumn": 17,
+                  "endLine": 380,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 391,
+                  "startColumn": 25,
+                  "endLine": 391,
+                  "endColumn": 26
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 389,
+                  "startColumn": 21,
+                  "endLine": 389,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 393,
+                  "startColumn": 17,
+                  "endLine": 393,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 401,
+                  "startColumn": 29,
+                  "endLine": 401,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 404,
+                  "startColumn": 17,
+                  "endLine": 404,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 407,
+                  "startColumn": 29,
+                  "endLine": 407,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 437,
+                  "startColumn": 9,
+                  "endLine": 437,
+                  "endColumn": 16
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 9,
+                  "endLine": 442,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 462,
+                  "startColumn": 9,
+                  "endLine": 462,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 468,
+                  "startColumn": 9,
+                  "endLine": 468,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+3 (incl 2 for nesting)",
+              "11": "+1",
+              "12": "+1",
+              "13": "+3 (incl 2 for nesting)",
+              "14": "+4 (incl 3 for nesting)",
+              "15": "+3 (incl 2 for nesting)",
+              "16": "+3 (incl 2 for nesting)",
+              "17": "+3 (incl 2 for nesting)",
+              "18": "+1",
+              "19": "+1",
+              "2": "+3 (incl 2 for nesting)",
+              "20": "+1",
+              "21": "+1",
+              "22": "+1",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+2 (incl 1 for nesting)",
+              "25": "+1",
+              "26": "+1",
+              "27": "+1",
+              "28": "+1",
+              "29": "+1",
+              "3": "+1",
+              "30": "+2 (incl 1 for nesting)",
+              "31": "+1",
+              "32": "+1",
+              "33": "+1",
+              "34": "+2 (incl 1 for nesting)",
+              "35": "+1",
+              "36": "+2 (incl 1 for nesting)",
+              "37": "+1",
+              "38": "+2 (incl 1 for nesting)",
+              "39": "+1",
+              "4": "+3 (incl 2 for nesting)",
+              "40": "+2 (incl 1 for nesting)",
+              "41": "+2 (incl 1 for nesting)",
+              "42": "+2 (incl 1 for nesting)",
+              "43": "+3 (incl 2 for nesting)",
+              "44": "+1",
+              "45": "+1",
+              "46": "+1",
+              "47": "+1",
+              "5": "+1",
+              "6": "+1",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S1006",
+          "level": "warning",
+          "message": "Add the default parameter value defined in the overridden method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 563,
+                  "startColumn": 14,
+                  "endLine": 563,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1006",
+          "level": "warning",
+          "message": "Add the default parameter value defined in the overridden method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 505,
+                  "startColumn": 125,
+                  "endLine": 505,
+                  "endColumn": 134
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 636,
+                  "startColumn": 29,
+                  "endLine": 636,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 643,
+                  "startColumn": 9,
+                  "endLine": 643,
+                  "endColumn": 12
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 647,
+                  "startColumn": 13,
+                  "endLine": 647,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 656,
+                  "startColumn": 9,
+                  "endLine": 656,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 659,
+                  "startColumn": 13,
+                  "endLine": 659,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 662,
+                  "startColumn": 17,
+                  "endLine": 662,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 678,
+                  "startColumn": 13,
+                  "endLine": 678,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 692,
+                  "startColumn": 9,
+                  "endLine": 692,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 696,
+                  "startColumn": 13,
+                  "endLine": 696,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 698,
+                  "startColumn": 84,
+                  "endLine": 698,
+                  "endColumn": 86
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 701,
+                  "startColumn": 9,
+                  "endLine": 701,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 636,
+                  "startColumn": 29,
+                  "endLine": 636,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+1 (recursion)",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+1",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 25,
+                  "endLine": 197,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 21,
+                  "endLine": 195,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 983,
+                  "startColumn": 29,
+                  "endLine": 983,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/src/EFCore.Sqlite.Core/Migrations/SqliteMigrationsSqlGenerator.cs",
+                "region": {
+                  "startLine": 993,
+                  "startColumn": 29,
+                  "endLine": 993,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA2249": {
+          "id": "CA2249",
+          "shortDescription": "Consider using 'string.Contains' instead of 'string.IndexOf'",
+          "fullDescription": "Calls to 'string.IndexOf' where the result is used to check for the presence/absence of a substring can be replaced by 'string.Contains'.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2249",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "EF1001": {
+          "id": "EF1001",
+          "shortDescription": "Internal EF Core API usage.",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "S1006": {
+          "id": "S1006",
+          "shortDescription": "Method overrides should not change parameter defaults",
+          "fullDescription": "Default arguments are determined by the static type of the object. If a default argument is different for a parameter in an overriding method, the value used in the call will be different when calls are made via the base or derived object, which may be contrary to developer expectations.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1006",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1066": {
+          "id": "S1066",
+          "shortDescription": "Collapsible \"if\" statements should be merged",
+          "fullDescription": "Merging collapsible if statements increases the code’s readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1066",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1075": {
+          "id": "S1075",
+          "shortDescription": "URIs should not be hardcoded",
+          "fullDescription": "Hardcoding a URI makes it difficult to test a program: path literals are not always portable across operating systems, a given absolute path may not exist on a specific test environment, a specified Internet URL may not be available when executing the tests, production environment filesystems usually differ from the development environment, …​etc. For all those reasons, a URI should never be hardcoded. Instead, it should be replaced by customizable parameter.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General exceptions should never be thrown",
+          "fullDescription": "Throwing such general exceptions as Exception, SystemException, ApplicationException, IndexOutOfRangeException, NullReferenceException, OutOfMemoryException and ExecutionEngineException prevents calling methods from handling true, system-generated exceptions differently than application-generated errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1186": {
+          "id": "S1186",
+          "shortDescription": "Methods should not be empty",
+          "fullDescription": "There are several reasons for a method not to have a method body:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1751": {
+          "id": "S1751",
+          "shortDescription": "Loops with at most one iteration should be refactored",
+          "fullDescription": "A loop with at most one iteration is equivalent to the use of an if statement to conditionally execute one piece of code. If the initial intention of the author was really to conditionally execute one piece of code, an if statement should be used instead. If that was not the initial intention of the author, the body of the loop should be fixed to use the nested return, break or throw statements in a more appropriate way.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1751",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1764": {
+          "id": "S1764",
+          "shortDescription": "Identical expressions should not be used on both sides of a binary operator",
+          "fullDescription": "Using the same value on either side of a binary operator is almost always a mistake. In the case of logical operators, it is either a copy/paste error and therefore a bug, or it is simply wasted code, and should be simplified. In the case of bitwise operators and most binary mathematical operators, having the same value on both sides of an operator yields predictable results, and should be simplified.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1764",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2344": {
+          "id": "S2344",
+          "shortDescription": "Enumeration type names should not have \"Flags\" or \"Enum\" suffixes",
+          "fullDescription": "The information that an enumeration type is actually an enumeration or a set of flags should not be duplicated in its name.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2344",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2436": {
+          "id": "S2436",
+          "shortDescription": "Types and methods should not have too many generic parameters",
+          "fullDescription": "A method or class with too many type parameters has likely aggregated too many responsibilities and should be split.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2436",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4136": {
+          "id": "S4136",
+          "shortDescription": "Method overloads should be grouped together",
+          "fullDescription": "For clarity, all overloads of the same method should be grouped together. That lets both users and maintainers quickly understand all the current available options.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4136",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

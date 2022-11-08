@@ -1,0 +1,1978 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'MatcherAttribute' is obsolete: 'This feature has been deprecated in favor of `Match.Create`.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 4179,
+                  "startColumn": 50,
+                  "endLine": 4179,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'MatcherAttribute' is obsolete: 'This feature has been deprecated in favor of `Match.Create`.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 4179,
+                  "startColumn": 50,
+                  "endLine": 4179,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0183",
+          "level": "warning",
+          "message": "The given expression is always of the provided ('int?') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 16,
+                  "endLine": 33,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0183",
+          "level": "warning",
+          "message": "The given expression is always of the provided ('object') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 16,
+                  "endLine": 41,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0184",
+          "level": "warning",
+          "message": "The given expression is never of the provided ('long') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 17,
+                  "endLine": 49,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0184",
+          "level": "warning",
+          "message": "The given expression is never of the provided ('int') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 17,
+                  "endLine": 57,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0184",
+          "level": "warning",
+          "message": "The given expression is never of the provided ('uint') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 17,
+                  "endLine": 65,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0184",
+          "level": "warning",
+          "message": "The given expression is never of the provided ('int?[]') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 17,
+                  "endLine": 81,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0184",
+          "level": "warning",
+          "message": "The given expression is never of the provided ('object[]') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 17,
+                  "endLine": 97,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0184",
+          "level": "warning",
+          "message": "The given expression is never of the provided ('uint[]') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 17,
+                  "endLine": 105,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0183",
+          "level": "warning",
+          "message": "The given expression is always of the provided ('IComparable') type",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/IsAssignableFromVsIsOperatorFixture.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 16,
+                  "endLine": 121,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0067",
+          "level": "warning",
+          "message": "The event 'IssueReportsFixture.Issue893.A.E' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2998,
+                  "startColumn": 33,
+                  "endLine": 2998,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/AfterReturnCallbackDelegateValidationFixture.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 15,
+                  "endLine": 36,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/AfterReturnCallbackDelegateValidationFixture.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 15,
+                  "endLine": 43,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CustomTypeMatchersFixture.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 15,
+                  "endLine": 103,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/AsInterfaceFixture.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 15,
+                  "endLine": 166,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/AsInterfaceFixture.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 15,
+                  "endLine": 158,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1004",
+          "level": "note",
+          "message": "Test methods should not be skipped",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/FSharpCompatibilityFixture.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 11,
+                  "endLine": 35,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/AfterReturnCallbackDelegateValidationFixture.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 15,
+                  "endLine": 64,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/AfterReturnCallbackDelegateValidationFixture.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 15,
+                  "endLine": 71,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1004",
+          "level": "note",
+          "message": "Test methods should not be skipped",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/ConstantMatcherFixture.cs",
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 10,
+                  "endLine": 37,
+                  "endColumn": 106
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MatcherAttributeFixture.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 15,
+                  "endLine": 106,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MatcherAttributeFixture.cs",
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 15,
+                  "endLine": 161,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Matchers/ParamArrayMatcherFixture.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 15,
+                  "endLine": 33,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedDelegatesFixture.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 15,
+                  "endLine": 14,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MatcherAttributeFixture.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 15,
+                  "endLine": 198,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MatcherAttributeFixture.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 15,
+                  "endLine": 220,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedDelegatesFixture.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 15,
+                  "endLine": 39,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 15,
+                  "endLine": 60,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockSequenceFixture.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 15,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs",
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 15,
+                  "endLine": 228,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 15,
+                  "endLine": 239,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CallbacksFixture.cs",
+                "region": {
+                  "startLine": 402,
+                  "startColumn": 15,
+                  "endLine": 402,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs",
+                "region": {
+                  "startLine": 738,
+                  "startColumn": 15,
+                  "endLine": 738,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecordsFixture.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 15,
+                  "endLine": 11,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecordsFixture.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 15,
+                  "endLine": 17,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 16,
+                  "endLine": 190,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/PropertiesFixture.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 15,
+                  "endLine": 55,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/PropertiesFixture.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 15,
+                  "endLine": 65,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 16,
+                  "endLine": 201,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/PropertiesFixture.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 15,
+                  "endLine": 75,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 4082,
+                  "startColumn": 15,
+                  "endLine": 4082,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/PropertiesFixture.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 15,
+                  "endLine": 83,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 4115,
+                  "startColumn": 15,
+                  "endLine": 4115,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 726,
+                  "startColumn": 16,
+                  "endLine": 726,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsDelegateValidationFixture.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 15,
+                  "endLine": 84,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsDelegateValidationFixture.cs",
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 15,
+                  "endLine": 91,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 1652,
+                  "startColumn": 16,
+                  "endLine": 1652,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2014,
+                  "startColumn": 16,
+                  "endLine": 2014,
+                  "endColumn": 116
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2169,
+                  "startColumn": 16,
+                  "endLine": 2169,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2277,
+                  "startColumn": 16,
+                  "endLine": 2277,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1004",
+          "level": "note",
+          "message": "Test methods should not be skipped",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2282,
+                  "startColumn": 10,
+                  "endLine": 2282,
+                  "endColumn": 122
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2289,
+                  "startColumn": 16,
+                  "endLine": 2289,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2302,
+                  "startColumn": 16,
+                  "endLine": 2302,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2197,
+                  "startColumn": 16,
+                  "endLine": 2197,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2582,
+                  "startColumn": 16,
+                  "endLine": 2582,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2546,
+                  "startColumn": 16,
+                  "endLine": 2546,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2590,
+                  "startColumn": 16,
+                  "endLine": 2590,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+                "region": {
+                  "startLine": 598,
+                  "startColumn": 15,
+                  "endLine": 598,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2308,
+                  "startColumn": 16,
+                  "endLine": 2308,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2434,
+                  "startColumn": 22,
+                  "endLine": 2434,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2324,
+                  "startColumn": 16,
+                  "endLine": 2324,
+                  "endColumn": 114
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2446,
+                  "startColumn": 22,
+                  "endLine": 2446,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/StubExtensionsFixture.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 15,
+                  "endLine": 191,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 5582,
+                  "startColumn": 16,
+                  "endLine": 5582,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 5353,
+                  "startColumn": 16,
+                  "endLine": 5353,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 5107,
+                  "startColumn": 16,
+                  "endLine": 5107,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 5250,
+                  "startColumn": 16,
+                  "endLine": 5250,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+                "region": {
+                  "startLine": 446,
+                  "startColumn": 15,
+                  "endLine": 446,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+                "region": {
+                  "startLine": 488,
+                  "startColumn": 15,
+                  "endLine": 488,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 4011,
+                  "startColumn": 16,
+                  "endLine": 4011,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 3974,
+                  "startColumn": 16,
+                  "endLine": 3974,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 3486,
+                  "startColumn": 16,
+                  "endLine": 3486,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 3292,
+                  "startColumn": 16,
+                  "endLine": 3292,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 3211,
+                  "startColumn": 16,
+                  "endLine": 3211,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 3302,
+                  "startColumn": 16,
+                  "endLine": 3302,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2751,
+                  "startColumn": 16,
+                  "endLine": 2751,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2757,
+                  "startColumn": 16,
+                  "endLine": 2757,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2764,
+                  "startColumn": 16,
+                  "endLine": 2764,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2771,
+                  "startColumn": 16,
+                  "endLine": 2771,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 2643,
+                  "startColumn": 16,
+                  "endLine": 2643,
+                  "endColumn": 92
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/UnmatchableMatchersFixture.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 15,
+                  "endLine": 21,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/UnmatchableMatchersFixture.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 15,
+                  "endLine": 28,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/UnmatchableMatchersFixture.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 15,
+                  "endLine": 35,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+                "region": {
+                  "startLine": 3416,
+                  "startColumn": 16,
+                  "endLine": 3416,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit2000",
+          "level": "warning",
+          "message": "The literal or constant value default(Times) should be passed as the 'expected' argument in the call to 'Assert.Equal(expected, actual)' in method 'default_Equals_AtLeastOnce' on type 'Equality'.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/TimesFixture.cs",
+                "region": {
+                  "startLine": 274,
+                  "startColumn": 5,
+                  "endLine": 274,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1004",
+          "level": "note",
+          "message": "Test methods should not be skipped",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs",
+                "region": {
+                  "startLine": 1338,
+                  "startColumn": 9,
+                  "endLine": 1338,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0067": {
+          "id": "CS0067",
+          "shortDescription": "Event is never used",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0067)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0183": {
+          "id": "CS0183",
+          "shortDescription": "'is' expression's given expression is always of the provided type",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0183)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0184": {
+          "id": "CS0184",
+          "shortDescription": "'is' expression's given expression is never of the provided type",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0184)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "xUnit1004": {
+          "id": "xUnit1004",
+          "shortDescription": "Test methods should not be skipped",
+          "defaultLevel": "note",
+          "helpUri": "https://xunit.github.io/xunit.analyzers/rules/xUnit1004",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        },
+        "xUnit2000": {
+          "id": "xUnit2000",
+          "shortDescription": "Constants and literals should be the expected argument",
+          "fullDescription": "The xUnit.net Assertion library produces the best error messages if the expected value is passed in as the expected argument.",
+          "defaultLevel": "warning",
+          "helpUri": "https://xunit.github.io/xunit.analyzers/rules/xUnit2000",
+          "properties": {
+            "category": "Assertions",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2599 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-2.22426.8 (7886fad5)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 1141,
+                  "startColumn": 25,
+                  "endLine": 1143,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 1229,
+                  "startColumn": 25,
+                  "endLine": 1230,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 1232,
+                  "startColumn": 25,
+                  "endLine": 1234,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 897,
+                  "startColumn": 25,
+                  "endLine": 899,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 967,
+                  "startColumn": 25,
+                  "endLine": 968,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 970,
+                  "startColumn": 25,
+                  "endLine": 972,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 656,
+                  "startColumn": 25,
+                  "endLine": 658,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 726,
+                  "startColumn": 25,
+                  "endLine": 727,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'RelationalIndexBuilderExtensions.HasName(IndexBuilder, string?)' is obsolete: 'Use HasDatabaseName() instead.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsInfrastructureSqlServerTest.cs",
+                "region": {
+                  "startLine": 729,
+                  "startColumn": 25,
+                  "endLine": 731,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'EntityTypeBuilder<RawSqlServerTest.MyContext13346.OrderSummary13346>.ToQuery(Expression<Func<IQueryable<RawSqlServerTest.MyContext13346.OrderSummary13346>>>)' is obsolete: 'Use InMemoryEntityTypeBuilderExtensions.ToInMemoryQuery'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/RawSqlServerTest.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 13,
+                  "endLine": 48,
+                  "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'EntityTypeBuilder<QueryBugsTest.IssueContext19708.CustomerView19708>.ToQuery(Expression<Func<IQueryable<QueryBugsTest.IssueContext19708.CustomerView19708>>>)' is obsolete: 'Use InMemoryEntityTypeBuilderExtensions.ToInMemoryQuery'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 6507,
+                  "startColumn": 13,
+                  "endLine": 6507,
+                  "endColumn": 109
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.DataAnnotationSqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.DataAnnotationSqlServerTest.DataAnnotationSqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/DataAnnotationSqlServerTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.DataAnnotationSqlServerTest.DataAnnotationSqlServerFixture",
+              "TFixtureName": "DataAnnotationSqlServerFixture",
+              "TestClassName": "DataAnnotationSqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindCompiledQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindCompiledQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindCompiledQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSqlQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindSqlQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindSqlQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsCollectionsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/ComplexNavigationsCollectionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerFixture",
+              "TFixtureName": "ComplexNavigationsQuerySqlServerFixture",
+              "TestClassName": "ComplexNavigationsCollectionsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.SpatialQuerySqlServerGeometryTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.SpatialQuerySqlServerGeometryFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/SpatialQuerySqlServerGeometryTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.SpatialQuerySqlServerGeometryFixture",
+              "TFixtureName": "SpatialQuerySqlServerGeometryFixture",
+              "TestClassName": "SpatialQuerySqlServerGeometryTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.SqlAzure.SqlAzureBatchingTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.SqlAzure.BatchingSqlAzureFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/SqlAzure/SqlAzureBatchingTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.SqlAzure.BatchingSqlAzureFixture",
+              "TFixtureName": "BatchingSqlAzureFixture",
+              "TestClassName": "SqlAzureBatchingTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.IncompleteMappingInheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.IncompleteMappingInheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/IncompleteMappingInheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.IncompleteMappingInheritanceQuerySqlServerFixture",
+              "TFixtureName": "IncompleteMappingInheritanceQuerySqlServerFixture",
+              "TestClassName": "IncompleteMappingInheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.DbContextPoolingTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/DbContextPoolingTest.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 14,
+                  "endLine": 20,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "DbContextPoolingTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindDbFunctionsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindDbFunctionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindDbFunctionsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPTManyToManyQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPTManyToManyQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPTManyToManyQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPTManyToManyQuerySqlServerFixture",
+              "TFixtureName": "TPTManyToManyQuerySqlServerFixture",
+              "TestClassName": "TPTManyToManyQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.InheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.InheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/InheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.InheritanceQuerySqlServerFixture",
+              "TFixtureName": "InheritanceQuerySqlServerFixture",
+              "TestClassName": "InheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.Ef6GroupBySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.Ef6GroupBySqlServerTest.Ef6GroupBySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/Ef6GroupBySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.Ef6GroupBySqlServerTest.Ef6GroupBySqlServerFixture",
+              "TFixtureName": "Ef6GroupBySqlServerFixture",
+              "TestClassName": "Ef6GroupBySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TemporalFiltersInheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TemporalFiltersInheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TemporalFiltersInheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TemporalFiltersInheritanceQuerySqlServerFixture",
+              "TFixtureName": "TemporalFiltersInheritanceQuerySqlServerFixture",
+              "TestClassName": "TemporalFiltersInheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindIncludeQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindIncludeQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindIncludeQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPTFiltersInheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPTFiltersInheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPTFiltersInheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPTFiltersInheritanceQuerySqlServerFixture",
+              "TFixtureName": "TPTFiltersInheritanceQuerySqlServerFixture",
+              "TestClassName": "TPTFiltersInheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryFiltersQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.Query.NorthwindQueryFiltersCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindQueryFiltersQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.Query.NorthwindQueryFiltersCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindQueryFiltersQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindQueryTaggingQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindQueryTaggingQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindQueryTaggingQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSetOperationsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindSetOperationsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindSetOperationsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.JsonQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.JsonQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/JsonQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.JsonQuerySqlServerFixture",
+              "TFixtureName": "JsonQuerySqlServerFixture",
+              "TestClassName": "JsonQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindFunctionsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindFunctionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindFunctionsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindJoinQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindJoinQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindJoinQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TemporalComplexNavigationsCollectionsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TemporalComplexNavigationsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TemporalComplexNavigationsCollectionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TemporalComplexNavigationsQuerySqlServerFixture",
+              "TFixtureName": "TemporalComplexNavigationsQuerySqlServerFixture",
+              "TestClassName": "TemporalComplexNavigationsCollectionsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsCollectionsSharedTypeQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/ComplexNavigationsCollectionsSharedTypeQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqlServerFixture",
+              "TFixtureName": "ComplexNavigationsSharedTypeQuerySqlServerFixture",
+              "TestClassName": "ComplexNavigationsCollectionsSharedTypeQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPTRelationshipsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPTRelationshipsQuerySqlServerTest.TPTRelationshipsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPTRelationshipsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPTRelationshipsQuerySqlServerTest.TPTRelationshipsQuerySqlServerFixture",
+              "TFixtureName": "TPTRelationshipsQuerySqlServerFixture",
+              "TestClassName": "TPTRelationshipsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.InheritanceRelationshipsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.InheritanceRelationshipsQuerySqlServerTest.InheritanceRelationshipsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/InheritanceRelationshipsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.InheritanceRelationshipsQuerySqlServerTest.InheritanceRelationshipsQuerySqlServerFixture",
+              "TFixtureName": "InheritanceRelationshipsQuerySqlServerFixture",
+              "TestClassName": "InheritanceRelationshipsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSplitIncludeQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindSplitIncludeQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 14,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindSplitIncludeQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPCManyToManyQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPCManyToManyQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPCManyToManyQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPCManyToManyQuerySqlServerFixture",
+              "TFixtureName": "TPCManyToManyQuerySqlServerFixture",
+              "TestClassName": "TPCManyToManyQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.FiltersInheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.FiltersInheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/FiltersInheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.FiltersInheritanceQuerySqlServerFixture",
+              "TFixtureName": "FiltersInheritanceQuerySqlServerFixture",
+              "TestClassName": "FiltersInheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindAggregateOperatorsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindAggregateOperatorsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindAggregateOperatorsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindAsNoTrackingQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindAsNoTrackingQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindAsNoTrackingQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TemporalComplexNavigationsCollectionsSharedTypeQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TemporalComplexNavigationsSharedTypeQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TemporalComplexNavigationsCollectionsSharedTypeQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TemporalComplexNavigationsSharedTypeQuerySqlServerFixture",
+              "TFixtureName": "TemporalComplexNavigationsSharedTypeQuerySqlServerFixture",
+              "TestClassName": "TemporalComplexNavigationsCollectionsSharedTypeQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.BuiltInDataTypesSqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.BuiltInDataTypesSqlServerTest.BuiltInDataTypesSqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BuiltInDataTypesSqlServerTest.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 14,
+                  "endLine": 16,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.BuiltInDataTypesSqlServerTest.BuiltInDataTypesSqlServerFixture",
+              "TFixtureName": "BuiltInDataTypesSqlServerFixture",
+              "TestClassName": "BuiltInDataTypesSqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/ComplexNavigationsSharedTypeQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.ComplexNavigationsSharedTypeQuerySqlServerFixture",
+              "TFixtureName": "ComplexNavigationsSharedTypeQuerySqlServerFixture",
+              "TestClassName": "ComplexNavigationsSharedTypeQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.SpatialQuerySqlServerGeographyTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.SpatialQuerySqlServerGeographyFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/SpatialQuerySqlServerGeographyTest.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 14,
+                  "endLine": 10,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.SpatialQuerySqlServerGeographyFixture",
+              "TFixtureName": "SpatialQuerySqlServerGeographyFixture",
+              "TestClassName": "SpatialQuerySqlServerGeographyTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindKeylessEntitiesQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindKeylessEntitiesQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindKeylessEntitiesQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSplitIncludeNoTrackingQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindSplitIncludeNoTrackingQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindSplitIncludeNoTrackingQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPCManyToManyNoTrackingQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPCManyToManyQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPCManyToManyNoTrackingQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPCManyToManyQuerySqlServerFixture",
+              "TFixtureName": "TPCManyToManyQuerySqlServerFixture",
+              "TestClassName": "TPCManyToManyNoTrackingQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPCRelationshipsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPCRelationshipsQuerySqlServerTest.TPCRelationshipsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPCRelationshipsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPCRelationshipsQuerySqlServerTest.TPCRelationshipsQuerySqlServerFixture",
+              "TFixtureName": "TPCRelationshipsQuerySqlServerFixture",
+              "TestClassName": "TPCRelationshipsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindSelectQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindSelectQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindSelectQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPCFiltersInheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPCFiltersInheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPCFiltersInheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPCFiltersInheritanceQuerySqlServerFixture",
+              "TFixtureName": "TPCFiltersInheritanceQuerySqlServerFixture",
+              "TestClassName": "TPCFiltersInheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPCGearsOfWarQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPCGearsOfWarQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPCGearsOfWarQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPCGearsOfWarQuerySqlServerFixture",
+              "TFixtureName": "TPCGearsOfWarQuerySqlServerFixture",
+              "TestClassName": "TPCGearsOfWarQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindWhereQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindWhereQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindWhereQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsCollectionsSplitQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/ComplexNavigationsCollectionsSplitQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerFixture",
+              "TFixtureName": "ComplexNavigationsQuerySqlServerFixture",
+              "TestClassName": "ComplexNavigationsCollectionsSplitQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPTGearsOfWarQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPTGearsOfWarQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPTGearsOfWarQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPTGearsOfWarQuerySqlServerFixture",
+              "TFixtureName": "TPTGearsOfWarQuerySqlServerFixture",
+              "TestClassName": "TPTGearsOfWarQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindGroupByQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindGroupByQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindGroupByQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/ComplexNavigationsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.ComplexNavigationsQuerySqlServerFixture",
+              "TFixtureName": "ComplexNavigationsQuerySqlServerFixture",
+              "TestClassName": "ComplexNavigationsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindMiscellaneousQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindMiscellaneousQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 14,
+                  "endLine": 11,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindMiscellaneousQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Migrations.MigrationsSqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Migrations.MigrationsSqlServerTest.MigrationsSqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Migrations/MigrationsSqlServerTest.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 14,
+                  "endLine": 18,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Migrations.MigrationsSqlServerTest.MigrationsSqlServerFixture",
+              "TFixtureName": "MigrationsSqlServerFixture",
+              "TestClassName": "MigrationsSqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Update.StoreValueGenerationIdentitySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Update.StoreValueGenerationIdentitySqlServerTest.StoreValueGenerationIdentitySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Update/StoreValueGenerationIdentitySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Update.StoreValueGenerationIdentitySqlServerTest.StoreValueGenerationIdentitySqlServerFixture",
+              "TFixtureName": "StoreValueGenerationIdentitySqlServerFixture",
+              "TestClassName": "StoreValueGenerationIdentitySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPTInheritanceQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPTInheritanceQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPTInheritanceQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPTInheritanceQuerySqlServerFixture",
+              "TFixtureName": "TPTInheritanceQuerySqlServerFixture",
+              "TestClassName": "TPTInheritanceQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.NorthwindNavigationsQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindNavigationsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.NorthwindQuerySqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindQuerySqlServerFixture",
+              "TestClassName": "NorthwindNavigationsQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.GearsOfWarQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.GearsOfWarQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/GearsOfWarQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 14,
+                  "endLine": 8,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.GearsOfWarQuerySqlServerFixture",
+              "TFixtureName": "GearsOfWarQuerySqlServerFixture",
+              "TestClassName": "GearsOfWarQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TPTManyToManyNoTrackingQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TPTManyToManyQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TPTManyToManyNoTrackingQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TPTManyToManyQuerySqlServerFixture",
+              "TFixtureName": "TPTManyToManyQuerySqlServerFixture",
+              "TestClassName": "TPTManyToManyNoTrackingQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.Query.TemporalGearsOfWarQuerySqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.Query.TemporalGearsOfWarQuerySqlServerFixture'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/TemporalGearsOfWarQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 14,
+                  "endLine": 11,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.Query.TemporalGearsOfWarQuerySqlServerFixture",
+              "TFixtureName": "TemporalGearsOfWarQuerySqlServerFixture",
+              "TestClassName": "TemporalGearsOfWarQuerySqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "xUnit1033",
+          "level": "note",
+          "message": "Test class 'Microsoft.EntityFrameworkCore.BulkUpdates.NorthwindBulkUpdatesSqlServerTest' does not contain constructor argument of type 'Microsoft.EntityFrameworkCore.BulkUpdates.NorthwindBulkUpdatesSqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>'. Add a constructor argument to consume the fixture data.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BulkUpdates/NorthwindBulkUpdatesSqlServerTest.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 14,
+                  "endLine": 6,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "TFixtureDisplayName": "Microsoft.EntityFrameworkCore.BulkUpdates.NorthwindBulkUpdatesSqlServerFixture<Microsoft.EntityFrameworkCore.TestUtilities.NoopModelCustomizer>",
+              "TFixtureName": "NorthwindBulkUpdatesSqlServerFixture",
+              "TestClassName": "NorthwindBulkUpdatesSqlServerTest"
+            }
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BatchingTest.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 17,
+                  "endLine": 162,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/OptimisticConcurrencySqlServerTest.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ManyToManyLoadSqlServerTest.cs",
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 27,
+                  "endLine": 258,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ManyToManyFieldsLoadSqlServerTest.cs",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 27,
+                  "endLine": 259,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/LazyLoadProxySqlServerTest.cs",
+                "region": {
+                  "startLine": 494,
+                  "startColumn": 27,
+                  "endLine": 500,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'ct' parameter to the 'SaveChangesAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ExecutionStrategyTest.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 37,
+                  "endLine": 128,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "ct",
+              "ParameterName": null,
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'ct' parameter to the 'AnyAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ExecutionStrategyTest.cs",
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 23,
+                  "endLine": 129,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "ct",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'ct' parameter to the 'AnyAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ExecutionStrategyTest.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 23,
+                  "endLine": 135,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "ct",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'ct' parameter to the 'AnyAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ExecutionStrategyTest.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 28,
+                  "endLine": 142,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "ct",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'ct' parameter to the 'AnyAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/ExecutionStrategyTest.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 28,
+                  "endLine": 149,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "ct",
+              "ParameterName": "cancellationToken",
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2016",
+          "level": "note",
+          "message": "Forward the 'cancellationToken' parameter to the 'ExecuteReaderAsync' method or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/TestUtilities/TestRelationalCommandBuilderFactory.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 32,
+                  "endLine": 197,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ArgumentName": "cancellationToken",
+              "ParameterName": null,
+              "ShouldFix": "1"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/LoadSqlServerTest.cs",
+                "region": {
+                  "startLine": 1672,
+                  "startColumn": 27,
+                  "endLine": 1678,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/SqlServerEndToEndTest.cs",
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 23,
+                  "endLine": 436,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/SqlServerEndToEndTest.cs",
+                "region": {
+                  "startLine": 493,
+                  "startColumn": 17,
+                  "endLine": 493,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindFunctionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 72,
+                  "endLine": 183,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindFunctionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 72,
+                  "endLine": 184,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindFunctionsQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 184,
+                  "startColumn": 103,
+                  "endLine": 184,
+                  "endColumn": 106
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/DbContextPoolingTest.cs",
+                "region": {
+                  "startLine": 1830,
+                  "startColumn": 17,
+                  "endLine": 1830,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/DbContextPoolingTest.cs",
+                "region": {
+                  "startLine": 1946,
+                  "startColumn": 23,
+                  "endLine": 1946,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindMiscellaneousQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 5985,
+                  "startColumn": 17,
+                  "endLine": 5985,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindMiscellaneousQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6031,
+                  "startColumn": 23,
+                  "endLine": 6031,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/NorthwindMiscellaneousQuerySqlServerTest.cs",
+                "region": {
+                  "startLine": 6045,
+                  "startColumn": 23,
+                  "endLine": 6045,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BuiltInDataTypesSqlServerTest.cs",
+                "region": {
+                  "startLine": 4212,
+                  "startColumn": 28,
+                  "endLine": 4212,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BuiltInDataTypesSqlServerTest.cs",
+                "region": {
+                  "startLine": 4222,
+                  "startColumn": 28,
+                  "endLine": 4222,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BuiltInDataTypesSqlServerTest.cs",
+                "region": {
+                  "startLine": 4228,
+                  "startColumn": 32,
+                  "endLine": 4228,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1834",
+          "level": "note",
+          "message": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/BuiltInDataTypesSqlServerTest.cs",
+                "region": {
+                  "startLine": 4253,
+                  "startColumn": 32,
+                  "endLine": 4253,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 23,
+                  "endLine": 513,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 841,
+                  "startColumn": 17,
+                  "endLine": 841,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 3646,
+                  "startColumn": 31,
+                  "endLine": 3646,
+                  "endColumn": 86
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 4266,
+                  "startColumn": 31,
+                  "endLine": 4266,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 4670,
+                  "startColumn": 31,
+                  "endLine": 4670,
+                  "endColumn": 87
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 6709,
+                  "startColumn": 31,
+                  "endLine": 6709,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 6984,
+                  "startColumn": 31,
+                  "endLine": 6984,
+                  "endColumn": 91
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 7248,
+                  "startColumn": 31,
+                  "endLine": 7248,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 8600,
+                  "startColumn": 72,
+                  "endLine": 8600,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/msedlyarskiy/benchmark/projects/efcore/test/EFCore.SqlServer.FunctionalTests/Query/QueryBugsTest.cs",
+                "region": {
+                  "startLine": 9522,
+                  "startColumn": 31,
+                  "endLine": 9522,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1834": {
+          "id": "CA1834",
+          "shortDescription": "Consider using 'StringBuilder.Append(char)' when applicable",
+          "fullDescription": "'StringBuilder.Append(char)' is more efficient than 'StringBuilder.Append(string)' when the string is a single character. When calling 'Append' with a constant, prefer using a constant char rather than a constant string containing one character.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1834",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1845": {
+          "id": "CA1845",
+          "shortDescription": "Use span-based 'string.Concat'",
+          "fullDescription": "It is more efficient to use 'AsSpan' and 'string.Concat', instead of 'Substring' and a concatenation operator.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1847": {
+          "id": "CA1847",
+          "shortDescription": "Use char literal for a single character lookup",
+          "fullDescription": "'string.Contains(char)' is available as a better performing overload for single char lookup.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2016": {
+          "id": "CA2016",
+          "shortDescription": "Forward the 'CancellationToken' parameter to methods",
+          "fullDescription": "Forward the 'CancellationToken' parameter to methods to ensure the operation cancellation notifications gets properly propagated, or pass in 'CancellationToken.None' explicitly to indicate intentionally not propagating the token.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2016",
+          "properties": {
+            "category": "Reliability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "Type or member is obsolete",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "xUnit1033": {
+          "id": "xUnit1033",
+          "shortDescription": "Test classes decorated with 'Xunit.IClassFixture<TFixture>' or 'Xunit.ICollectionFixture<TFixture>' should add a constructor argument of type TFixture",
+          "defaultLevel": "note",
+          "helpUri": "https://xunit.net/xunit.analyzers/rules/xUnit1033",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}
