@@ -21,8 +21,10 @@ solutions = [
     "spbu-homeworks-1/Semester3/Homework3/ThreadPoolTask/ThreadPoolTask.sln",
     "spbu-homeworks-1/Semester2/Homework1/BurrowsWheeler/BurrowsWheeler.sln",
     "spbu-homeworks-1/Semester2/Homework1/Sorting/Sorting.sln",
+
     # "spbu-homeworks-1/Semester2/Homework7/Calculator/Calculator.sln", -- WinForms
     # "spbu-homeworks-1/Semester2/Homework7/Clock/Clock.sln", -- WinForms
+
     "spbu-homeworks-1/Semester2/Homework4/UniqueList/UniqueList.sln",
     "spbu-homeworks-1/Semester2/Homework4/ParseTree/ParseTree.sln",
     "spbu-homeworks-1/Semester2/Homework6/Game/Game.sln",
@@ -45,9 +47,11 @@ solutions = [
     # "PowerShell/test/tools/TestAlc/TestAlc.sln",
     # "PowerShell/PowerShell.sln",
 
-    "parallel-programming-1-thread-pool/thread-pool.sln"
+    "parallel-programming-1-thread-pool/thread-pool.sln",
     "BenchmarkDotNet",
-    "ILSpy/ILSpy.XPlat.slnf"
+    "ILSpy/ILSpy.XPlat.slnf",
+    "RestSharp/RestSharp.sln",
+    "Newtonsoft.Json/Src/Newtonsoft.Json.sln"
 ]
 
 bin_directories = [
@@ -176,7 +180,7 @@ bin_directories = [
     # "PowerShell/src/Microsoft.PowerShell.Commands.Management/bin",
     # "parallel-programming-1-thread-pool/thread-pool-tests/bin",
     # "parallel-programming-1-thread-pool/thread-pool/bin",
-    
+
     # "efcore/artifacts/bin/EFCore",
     # "efcore/artifacts/bin/EFCore.Abstractions",
     # "efcore/artifacts/bin/EFCore.Analyzers",
