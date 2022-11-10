@@ -1,0 +1,2574 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.Tests(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests.ManualRunning(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests.ManualRunning(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Samples(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.Samples(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests.Static(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests.Static(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests.ConfigPerAssembly(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests.ConfigPerAssembly(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests.DisabledOptimizations(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests.DisabledOptimizations(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests.EnabledOptimizations(net462)"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests.EnabledOptimizations(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests.CustomPaths"
+      ],
+      "message": "Some of the references in 'BenchmarkDotNet.IntegrationTests.CustomPaths' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Analysers/ConclusionHelper.cs",
+          "line": 41,
+          "endLine": 41,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2852731,
+            "currentLine": 1260682384,
+            "nextLine": -148327694,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'conclusion.Report' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Columns/MetricColumn.cs",
+          "line": 34,
+          "endLine": 34,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -563543700,
+            "nextLine": 44859,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: metric.Value == 0.0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Configs/ImmutableConfigBuilder.cs",
+          "line": 93,
+          "endLine": 93,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1292597274,
+            "nextLine": -160659028,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: hardwareCountersDiagnoser != default(IDiagnoser).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Diagnosers/PerfCollectProfiler.cs",
+          "line": 130,
+          "endLine": 130,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1255586729,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'perfCollectFile.Exists' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineStage.cs",
+          "line": 10,
+          "endLine": 10,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 191005471,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineStage.cs",
+          "line": 12,
+          "endLine": 12,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'EngineStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineWarmupStage.cs",
+          "line": 8,
+          "endLine": 8,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 241647305,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineWarmupStage.cs",
+          "line": 10,
+          "endLine": 10,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'EngineWarmupStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3130",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineGeneralStage.cs",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 588724096,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3073",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/NoAcknowledgementConsoleHost.cs",
+          "line": 10,
+          "endLine": 10,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1974034569,
+            "currentLine": -71262728,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/NoAcknowledgementConsoleHost.cs",
+          "line": 12,
+          "endLine": 12,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'NoAcknowledgementConsoleHost' class. Inspect: outWriter.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/RunResults.cs",
+          "line": 55,
+          "endLine": 55,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 916244271,
+            "nextLine": -1626474624,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'Overhead' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Environments/OsBrandStringHelper.cs",
+          "line": 252,
+          "endLine": 252,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1170711070,
+            "currentLine": 93289109,
+            "nextLine": 88539,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'numbers.Length == 0' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3027",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Environments/ProcessorBrandStringHelper.cs",
+          "line": 106,
+          "endLine": 106,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 974024321,
+            "nextLine": 17733,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The variable 'line' was utilized in the logical expression before it was verified against null in the same logical expression.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/RPlotExporter.cs",
+          "line": 128,
+          "endLine": 128,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/ConsoleExitHandler.cs",
+          "line": 32,
+          "endLine": 32,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1808880730,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/ConsoleExitHandler.cs",
+          "line": 46,
+          "endLine": 46,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1808880730,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/ConsoleExitHandler.cs",
+          "line": 70,
+          "endLine": 70,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/HashCode.cs",
+          "line": 119,
+          "endLine": 119,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1527838027,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3059",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/Reflection.Emit/MethodBuilderExtensions.cs",
+          "line": 30,
+          "endLine": 30,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -210697755,
+            "currentLine": 212369566,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Members of the 'MethodImplAttributes' enum are used in bitwise operations. Consider adding '[Flags]' attribute to the enum.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3059",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/Reflection.Emit/MethodBuilderExtensions.cs",
+          "line": 38,
+          "endLine": 38,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -210697755,
+            "currentLine": -896931767,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Members of the 'MethodImplAttributes' enum are used in bitwise operations. Consider adding '[Flags]' attribute to the enum.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3059",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/Taskbar/TaskbarProgress.cs",
+          "line": 67,
+          "endLine": 67,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1962522524,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Members of the 'TaskbarProgressState' enum are powers of 2. Consider adding '[Flags]' attribute to the enum.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs",
+          "line": 110,
+          "endLine": 110,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1191722473,
+            "currentLine": 1520189529,
+            "nextLine": -517767019,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: value == double.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs",
+          "line": 112,
+          "endLine": 112,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -517767019,
+            "currentLine": -1254587129,
+            "nextLine": -1035531722,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: value == double.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs",
+          "line": 114,
+          "endLine": 114,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1035531722,
+            "currentLine": -1254587257,
+            "nextLine": -1035531978,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: value == double.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs",
+          "line": 129,
+          "endLine": 129,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1432894953,
+            "currentLine": 760139353,
+            "nextLine": -517295979,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: value == float.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs",
+          "line": 131,
+          "endLine": 131,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -517295979,
+            "currentLine": 1520277767,
+            "nextLine": -1034589642,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: value == float.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs",
+          "line": 133,
+          "endLine": 133,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1034589642,
+            "currentLine": 1520277639,
+            "nextLine": -1034589898,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An odd precise comparison: value == float.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Jobs/NugetReference.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -2062524561,
+            "currentLine": -1414798565,
+            "nextLine": 1654835068,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'parts.Length == 0' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs",
+          "line": 12,
+          "endLine": 12,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 412209930,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs",
+          "line": 128,
+          "endLine": 128,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs",
+          "line": 149,
+          "endLine": 149,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Unsafe locking on 'this' instance in class 'AsyncProcessOutputReader'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/LinqPadLogger.cs",
+          "line": 32,
+          "endLine": 32,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Mathematics/NumeralSystemExtensions.cs",
+          "line": 41,
+          "endLine": 41,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -763257620,
+            "currentLine": 1242658203,
+            "nextLine": -393737740,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'number >= 1' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3142",
+      "cwe": 561,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Mathematics/NumeralSystemExtensions.cs",
+          "line": 42,
+          "endLine": 42,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1242658203,
+            "currentLine": -393737740,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Unreachable code detected. It is possible that an error is present.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3125",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs",
+          "line": 197,
+          "endLine": 197,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1344046648,
+            "nextLine": -779386060,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs",
+          "line": 190,
+          "endLine": 190,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'y' object was used after it was verified against null. Check lines: 197, 190.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3125",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs",
+          "line": 221,
+          "endLine": 221,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 48334237,
+            "currentLine": -1706278200,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs",
+          "line": 219,
+          "endLine": 219,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'y' object was used after it was verified against null. Check lines: 221, 219.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3125",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Parameters/ParameterComparer.cs",
+          "line": 27,
+          "endLine": 27,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 48334237,
+            "currentLine": 209640218,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Parameters/ParameterComparer.cs",
+          "line": 25,
+          "endLine": 25,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'y' object was used after it was verified against null. Check lines: 27, 25.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/Cpu/MosCpuInfoProvider.cs",
+          "line": 55,
+          "endLine": 55,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 548891916,
+            "currentLine": -552907181,
+            "nextLine": -1176319714,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'nominalClockSpeed > 0 && logicalCoreCount > 0' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/Cpu/MosCpuInfoProvider.cs",
+          "line": 57,
+          "endLine": 57,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1176319714,
+            "currentLine": 1225767690,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'minClockSpeed > 0 && logicalCoreCount > 0' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3108",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 348,
+          "endLine": 348,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1156944313,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "It is not recommended to return 'null' from 'ToString()' method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 688,
+          "endLine": 688,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1172813,
+            "currentLine": 171715,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression '!done' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 740,
+          "endLine": 740,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1172813,
+            "currentLine": 171715,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression '!done' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 804,
+          "endLine": 804,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 18762573,
+            "currentLine": 2748187,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression '!complete' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3029",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 992,
+          "endLine": 992,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1527,
+            "currentLine": 189572741,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 1001,
+          "endLine": 1001,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 992, 1001.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3009",
+      "cwe": 393,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs",
+          "line": 1124,
+          "endLine": 1124,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1406389476,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "It's odd that this method always returns one and the same value of 'true'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Properties/BenchmarkDotNetInfo.cs",
+          "line": 26,
+          "endLine": 26,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 130823666,
+            "currentLine": 2049405550,
+            "nextLine": -687980277,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'version.EndsWith(\".0\") && PrereleaseLabel == \"\"' is always false. Probably the '||' operator should be used here.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Properties/BenchmarkDotNetInfo.cs",
+          "line": 28,
+          "endLine": 28,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -687980277,
+            "currentLine": 661789391,
+            "nextLine": -843696006,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: PrereleaseLabel == \"-develop\".",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/RuntimeInformation.cs",
+          "line": 392,
+          "endLine": 392,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/RuntimeInformation.cs",
+          "line": 422,
+          "endLine": 422,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3125",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/DescriptorComparer.cs",
+          "line": 30,
+          "endLine": 30,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1931551291,
+            "currentLine": -1125334240,
+            "nextLine": 1462900535,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/DescriptorComparer.cs",
+          "line": 25,
+          "endLine": 25,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'y' object was used after it was verified against null. Check lines: 30, 25.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/ConsumableTypeInfo.cs",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -471687984,
+            "nextLine": 462238625,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Expression 'OverheadMethodReturnType == null' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Emitters/ConsumableConsumeEmitter.cs",
+          "line": 30,
+          "endLine": 30,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -121085324,
+            "currentLine": 147617879,
+            "nextLine": -440604097,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Emitters/ConsumableConsumeEmitter.cs",
+          "line": 27,
+          "endLine": 27,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Possible null dereference of 'argType'. The 'FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Runnable/RunnableReflectionHelpers.cs",
+          "line": 28,
+          "endLine": 28,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 305621376,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.NoEmit/BenchmarkActionFactory_Base.cs",
+          "line": 59,
+          "endLine": 59,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 11554921,
+            "nextLine": 1186151891,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Checking value of 'callback' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess/BenchmarkActionFactory_Base.cs",
+          "line": 62,
+          "endLine": 62,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 11554921,
+            "nextLine": 1186151891,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Checking value of 'callback' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3130",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.NoEmit/InProcessNoEmitRunner.cs",
+          "line": 42,
+          "endLine": 42,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 179601416,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/LargeAddressAware.cs",
+          "line": 48,
+          "endLine": 48,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 103942767,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/LargeAddressAware.cs",
+          "line": 45,
+          "endLine": 45,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'stream.Position' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 48, 45.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3130",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess/InProcessRunner.cs",
+          "line": 41,
+          "endLine": 41,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 179601416,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/BenchmarkRunnerClean.cs",
+          "line": 649,
+          "endLine": 649,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3057",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Disassembler.x64/DataContracts.cs",
+          "line": 186,
+          "endLine": 186,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -240346816,
+            "nextLine": 1687301203,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet(netstandard2.0)"
+      ],
+      "message": "The 'Substring' function could receive the '-1' value while non-negative value is expected. Inspect the first argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroExceptionDiagnoser.cs",
+          "line": 21,
+          "endLine": 21,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Samples(net462)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs",
+          "line": 14,
+          "endLine": 14,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1817418173,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs",
+          "line": 19,
+          "endLine": 19,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs",
+          "line": 20,
+          "endLine": 20,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Samples(net462)"
+      ],
+      "message": "The 'Algo_Md5VsSha256' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs",
+          "line": 61,
+          "endLine": 61,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1366758020,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs",
+          "line": 63,
+          "endLine": 63,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Diagnostics.Windows"
+      ],
+      "message": "It is odd that the body of 'OnOverheadActualStart' function is fully equivalent to the body of 'OnOverheadActualStop' function (61, line 63).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs",
+          "line": 65,
+          "endLine": 65,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 526738054,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs",
+          "line": 67,
+          "endLine": 67,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Diagnostics.Windows"
+      ],
+      "message": "It is odd that the body of 'OnWorkloadActualStart' function is fully equivalent to the body of 'OnWorkloadActualStop' function (65, line 67).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs",
+          "line": 10,
+          "endLine": 10,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1260613022,
+            "currentLine": 357403016,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs",
+          "line": 15,
+          "endLine": 15,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs",
+          "line": 16,
+          "endLine": 16,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Samples(net462)"
+      ],
+      "message": "The 'IntroStatisticsColumns' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Builders/HostEnvironmentInfoBuilder.cs",
+          "line": 69,
+          "endLine": 69,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1157548464,
+            "currentLine": -1671116831,
+            "nextLine": 1101812948,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "Constructor parameter 'jitModules' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/ArtifactFileNameHelperTests.cs",
+          "line": 84,
+          "endLine": 84,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1990853448,
+            "currentLine": 1405058646,
+            "nextLine": 5282465,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "The return value of function 'IterateAll' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Mathematics/StatisticsTests.cs",
+          "line": 83,
+          "endLine": 83,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 966058236,
+            "currentLine": -221071626,
+            "nextLine": -864723933,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "The constant 0.70711 is being utilized. The resulting value could be inaccurate. Consider using Math.Sqrt(0.5).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3123",
+      "cwe": 783,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Reports/DisplayPrecisionManagerTests.cs",
+          "line": 77,
+          "endLine": 77,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1833064743,
+            "currentLine": 530774870,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "Perhaps the '??' operator works in a different way than it was expected. Its priority is lower than priority of other operators in its left part.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs",
+          "line": 218,
+          "endLine": 218,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": -1527175944,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs",
+          "line": 221,
+          "endLine": 221,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (218, line 221).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs",
+          "line": 252,
+          "endLine": 252,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": 765010389,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs",
+          "line": 255,
+          "endLine": 255,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.Tests(net462)"
+      ],
+      "message": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (252, line 255).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs",
+          "line": 454,
+          "endLine": 454,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 480477321,
+            "currentLine": 1805431647,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An odd precise comparison: passed != double.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs",
+          "line": 457,
+          "endLine": 457,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 960956982,
+            "currentLine": 996984085,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An odd precise comparison: passed != double.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs",
+          "line": 460,
+          "endLine": 460,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 960956726,
+            "currentLine": 997514517,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An odd precise comparison: passed != double.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs",
+          "line": 499,
+          "endLine": 499,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1907352440,
+            "currentLine": 737722310,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An odd precise comparison: passed != float.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs",
+          "line": 502,
+          "endLine": 502,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 480260661,
+            "currentLine": 1699468991,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An odd precise comparison: passed != float.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3024",
+      "cwe": 682,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs",
+          "line": 505,
+          "endLine": 505,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 480260405,
+            "currentLine": 1699204799,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An odd precise comparison: passed != float.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ExceptionDiagnoserTests.cs",
+          "line": 44,
+          "endLine": 44,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/DisassemblyDiagnoserTests.cs",
+          "line": 69,
+          "endLine": 69,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -741459793,
+            "nextLine": 236385,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "Expression 'new Random(123).Next(0, 10) == 11' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 152,
+          "endLine": 152,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": -1786423956,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 194,
+          "endLine": 194,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "It is odd that the body of 'InvokeOnceTaskAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskAsync' function (152, line 194).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 159,
+          "endLine": 159,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": -556707733,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 201,
+          "endLine": 201,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "It is odd that the body of 'InvokeOnceRefType' function is fully equivalent to the body of 'InvokeOnceStaticRefType' function (159, line 201).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 166,
+          "endLine": 166,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": 786776587,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 208,
+          "endLine": 208,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "It is odd that the body of 'InvokeOnceValueType' function is fully equivalent to the body of 'InvokeOnceStaticValueType' function (166, line 208).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 173,
+          "endLine": 173,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": 1430020517,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 215,
+          "endLine": 215,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "It is odd that the body of 'InvokeOnceTaskOfTAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskOfTAsync' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 181,
+          "endLine": 181,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 109403,
+            "currentLine": -1895304092,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs",
+          "line": 223,
+          "endLine": 223,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "It is odd that the body of 'InvokeOnceValueTaskOfT' function is fully equivalent to the body of 'InvokeOnceStaticValueTaskOfT' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs",
+          "line": 222,
+          "endLine": 222,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1343097311,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs",
+          "line": 228,
+          "endLine": 228,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs",
+          "line": 218,
+          "endLine": 218,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "Possible null dereference of the 2nd argument 'module2' inside method. The 'SingleOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs",
+          "line": 288,
+          "endLine": 288,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -293178129,
+            "currentLine": 53112481,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs",
+          "line": 315,
+          "endLine": 315,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs",
+          "line": 287,
+          "endLine": 287,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "BenchmarkDotNet.IntegrationTests(net462)"
+      ],
+      "message": "Possible null dereference of the 2nd argument 'field2' inside method. The 'SingleOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

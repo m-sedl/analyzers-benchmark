@@ -1,0 +1,3719 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Some of the references in 'xunit.v3.common' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/StubExecutorWrapper.cs",
+          "line": 61,
+          "endLine": 61,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -2124876009,
+            "currentLine": -20172139,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Unsafe invocation of event, NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/StubExecutorWrapper.cs",
+          "line": 75,
+          "endLine": 75,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -44501578,
+            "currentLine": -21148011,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Unsafe invocation of event, NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/StubExecutorWrapper.cs",
+          "line": 90,
+          "endLine": 90,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -728173114,
+            "currentLine": -21665963,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Unsafe invocation of event, NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/StubExecutorWrapper.cs",
+          "line": 105,
+          "endLine": 105,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1562839626,
+            "currentLine": -21163755,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Unsafe invocation of event, NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit.extensions/DataTheories/TheoryAttributeTests.cs",
+          "line": 116,
+          "endLine": 116,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 15604502,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit.extensions/DataTheories/TheoryAttributeTests.cs",
+          "line": 97,
+          "endLine": 97,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "The name of 'TheoryDataProperty' property in a nested type is ambiguous. The outer type contains static property with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3114",
+      "cwe": 404,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/MockAssembly.cs",
+          "line": 122,
+          "endLine": 122,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 2082594062,
+            "nextLine": 40744709,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "IDisposable object 'mate' is not disposed before method returns.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/AcceptanceTestInNewAppDomain.cs",
+          "line": 40,
+          "endLine": 40,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1271353722,
+            "nextLine": 982628124,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: xunitCopyFilename != null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/utility/AcceptanceTestInNewAppDomain.cs",
+          "line": 43,
+          "endLine": 43,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -84740361,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/PropertyChangedTests.cs",
+          "line": 85,
+          "endLine": 85,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1753795110,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/PropertyChangedTests.cs",
+          "line": 90,
+          "endLine": 90,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Unsafe invocation of event 'PropertyChanged', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Commands/ClassCommands/TestClassCommandRunnerTests.cs",
+          "line": 205,
+          "endLine": 205,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 5982349,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Commands/ClassCommands/TestClassCommandRunnerTests.cs",
+          "line": 211,
+          "endLine": 211,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "It is odd that the body of 'Test1' function is fully equivalent to the body of 'Test2' function (205, line 211).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3126",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/EqualTests.cs",
+          "line": 224,
+          "endLine": 224,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1280342909,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Type 'EquatableObject' implementing IEquatable<T> interface does not override 'GetHashCode' method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Exceptions/DoesNotThrowExceptionTests.cs",
+          "line": 21,
+          "endLine": 21,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 795687,
+            "currentLine": -1750381858,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Exceptions/AssertExceptionTests.cs",
+          "line": 42,
+          "endLine": 42,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 2127721199,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Exceptions/AssertExceptionTests.cs",
+          "line": 65,
+          "endLine": 65,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 795687,
+            "currentLine": -254784415,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Exceptions/ThrowsExceptionTests.cs",
+          "line": 21,
+          "endLine": 21,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 795687,
+            "currentLine": -1965672857,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v1.tests/xunit/Sdk/Results/FailedResultTests.cs",
+          "line": 120,
+          "endLine": 120,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1059278038,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Internal/Guard.cs",
+          "line": 185,
+          "endLine": 185,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 11786089,
+            "nextLine": 1503580726,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "Checking value of 'argValue' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Internal/Guard.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -156235077,
+            "currentLine": -1281457207,
+            "nextLine": 58231106,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Internal/Guard.cs",
+          "line": 181,
+          "endLine": 181,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v1.tests"
+      ],
+      "message": "It is odd that the body of 'ArgumentNotNull' function is fully equivalent to the body of 'GenericArgumentNotNull' function (64, line 181).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/Frameworks/Runners/XunitTestAssemblyRunnerTests.cs",
+          "line": 363,
+          "endLine": 363,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1541752317,
+            "currentLine": 1247212887,
+            "nextLine": 124682061,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v2.tests"
+      ],
+      "message": "Expression 'testCases' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseDescriptorFactoryTests.cs",
+          "line": 16,
+          "endLine": 16,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1163968043,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseDescriptorFactoryTests.cs",
+          "line": 18,
+          "endLine": 18,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v2.tests"
+      ],
+      "message": "The 'MockDiscovery' class containing IDisposable members does not itself implement IDisposable. Inspect: discoverer.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseDescriptorFactoryTests.cs",
+          "line": 84,
+          "endLine": 84,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1163947307,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseDescriptorFactoryTests.cs",
+          "line": 86,
+          "endLine": 86,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v2.tests"
+      ],
+      "message": "The 'RealDiscovery' class containing IDisposable members does not itself implement IDisposable. Inspect: discoverer.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseBulkDeserializerTests.cs",
+          "line": 8,
+          "endLine": 8,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 158186932,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseBulkDeserializerTests.cs",
+          "line": 10,
+          "endLine": 10,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/Sdk/TestCaseBulkDeserializerTests.cs",
+          "line": 11,
+          "endLine": 11,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v2.tests"
+      ],
+      "message": "The 'TestCaseBulkDeserializerTests' class containing IDisposable members does not itself implement IDisposable. Inspect: discoverer, executor.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3074",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/TestUtility/TestDoubles/SpyMessageSink.cs",
+          "line": 7,
+          "endLine": 7,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 463017379,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v2.tests/TestUtility/TestDoubles/SpyMessageSink.cs",
+          "line": 21,
+          "endLine": 21,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v2.tests"
+      ],
+      "message": "The 'SpyMessageSink' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/EventAsserts.cs",
+          "line": 37,
+          "endLine": 37,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -644170316,
+            "nextLine": -950654526,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'raisedEvent.Arguments' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/EventAsserts.cs",
+          "line": 84,
+          "endLine": 84,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -644170316,
+            "nextLine": -950654526,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'raisedEvent.Arguments' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertComparer.cs",
+          "line": 32,
+          "endLine": 32,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2111,
+            "currentLine": 48355945,
+            "nextLine": 11235,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'x' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertComparer.cs",
+          "line": 32,
+          "endLine": 32,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2111,
+            "currentLine": 48355945,
+            "nextLine": 11235,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'y' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertComparer.cs",
+          "line": 34,
+          "endLine": 34,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 11235,
+            "currentLine": 94441,
+            "nextLine": 22429,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'x' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertComparer.cs",
+          "line": 36,
+          "endLine": 36,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 22429,
+            "currentLine": 94313,
+            "nextLine": 11233,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'y' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2111,
+            "currentLine": 48355945,
+            "nextLine": 88117,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'x' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2111,
+            "currentLine": 48355945,
+            "nextLine": 88117,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'y' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 74,
+          "endLine": 74,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 88117,
+            "currentLine": 48313449,
+            "nextLine": 176909,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'x' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 74,
+          "endLine": 74,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 88117,
+            "currentLine": 48313449,
+            "nextLine": 176909,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Checking value of 'y' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 90,
+          "endLine": 90,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 106,
+          "endLine": 106,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/AssertEqualityComparer.cs",
+          "line": 187,
+          "endLine": 187,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/ArgumentFormatter.cs",
+          "line": 170,
+          "endLine": 170,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert/Asserts/Sdk/ArgumentFormatter.cs",
+          "line": 195,
+          "endLine": 195,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -126724859,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert"
+      ],
+      "message": "Expression 'Convert.ToString(value, CultureInfo.CurrentCulture)' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3115",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert.tests/Asserts/EqualityAssertsTests.cs",
+          "line": 205,
+          "endLine": 205,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -50364227,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert.tests(net472)"
+      ],
+      "message": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3126",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert.tests/Asserts/EqualityAssertsTests.cs",
+          "line": 258,
+          "endLine": 258,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1317203411,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert.tests(net472)"
+      ],
+      "message": "Type 'EquatableBaseClass' implementing IEquatable<T> interface does not override 'GetHashCode' method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3115",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert.tests/Asserts/EqualityAssertsTests.cs",
+          "line": 673,
+          "endLine": 673,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1426409285,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert.tests(net472)"
+      ],
+      "message": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3126",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.assert.tests/Asserts/EqualityAssertsTests.cs",
+          "line": 710,
+          "endLine": 710,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1053478051,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.assert.tests(net472)"
+      ],
+      "message": "Type 'SpyEquatable' implementing IEquatable<T> interface does not override 'GetHashCode' method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3130",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Reflection/ReflectionTypeInfo.cs",
+          "line": 117,
+          "endLine": 117,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 15637989,
+            "currentLine": -709595524,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Reflection/ReflectionAttributeInfo.cs",
+          "line": 54,
+          "endLine": 54,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -320554880,
+            "currentLine": -221253849,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Reflection/Reflector.cs",
+          "line": 136,
+          "endLine": 136,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Possible null dereference of method return value when it is passed to method as its 1st argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3156",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Reflection/ReflectionAttributeInfo.cs",
+          "line": 100,
+          "endLine": 100,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -214775171,
+            "currentLine": 2133869340,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "The first argument of the 'Concat' method is not expected to be null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Reflection/Reflector.cs",
+          "line": 97,
+          "endLine": 97,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1340779895,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Serialization/XunitSerializationInfoExtensions.cs",
+          "line": 23,
+          "endLine": 23,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 32344,
+            "currentLine": 189173160,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Utility/TypeHelper.cs",
+          "line": 117,
+          "endLine": 117,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 141,
+          "endLine": 141,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1491564888,
+            "currentLine": 1485482864,
+            "nextLine": 4819,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'parameterInfos'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 219,
+          "endLine": 219,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -933184776,
+            "currentLine": -292466944,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 232,
+          "endLine": 232,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Possible null dereference of 'Reflector.Wrap(type)' method return value at 'typeInfo.IsInterface' when it is passed to method as its 1st argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 225,
+          "endLine": 225,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 4074216,
+            "currentLine": -1807128111,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 233,
+          "endLine": 233,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Possible null dereference of method return value when it is passed to method as its 2nd argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 402,
+          "endLine": 402,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1793769178,
+            "currentLine": 73635748,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'strippedMethodParameterType'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Extensions/ReflectionExtensions.cs",
+          "line": 413,
+          "endLine": 413,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 892915197,
+            "currentLine": -1785192425,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'methodParameterGenericArguments'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3156",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Reflection/ReflectionMethodInfo.cs",
+          "line": 108,
+          "endLine": 108,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 46419689,
+            "currentLine": -2086895343,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "The first argument of the 'Concat' method is not expected to be null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common/Serialization/SerializationHelper.cs",
+          "line": 537,
+          "endLine": 537,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/Utility/DisposalTrackerTests.cs",
+          "line": 332,
+          "endLine": 332,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1528233069,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/Utility/DisposalTrackerTests.cs",
+          "line": 335,
+          "endLine": 335,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.common.tests(net472)"
+      ],
+      "message": "The 'WithDisposable' class containing IDisposable members does not itself implement IDisposable. Inspect: expected.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/Utility/DisposalTrackerTests.cs",
+          "line": 359,
+          "endLine": 359,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 769213312,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/Utility/DisposalTrackerTests.cs",
+          "line": 362,
+          "endLine": 362,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.common.tests(net472)"
+      ],
+      "message": "The 'WithMixedDisposalObject' class containing IDisposable members does not itself implement IDisposable. Inspect: expected.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/v3/Messages/_TestFailedTests.cs",
+          "line": 75,
+          "endLine": 75,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -602988320,
+            "nextLine": 139,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common.tests(net472)"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/v3/Messages/_TestFailedTests.cs",
+          "line": 101,
+          "endLine": 101,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 642842631,
+            "nextLine": 139,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common.tests(net472)"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.common.tests/v3/Messages/_TestFailedTests.cs",
+          "line": 114,
+          "endLine": 114,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1698911193,
+            "nextLine": 139,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.common.tests(net472)"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/ClassDataAttribute.cs",
+          "line": 46,
+          "endLine": 46,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -841193831,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Expression 'dataRow' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Internal/PreserveWorkingFolder.cs",
+          "line": 35,
+          "endLine": 35,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3147",
+      "cwe": 567,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Internal/MessageBus.cs",
+          "line": 40,
+          "endLine": 40,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -546633855,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Non-atomic modification of volatile variable 'continueRunning'",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Internal/MessageBus.cs",
+          "line": 50,
+          "endLine": 50,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/AsyncTestSyncContext.cs",
+          "line": 89,
+          "endLine": 89,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/MemberDataAttributeBase.cs",
+          "line": 69,
+          "endLine": 69,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1124681613,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Expression 'dataRow' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/ExtensibilityPointFactory.cs",
+          "line": 282,
+          "endLine": 282,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 986162265,
+            "currentLine": 93637141,
+            "nextLine": -1226249693,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'ctorArgs'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/Frameworks/TestOutputHelper.cs",
+          "line": 73,
+          "endLine": 73,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 586073,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/Frameworks/TestOutputHelper.cs",
+          "line": 77,
+          "endLine": 77,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "The 'TestState' class containing IDisposable members does not itself implement IDisposable. Inspect: messageBus.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3073",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/Messages/DelegatingMessageBus.cs",
+          "line": 12,
+          "endLine": 12,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 216764,
+            "currentLine": -1897145606,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/Messages/DelegatingMessageBus.cs",
+          "line": 15,
+          "endLine": 15,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'DelegatingMessageBus' class. Inspect: innerMessageBus.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3074",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/Messages/DelegatingMessageSink.cs",
+          "line": 12,
+          "endLine": 12,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 216764,
+            "currentLine": 2004156263,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/Messages/DelegatingMessageSink.cs",
+          "line": 31,
+          "endLine": 31,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "The 'DelegatingMessageSink' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/TestAssemblyRunnerContext.cs",
+          "line": 125,
+          "endLine": 125,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Framework/XunitTestFrameworkDiscoverer.cs",
+          "line": 82,
+          "endLine": 82,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -121498660,
+            "currentLine": -1316840173,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'factAttributes'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/TestAssemblyRunner.cs",
+          "line": 100,
+          "endLine": 100,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2798,
+            "currentLine": 148613179,
+            "nextLine": -1137593918,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'orderedTestCollections'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/TestAssemblyRunner.cs",
+          "line": 126,
+          "endLine": 126,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/TestClassRunner.cs",
+          "line": 213,
+          "endLine": 213,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1307943192,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'orderedTestCases'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/XunitTestAssemblyRunnerContext.cs",
+          "line": 73,
+          "endLine": 73,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 12064151,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "Expression 'testCollectionFactory' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/XunitTestAssemblyRunner.cs",
+          "line": 228,
+          "endLine": 228,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1651300729,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core/Sdk/v3/Runners/XunitTestAssemblyRunner.cs",
+          "line": 238,
+          "endLine": 238,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1651300729,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Acceptance/Xunit3TheoryAcceptanceTests.cs",
+          "line": 1985,
+          "endLine": 1985,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1501314486,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Constructor parameter 'parameter2Name' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3127",
+      "cwe": 682,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestCaseRunnerTests.cs",
+          "line": 189,
+          "endLine": 189,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1222990795,
+            "currentLine": -1848952415,
+            "nextLine": -1009921330,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestCaseRunnerTests.cs",
+          "line": 180,
+          "endLine": 180,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Two similar code fragments were found. Perhaps, this is a typo and 'CleaningUp' variable should be used instead of 'Running'",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3127",
+      "cwe": 682,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestCollectionRunnerTests.cs",
+          "line": 281,
+          "endLine": 281,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 807302158,
+            "currentLine": 146723493,
+            "nextLine": -724275530,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestCollectionRunnerTests.cs",
+          "line": 272,
+          "endLine": 272,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Two similar code fragments were found. Perhaps, this is a typo and 'CleaningUp' variable should be used instead of 'Running'",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3127",
+      "cwe": 682,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestClassRunnerTests.cs",
+          "line": 236,
+          "endLine": 236,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -271681475,
+            "currentLine": -1087518034,
+            "nextLine": -2096825164,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestClassRunnerTests.cs",
+          "line": 227,
+          "endLine": 227,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Two similar code fragments were found. Perhaps, this is a typo and 'CleaningUp' variable should be used instead of 'Running'",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestClassRunnerTests.cs",
+          "line": 524,
+          "endLine": 524,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1357333032,
+            "currentLine": 1225565630,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Expression 'result == false || resultValue == null' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3127",
+      "cwe": 682,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestMethodRunnerTests.cs",
+          "line": 198,
+          "endLine": 198,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -131632254,
+            "currentLine": 2143365054,
+            "nextLine": -2072643003,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/TestMethodRunnerTests.cs",
+          "line": 189,
+          "endLine": 189,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Two similar code fragments were found. Perhaps, this is a typo and 'CleaningUp' variable should be used instead of 'Running'",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.core.tests/Sdk/v3/Runners/XunitTestAssemblyRunnerTests.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1931538489,
+            "currentLine": 1247212887,
+            "nextLine": 1010293718,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.core.tests(net472)"
+      ],
+      "message": "Expression 'testCases' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Frameworks/StackFrameInfo.cs",
+          "line": 89,
+          "endLine": 89,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1918896876,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Frameworks/v3/BufferedTcpClient.cs",
+          "line": 117,
+          "endLine": 117,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1859903427,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Loggers/ConsoleRunnerLogger.cs",
+          "line": 40,
+          "endLine": 40,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1575956,
+            "currentLine": -641567135,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Loggers/ConsoleRunnerLogger.cs",
+          "line": 47,
+          "endLine": 47,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Loggers/ConsoleRunnerLogger.cs",
+          "line": 57,
+          "endLine": 57,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Loggers/ConsoleRunnerLogger.cs",
+          "line": 67,
+          "endLine": 67,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Loggers/ConsoleRunnerLogger.cs",
+          "line": 77,
+          "endLine": 77,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "Unsafe locking on public member 'LockObject' in class 'ConsoleRunnerLogger'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Frameworks/_TestFrameworkOptions.cs",
+          "line": 175,
+          "endLine": 175,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1484649,
+            "nextLine": 741189061,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Reporters/AppVeyorClient.cs",
+          "line": 14,
+          "endLine": 14,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 18689236,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Reporters/AppVeyorClient.cs",
+          "line": 18,
+          "endLine": 18,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "The 'AppVeyorClient' class containing IDisposable members does not itself implement IDisposable. Inspect: client.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Reporters/AppVeyorClient.cs",
+          "line": 75,
+          "endLine": 75,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 4185,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Configuration/ConfigReader_Json.cs",
+          "line": 55,
+          "endLine": 55,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Configuration/ConfigReader_Json.cs",
+          "line": 159,
+          "endLine": 159,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3054",
+      "cwe": 609,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 58,
+          "endLine": 58,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 164161,
+            "nextLine": 988609624,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 54,
+          "endLine": 54,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "Potentially unsafe double-checked locking. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3054",
+      "cwe": 609,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 63,
+          "endLine": 63,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 164161,
+            "nextLine": -1765767064,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 54,
+          "endLine": 54,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "Potentially unsafe double-checked locking. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3054",
+      "cwe": 609,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 164161,
+            "nextLine": -340539439,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 68,
+          "endLine": 68,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "Potentially unsafe double-checked locking. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3054",
+      "cwe": 609,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 77,
+          "endLine": 77,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 164161,
+            "nextLine": -1765767064,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Sinks/ConsoleDiagnosticMessageSink.cs",
+          "line": 68,
+          "endLine": 68,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "Potentially unsafe double-checked locking. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Reporters/VstsClient.cs",
+          "line": 15,
+          "endLine": 15,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1175828,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common/Reporters/VstsClient.cs",
+          "line": 24,
+          "endLine": 24,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common"
+      ],
+      "message": "The 'VstsClient' class containing IDisposable members does not itself implement IDisposable. Inspect: client.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common.tests/Sinks/DelegatingSinks/DelegatingFailSkipSinkTests.cs",
+          "line": 7,
+          "endLine": 7,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1669852867,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common.tests/Sinks/DelegatingSinks/DelegatingFailSkipSinkTests.cs",
+          "line": 10,
+          "endLine": 10,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common.tests(net472)"
+      ],
+      "message": "The 'DelegatingFailSkipSinkTests' class containing IDisposable members does not itself implement IDisposable. Inspect: sink.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console.tests/CommandLineTests.cs",
+          "line": 511,
+          "endLine": 511,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1170598870,
+            "nextLine": -126424318,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console.tests/CommandLineTests.cs",
+          "line": 443,
+          "endLine": 443,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.console.tests"
+      ],
+      "message": "The name of 'SwitchOptionsList' field in 'Traits' nested type is ambiguous. The 'Filters' outer type contains static field with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console.tests/CommandLineTests.cs",
+          "line": 531,
+          "endLine": 531,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 446324535,
+            "nextLine": 284359665,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console.tests/CommandLineTests.cs",
+          "line": 454,
+          "endLine": 454,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.console.tests"
+      ],
+      "message": "The name of 'SwitchesLowerCase' field in 'Traits' nested type is ambiguous. The 'Filters' outer type contains static field with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console.tests/CommandLineTests.cs",
+          "line": 534,
+          "endLine": 534,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 446329271,
+            "nextLine": 1317799059,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.console.tests/CommandLineTests.cs",
+          "line": 457,
+          "endLine": 457,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.console.tests"
+      ],
+      "message": "The name of 'SwitchesUpperCase' field in 'Traits' nested type is ambiguous. The 'Filters' outer type contains static field with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console.tests/CommandLineTests.cs",
+          "line": 393,
+          "endLine": 393,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1170598870,
+            "nextLine": -126424318,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console.tests/CommandLineTests.cs",
+          "line": 325,
+          "endLine": 325,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.inproc.console.tests(net472)"
+      ],
+      "message": "The name of 'SwitchOptionsList' field in 'Traits' nested type is ambiguous. The 'Filters' outer type contains static field with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console.tests/CommandLineTests.cs",
+          "line": 413,
+          "endLine": 413,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 446324535,
+            "nextLine": 284359665,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console.tests/CommandLineTests.cs",
+          "line": 336,
+          "endLine": 336,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.inproc.console.tests(net472)"
+      ],
+      "message": "The name of 'SwitchesLowerCase' field in 'Traits' nested type is ambiguous. The 'Filters' outer type contains static field with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3085",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console.tests/CommandLineTests.cs",
+          "line": 416,
+          "endLine": 416,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 446329271,
+            "nextLine": 1317799059,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.inproc.console.tests/CommandLineTests.cs",
+          "line": 339,
+          "endLine": 339,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.inproc.console.tests(net472)"
+      ],
+      "message": "The name of 'SwitchesUpperCase' field in 'Traits' nested type is ambiguous. The 'Filters' outer type contains static field with identical name.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.tdnet/Sinks/ResultSink.cs",
+          "line": 82,
+          "endLine": 82,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1942353685,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.tdnet/Sinks/ResultSink.cs",
+          "line": 95,
+          "endLine": 95,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.tdnet/Sinks/ResultSink.cs",
+          "line": 109,
+          "endLine": 109,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.tdnet/Sinks/ResultSink.cs",
+          "line": 124,
+          "endLine": 124,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.tdnet/Sinks/ResultSink.cs",
+          "line": 144,
+          "endLine": 144,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.tdnet"
+      ],
+      "message": "Unsafe locking on public member 'TestListenerLock' in class 'ResultSink'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Utility/AssemblyUtility.cs",
+          "line": 41,
+          "endLine": 41,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2025848297,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Utility/DiaSessionWrapperHelper_DotNet.cs",
+          "line": 27,
+          "endLine": 27,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Utility/DiaSessionWrapperHelper_DotNet.cs",
+          "line": 41,
+          "endLine": 41,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1173258987,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Utility/DiaSessionWrapperHelper_DotNet.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 355,
+          "endLine": 355,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -759642385,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 363,
+          "endLine": 363,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -132625206,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 378,
+          "endLine": 378,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1066436500,
+            "currentLine": 139402343,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 381,
+          "endLine": 381,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1718582700,
+            "currentLine": -1033095504,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 406,
+          "endLine": 406,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1136743631,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 408,
+          "endLine": 408,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5731495,
+            "currentLine": 2062427666,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 410,
+          "endLine": 410,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5731495,
+            "currentLine": 846358137,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 412,
+          "endLine": 412,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5731495,
+            "currentLine": -15238891,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 414,
+          "endLine": 414,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5731495,
+            "currentLine": 2029839046,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 416,
+          "endLine": 416,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5731495,
+            "currentLine": -124687824,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Runners/AssemblyRunner.cs",
+          "line": 418,
+          "endLine": 418,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5731495,
+            "currentLine": -2109824891,
+            "nextLine": 5731495,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2.cs",
+          "line": 49,
+          "endLine": 49,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 781520476,
+            "currentLine": 458098362,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Constructor parameter 'verifyAssembliesOnDisk' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1831952813,
+            "currentLine": -1555460203,
+            "nextLine": -2108594960,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "Expression 'appDomainSupport != AppDomainSupport.Denied && CanUseAppDomains' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2.cs",
+          "line": 168,
+          "endLine": 168,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1810343036,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2.cs",
+          "line": 198,
+          "endLine": 198,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -709319517,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2.cs",
+          "line": 303,
+          "endLine": 303,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 4499,
+            "nextLine": 100,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3105",
+      "cwe": 690,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2MessageAdapter.cs",
+          "line": 335,
+          "endLine": 335,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1338304501,
+            "currentLine": 1320684245,
+            "nextLine": -1744770454,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "The 'testClassNameWithNamespace!' variable was used after it was assigned through null-conditional operator. NullReferenceException is possible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3105",
+      "cwe": 690,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v2/Xunit2MessageAdapter.cs",
+          "line": 336,
+          "endLine": 336,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1320684245,
+            "currentLine": -1744770454,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility(netstandard2.0)"
+      ],
+      "message": "The 'testClassNameWithNamespace!' variable was used after it was assigned through null-conditional operator. NullReferenceException is possible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility.tests/Frameworks/v1/Xunit1Tests.cs",
+          "line": 1223,
+          "endLine": 1223,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 993142586,
+            "currentLine": 1229166006,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.utility/Frameworks/v1/Xunit1.cs",
+          "line": 303,
+          "endLine": 303,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.utility.tests(net472)"
+      ],
+      "message": "Possible null dereference of method return value when it is passed to method as its 1st argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common.tests/Sinks/DelegatingSinks/DelegatingXmlCreationSinkTests.cs",
+          "line": 13,
+          "endLine": 13,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -482990773,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/xunit/src/xunit.v3.runner.common.tests/Sinks/DelegatingSinks/DelegatingXmlCreationSinkTests.cs",
+          "line": 16,
+          "endLine": 16,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "xunit.v3.runner.common.tests(net472)"
+      ],
+      "message": "The 'DelegatingXmlCreationSinkTests' class containing IDisposable members does not itself implement IDisposable. Inspect: innerSink.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

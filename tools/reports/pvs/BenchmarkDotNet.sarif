@@ -1,0 +1,3207 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V051",
+              "name": "RuleV051",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v051/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v051/"
+            },
+            {
+              "id": "V3022",
+              "name": "RuleV3022",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3022/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3022/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3024",
+              "name": "RuleV3024",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3024/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3024/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-682"
+                ]
+              }
+            },
+            {
+              "id": "V3063",
+              "name": "RuleV3063",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3063/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3063/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3072",
+              "name": "RuleV3072",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3072/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3072/"
+            },
+            {
+              "id": "V3130",
+              "name": "RuleV3130",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3130/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3130/"
+            },
+            {
+              "id": "V3073",
+              "name": "RuleV3073",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3073/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3073/"
+            },
+            {
+              "id": "V3027",
+              "name": "RuleV3027",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3027/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3027/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3163",
+              "name": "RuleV3163",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3163/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3163/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-1069"
+                ]
+              }
+            },
+            {
+              "id": "V3111",
+              "name": "RuleV3111",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3111/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3111/"
+            },
+            {
+              "id": "V3059",
+              "name": "RuleV3059",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3059/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3059/"
+            },
+            {
+              "id": "V3090",
+              "name": "RuleV3090",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3090/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3090/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-833"
+                ]
+              }
+            },
+            {
+              "id": "V3142",
+              "name": "RuleV3142",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3142/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3142/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-561"
+                ]
+              }
+            },
+            {
+              "id": "V3125",
+              "name": "RuleV3125",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3125/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3125/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3108",
+              "name": "RuleV3108",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3108/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3108/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-684"
+                ]
+              }
+            },
+            {
+              "id": "V3029",
+              "name": "RuleV3029",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3029/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3029/"
+            },
+            {
+              "id": "V3009",
+              "name": "RuleV3009",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3009/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3009/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-393"
+                ]
+              }
+            },
+            {
+              "id": "V3146",
+              "name": "RuleV3146",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3146/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3146/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3008",
+              "name": "RuleV3008",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3008/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3008/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-563"
+                ]
+              }
+            },
+            {
+              "id": "V3057",
+              "name": "RuleV3057",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3057/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3057/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-628"
+                ]
+              }
+            },
+            {
+              "id": "V3013",
+              "name": "RuleV3013",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3013/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3013/"
+            },
+            {
+              "id": "V3117",
+              "name": "RuleV3117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3117/"
+            },
+            {
+              "id": "V3010",
+              "name": "RuleV3010",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3010/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3010/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-252"
+                ]
+              }
+            },
+            {
+              "id": "V3026",
+              "name": "RuleV3026",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3026/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3026/"
+            },
+            {
+              "id": "V3123",
+              "name": "RuleV3123",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3123/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3123/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-783"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.Tests(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests.ManualRunning(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.Samples(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests.Static(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests.ConfigPerAssembly(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests.DisabledOptimizations(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests.EnabledOptimizations(net462)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'BenchmarkDotNet.IntegrationTests.CustomPaths' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'conclusion.Report' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Analysers/ConclusionHelper.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 41,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: metric.Value == 0.0. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Columns/MetricColumn.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 34,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: hardwareCountersDiagnoser != default(IDiagnoser)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Configs/ImmutableConfigBuilder.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 93,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'perfCollectFile.Exists' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Diagnosers/PerfCollectProfiler.cs"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 130,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'EngineStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineStage.cs"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'EngineStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineStage.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "startLine": 10
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'EngineStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineStage.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 12,
+                  "startColumn": 1,
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'EngineWarmupStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineWarmupStage.cs"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'EngineWarmupStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineWarmupStage.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 8,
+                  "startColumn": 1,
+                  "startLine": 8
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'EngineWarmupStage' class containing IDisposable members does not itself implement IDisposable. Inspect: engine."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineWarmupStage.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3130",
+          "message": {
+            "text": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/EngineGeneralStage.cs"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 72,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3073",
+          "message": {
+            "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'NoAcknowledgementConsoleHost' class. Inspect: outWriter."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/NoAcknowledgementConsoleHost.cs"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'NoAcknowledgementConsoleHost' class. Inspect: outWriter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/NoAcknowledgementConsoleHost.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "startLine": 10
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'NoAcknowledgementConsoleHost' class. Inspect: outWriter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/NoAcknowledgementConsoleHost.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 12,
+                  "startColumn": 1,
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Overhead' is always not null. The operator '??' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Engines/RunResults.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 55,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'numbers.Length == 0' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Environments/OsBrandStringHelper.cs"
+                },
+                "region": {
+                  "startLine": 252,
+                  "endLine": 252,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3027",
+          "message": {
+            "text": "The variable 'line' was utilized in the logical expression before it was verified against null in the same logical expression."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Environments/ProcessorBrandStringHelper.cs"
+                },
+                "region": {
+                  "startLine": 106,
+                  "endLine": 106,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/RPlotExporter.cs"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 128,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/ConsoleExitHandler.cs"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 32,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/ConsoleExitHandler.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 46,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/ConsoleExitHandler.cs"
+                },
+                "region": {
+                  "startLine": 70,
+                  "endLine": 70,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/HashCode.cs"
+                },
+                "region": {
+                  "startLine": 119,
+                  "endLine": 119,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3059",
+          "message": {
+            "text": "Members of the 'MethodImplAttributes' enum are used in bitwise operations. Consider adding '[Flags]' attribute to the enum."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/Reflection.Emit/MethodBuilderExtensions.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 30,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3059",
+          "message": {
+            "text": "Members of the 'MethodImplAttributes' enum are used in bitwise operations. Consider adding '[Flags]' attribute to the enum."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/Reflection.Emit/MethodBuilderExtensions.cs"
+                },
+                "region": {
+                  "startLine": 38,
+                  "endLine": 38,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3059",
+          "message": {
+            "text": "Members of the 'TaskbarProgressState' enum are powers of 2. Consider adding '[Flags]' attribute to the enum."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/Taskbar/TaskbarProgress.cs"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 67,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: value == double.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs"
+                },
+                "region": {
+                  "startLine": 110,
+                  "endLine": 110,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: value == double.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: value == double.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 114,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: value == float.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs"
+                },
+                "region": {
+                  "startLine": 129,
+                  "endLine": 129,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: value == float.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 131,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: value == float.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Helpers/SourceCodeHelper.cs"
+                },
+                "region": {
+                  "startLine": 133,
+                  "endLine": 133,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'parts.Length == 0' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Jobs/NugetReference.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 64,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on 'this' instance in class 'AsyncProcessOutputReader'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs"
+                },
+                "region": {
+                  "startLine": 12,
+                  "endLine": 12,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'AsyncProcessOutputReader'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 12,
+                  "startColumn": 1,
+                  "startLine": 12
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'AsyncProcessOutputReader'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 128,
+                  "startColumn": 1,
+                  "startLine": 128
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'AsyncProcessOutputReader'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/AsyncProcessOutputReader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 149,
+                  "startColumn": 1,
+                  "startLine": 149
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Loggers/LinqPadLogger.cs"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 32,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'number >= 1' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Mathematics/NumeralSystemExtensions.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 41,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Mathematics/NumeralSystemExtensions.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 42,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3125",
+          "message": {
+            "text": "The 'y' object was used after it was verified against null. Check lines: 197, 190."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs"
+                },
+                "region": {
+                  "startLine": 197,
+                  "endLine": 197,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 197, 190."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 190,
+                  "startColumn": 1,
+                  "startLine": 190
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 197, 190."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 197,
+                  "startColumn": 1,
+                  "startLine": 197
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3125",
+          "message": {
+            "text": "The 'y' object was used after it was verified against null. Check lines: 221, 219."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs"
+                },
+                "region": {
+                  "startLine": 221,
+                  "endLine": 221,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 221, 219."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 221, 219."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Order/DefaultOrderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 221,
+                  "startColumn": 1,
+                  "startLine": 221
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3125",
+          "message": {
+            "text": "The 'y' object was used after it was verified against null. Check lines: 27, 25."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Parameters/ParameterComparer.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 27, 25."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Parameters/ParameterComparer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 25,
+                  "startColumn": 1,
+                  "startLine": 25
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 27, 25."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Parameters/ParameterComparer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'nominalClockSpeed > 0 && logicalCoreCount > 0' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/Cpu/MosCpuInfoProvider.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 55,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'minClockSpeed > 0 && logicalCoreCount > 0' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/Cpu/MosCpuInfoProvider.cs"
+                },
+                "region": {
+                  "startLine": 57,
+                  "endLine": 57,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3108",
+          "message": {
+            "text": "It is not recommended to return 'null' from 'ToString()' method."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "startLine": 348,
+                  "endLine": 348,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!done' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "startLine": 688,
+                  "endLine": 688,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!done' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "startLine": 740,
+                  "endLine": 740,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!complete' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "startLine": 804,
+                  "endLine": 804,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3029",
+          "message": {
+            "text": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 992, 1001."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "startLine": 992,
+                  "endLine": 992,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 992, 1001."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 992,
+                  "startColumn": 1,
+                  "startLine": 992
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 992, 1001."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1001,
+                  "startColumn": 1,
+                  "startLine": 1001
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3009",
+          "message": {
+            "text": "It's odd that this method always returns one and the same value of 'true'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Exporters/Json/SimpleJson.cs"
+                },
+                "region": {
+                  "startLine": 1124,
+                  "endLine": 1124,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'version.EndsWith(\".0\") && PrereleaseLabel == \"\"' is always false. Probably the '||' operator should be used here."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Properties/BenchmarkDotNetInfo.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 26,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: PrereleaseLabel == \"-develop\"."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Properties/BenchmarkDotNetInfo.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/RuntimeInformation.cs"
+                },
+                "region": {
+                  "startLine": 392,
+                  "endLine": 392,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Portability/RuntimeInformation.cs"
+                },
+                "region": {
+                  "startLine": 422,
+                  "endLine": 422,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3125",
+          "message": {
+            "text": "The 'y' object was used after it was verified against null. Check lines: 30, 25."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/DescriptorComparer.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 30,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 30, 25."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/DescriptorComparer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 25,
+                  "startColumn": 1,
+                  "startLine": 25
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'y' object was used after it was verified against null. Check lines: 30, 25."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/DescriptorComparer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 30,
+                  "startColumn": 1,
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'OverheadMethodReturnType == null' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/ConsumableTypeInfo.cs"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 72,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference of 'argType'. The 'FirstOrDefault' can return default null value."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Emitters/ConsumableConsumeEmitter.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 30,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference of 'argType'. The 'FirstOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Emitters/ConsumableConsumeEmitter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "startLine": 27
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference of 'argType'. The 'FirstOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Emitters/ConsumableConsumeEmitter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 30,
+                  "startColumn": 1,
+                  "startLine": 30
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.Emit.Implementation/Runnable/RunnableReflectionHelpers.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'callback' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.NoEmit/BenchmarkActionFactory_Base.cs"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 59,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'callback' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess/BenchmarkActionFactory_Base.cs"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 62,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3130",
+          "message": {
+            "text": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess.NoEmit/InProcessNoEmitRunner.cs"
+                },
+                "region": {
+                  "startLine": 42,
+                  "endLine": 42,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'stream.Position' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 48, 45."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/LargeAddressAware.cs"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 48,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'stream.Position' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 48, 45."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/LargeAddressAware.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 45,
+                  "startColumn": 1,
+                  "startLine": 45
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'stream.Position' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 48, 45."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/LargeAddressAware.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 48,
+                  "startColumn": 1,
+                  "startLine": 48
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3130",
+          "message": {
+            "text": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Toolchains/InProcess/InProcessRunner.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 41,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet/Running/BenchmarkRunnerClean.cs"
+                },
+                "region": {
+                  "startLine": 649,
+                  "endLine": 649,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3057",
+          "message": {
+            "text": "The 'Substring' function could receive the '-1' value while non-negative value is expected. Inspect the first argument."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Disassembler.x64/DataContracts.cs"
+                },
+                "region": {
+                  "startLine": 186,
+                  "endLine": 186,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroExceptionDiagnoser.cs"
+                },
+                "region": {
+                  "startLine": 21,
+                  "endLine": 21,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'Algo_Md5VsSha256' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 14,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'Algo_Md5VsSha256' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 14,
+                  "startColumn": 1,
+                  "startLine": 14
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'Algo_Md5VsSha256' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 19,
+                  "startColumn": 1,
+                  "startLine": 19
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'Algo_Md5VsSha256' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroFluentConfigBuilder.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 20,
+                  "startColumn": 1,
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'OnOverheadActualStart' function is fully equivalent to the body of 'OnOverheadActualStop' function (61, line 63)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'OnOverheadActualStart' function is fully equivalent to the body of 'OnOverheadActualStop' function (61, line 63)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "startLine": 61
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'OnOverheadActualStart' function is fully equivalent to the body of 'OnOverheadActualStop' function (61, line 63)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 63,
+                  "startColumn": 1,
+                  "startLine": 63
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'OnWorkloadActualStart' function is fully equivalent to the body of 'OnWorkloadActualStop' function (65, line 67)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'OnWorkloadActualStart' function is fully equivalent to the body of 'OnWorkloadActualStop' function (65, line 67)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "startLine": 65
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'OnWorkloadActualStart' function is fully equivalent to the body of 'OnWorkloadActualStop' function (65, line 67)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/src/BenchmarkDotNet.Diagnostics.Windows/Tracing/TraceLogParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 67,
+                  "startColumn": 1,
+                  "startLine": 67
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'IntroStatisticsColumns' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'IntroStatisticsColumns' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "startLine": 10
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'IntroStatisticsColumns' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 15,
+                  "startColumn": 1,
+                  "startLine": 15
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'IntroStatisticsColumns' class containing IDisposable members does not itself implement IDisposable. Inspect: md5, sha256."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/samples/BenchmarkDotNet.Samples/IntroStatisticsColumns.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 16,
+                  "startColumn": 1,
+                  "startLine": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'jitModules' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Builders/HostEnvironmentInfoBuilder.cs"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 69,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'IterateAll' is required to be utilized."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/ArtifactFileNameHelperTests.cs"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 84,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 0.70711 is being utilized. The resulting value could be inaccurate. Consider using Math.Sqrt(0.5)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Mathematics/StatisticsTests.cs"
+                },
+                "region": {
+                  "startLine": 83,
+                  "endLine": 83,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3123",
+          "message": {
+            "text": "Perhaps the '??' operator works in a different way than it was expected. Its priority is lower than priority of other operators in its left part."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Reports/DisplayPrecisionManagerTests.cs"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 77,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (218, line 221)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs"
+                },
+                "region": {
+                  "startLine": 218,
+                  "endLine": 218,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (218, line 221)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 218,
+                  "startColumn": 1,
+                  "startLine": 218
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (218, line 221)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 221,
+                  "startColumn": 1,
+                  "startLine": 221
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (252, line 255)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs"
+                },
+                "region": {
+                  "startLine": 252,
+                  "endLine": 252,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (252, line 255)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 252,
+                  "startColumn": 1,
+                  "startLine": 252
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'Foo' function is fully equivalent to the body of 'Bar' function (252, line 255)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.Tests/Validators/ReturnValueValidatorTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 255,
+                  "startColumn": 1,
+                  "startLine": 255
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: passed != double.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs"
+                },
+                "region": {
+                  "startLine": 454,
+                  "endLine": 454,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: passed != double.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs"
+                },
+                "region": {
+                  "startLine": 457,
+                  "endLine": 457,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: passed != double.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs"
+                },
+                "region": {
+                  "startLine": 460,
+                  "endLine": 460,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: passed != float.Epsilon. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs"
+                },
+                "region": {
+                  "startLine": 499,
+                  "endLine": 499,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: passed != float.MaxValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs"
+                },
+                "region": {
+                  "startLine": 502,
+                  "endLine": 502,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: passed != float.MinValue. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ArgumentsTests.cs"
+                },
+                "region": {
+                  "startLine": 505,
+                  "endLine": 505,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/ExceptionDiagnoserTests.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 44,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'new Random(123).Next(0, 10) == 11' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/DisassemblyDiagnoserTests.cs"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 69,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InvokeOnceTaskAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskAsync' function (152, line 194)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "startLine": 152,
+                  "endLine": 152,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceTaskAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskAsync' function (152, line 194)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 152,
+                  "startColumn": 1,
+                  "startLine": 152
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceTaskAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskAsync' function (152, line 194)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 194,
+                  "startColumn": 1,
+                  "startLine": 194
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InvokeOnceRefType' function is fully equivalent to the body of 'InvokeOnceStaticRefType' function (159, line 201)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "startLine": 159,
+                  "endLine": 159,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceRefType' function is fully equivalent to the body of 'InvokeOnceStaticRefType' function (159, line 201)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 159,
+                  "startColumn": 1,
+                  "startLine": 159
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceRefType' function is fully equivalent to the body of 'InvokeOnceStaticRefType' function (159, line 201)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 201,
+                  "startColumn": 1,
+                  "startLine": 201
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InvokeOnceValueType' function is fully equivalent to the body of 'InvokeOnceStaticValueType' function (166, line 208)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "startLine": 166,
+                  "endLine": 166,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceValueType' function is fully equivalent to the body of 'InvokeOnceStaticValueType' function (166, line 208)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 166,
+                  "startColumn": 1,
+                  "startLine": 166
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceValueType' function is fully equivalent to the body of 'InvokeOnceStaticValueType' function (166, line 208)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 208,
+                  "startColumn": 1,
+                  "startLine": 208
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InvokeOnceTaskOfTAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskOfTAsync' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "startLine": 173,
+                  "endLine": 173,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceTaskOfTAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskOfTAsync' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 173,
+                  "startColumn": 1,
+                  "startLine": 173
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceTaskOfTAsync' function is fully equivalent to the body of 'InvokeOnceStaticTaskOfTAsync' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 215,
+                  "startColumn": 1,
+                  "startLine": 215
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InvokeOnceValueTaskOfT' function is fully equivalent to the body of 'InvokeOnceStaticValueTaskOfT' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "startLine": 181,
+                  "endLine": 181,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceValueTaskOfT' function is fully equivalent to the body of 'InvokeOnceStaticValueTaskOfT' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 181,
+                  "startColumn": 1,
+                  "startLine": 181
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InvokeOnceValueTaskOfT' function is fully equivalent to the body of 'InvokeOnceStaticValueTaskOfT' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcessEmitTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 223,
+                  "startColumn": 1,
+                  "startLine": 223
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference of the 2nd argument 'module2' inside method. The 'SingleOrDefault' can return default null value."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "startLine": 222,
+                  "endLine": 222,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference of the 2nd argument 'module2' inside method. The 'SingleOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 218,
+                  "startColumn": 1,
+                  "startLine": 218
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference of the 2nd argument 'module2' inside method. The 'SingleOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 222,
+                  "startColumn": 1,
+                  "startLine": 222
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference of the 2nd argument 'module2' inside method. The 'SingleOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 228,
+                  "startColumn": 1,
+                  "startLine": 228
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference of the 2nd argument 'field2' inside method. The 'SingleOrDefault' can return default null value."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "startLine": 288,
+                  "endLine": 288,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference of the 2nd argument 'field2' inside method. The 'SingleOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 287,
+                  "startColumn": 1,
+                  "startLine": 287
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference of the 2nd argument 'field2' inside method. The 'SingleOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 288,
+                  "startColumn": 1,
+                  "startLine": 288
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference of the 2nd argument 'field2' inside method. The 'SingleOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/BenchmarkDotNet/tests/BenchmarkDotNet.IntegrationTests/InProcess.EmitTests/NaiveRunnableEmitDiff.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 315,
+                  "startColumn": 1,
+                  "startLine": 315
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
