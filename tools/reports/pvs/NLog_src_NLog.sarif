@@ -1,0 +1,5439 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V3022",
+              "name": "RuleV3022",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3022/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3022/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-570"
+                ]
+              }
+            },
+            {
+              "id": "V3063",
+              "name": "RuleV3063",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3063/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3063/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3083",
+              "name": "RuleV3083",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3083/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3083/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-367"
+                ]
+              }
+            },
+            {
+              "id": "V3090",
+              "name": "RuleV3090",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3090/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3090/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-833"
+                ]
+              }
+            },
+            {
+              "id": "V3062",
+              "name": "RuleV3062",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3062/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3062/"
+            },
+            {
+              "id": "V3161",
+              "name": "RuleV3161",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3161/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3161/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-686"
+                ]
+              }
+            },
+            {
+              "id": "V3095",
+              "name": "RuleV3095",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3095/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3095/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3073",
+              "name": "RuleV3073",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3073/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3073/"
+            },
+            {
+              "id": "V3163",
+              "name": "RuleV3163",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3163/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3163/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-1069"
+                ]
+              }
+            },
+            {
+              "id": "V3106",
+              "name": "RuleV3106",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3106/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3106/"
+            },
+            {
+              "id": "V3117",
+              "name": "RuleV3117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3117/"
+            },
+            {
+              "id": "V3111",
+              "name": "RuleV3111",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3111/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3111/"
+            },
+            {
+              "id": "V3080",
+              "name": "RuleV3080",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3080/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3080/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3156",
+              "name": "RuleV3156",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3156/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3156/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-628"
+                ]
+              }
+            },
+            {
+              "id": "V3057",
+              "name": "RuleV3057",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3057/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3057/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-628"
+                ]
+              }
+            },
+            {
+              "id": "V3072",
+              "name": "RuleV3072",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3072/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3072/"
+            },
+            {
+              "id": "V3139",
+              "name": "RuleV3139",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3139/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3139/"
+            },
+            {
+              "id": "V3125",
+              "name": "RuleV3125",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3125/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3125/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3002",
+              "name": "RuleV3002",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3002/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3002/"
+            },
+            {
+              "id": "V3009",
+              "name": "RuleV3009",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3009/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3009/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-393"
+                ]
+              }
+            },
+            {
+              "id": "V3130",
+              "name": "RuleV3130",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3130/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3130/"
+            },
+            {
+              "id": "V3026",
+              "name": "RuleV3026",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3026/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3026/"
+            },
+            {
+              "id": "V3013",
+              "name": "RuleV3013",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3013/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3013/"
+            },
+            {
+              "id": "V3086",
+              "name": "RuleV3086",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3086/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3086/"
+            },
+            {
+              "id": "V3010",
+              "name": "RuleV3010",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3010/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3010/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-252"
+                ]
+              }
+            },
+            {
+              "id": "V3081",
+              "name": "RuleV3081",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3081/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3081/"
+            },
+            {
+              "id": "V3025",
+              "name": "RuleV3025",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3025/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3025/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-685"
+                ]
+              }
+            },
+            {
+              "id": "V3138",
+              "name": "RuleV3138",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3138/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3138/"
+            },
+            {
+              "id": "V3164",
+              "name": "RuleV3164",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3164/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3164/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-544"
+                ]
+              }
+            },
+            {
+              "id": "V3032",
+              "name": "RuleV3032",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3032/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3032/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-835"
+                ]
+              }
+            },
+            {
+              "id": "V3051",
+              "name": "RuleV3051",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3051/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3051/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-704"
+                ]
+              }
+            },
+            {
+              "id": "V3001",
+              "name": "RuleV3001",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3001/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3001/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3109",
+              "name": "RuleV3109",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3109/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3109/"
+            },
+            {
+              "id": "V3011",
+              "name": "RuleV3011",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3011/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3011/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-570"
+                ]
+              }
+            },
+            {
+              "id": "V3008",
+              "name": "RuleV3008",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3008/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3008/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-563"
+                ]
+              }
+            },
+            {
+              "id": "V3114",
+              "name": "RuleV3114",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3114/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3114/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-404"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'i == -1' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Conditions/Parsing/ConditionTokenizer.cs"
+                },
+                "region": {
+                  "startLine": 182,
+                  "endLine": 182,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'i == -1' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Conditions/Parsing/ConditionTokenizer.cs"
+                },
+                "region": {
+                  "startLine": 426,
+                  "endLine": 426,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: normalName != null."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 233,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'normalName' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs"
+                },
+                "region": {
+                  "startLine": 242,
+                  "endLine": 242,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'normalName' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs"
+                },
+                "region": {
+                  "startLine": 246,
+                  "endLine": 246,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'normalName' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs"
+                },
+                "region": {
+                  "startLine": 250,
+                  "endLine": 250,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'normalName' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs"
+                },
+                "region": {
+                  "startLine": 254,
+                  "endLine": 254,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'normalName' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs"
+                },
+                "region": {
+                  "startLine": 258,
+                  "endLine": 258,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'AssemblyLoading', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/ConfigurationItemFactory.cs"
+                },
+                "region": {
+                  "startLine": 255,
+                  "endLine": 255,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on public member 'ChildRules' in class 'LoggingRule'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingRule.cs"
+                },
+                "region": {
+                  "startLine": 130,
+                  "endLine": 130,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'ChildRules' in class 'LoggingRule'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingRule.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 130,
+                  "startColumn": 1,
+                  "startLine": 130
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'ChildRules' in class 'LoggingRule'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingRule.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 132,
+                  "startColumn": 1,
+                  "startLine": 132
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'messageFormatter' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/ServiceRepositoryExtensions.cs"
+                },
+                "region": {
+                  "startLine": 211,
+                  "endLine": 211,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3062",
+          "message": {
+            "text": "An object is used as an argument to its own method. Consider checking the first actual argument of the method."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/ServiceRepositoryExtensions.cs"
+                },
+                "region": {
+                  "startLine": 216,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on public member 'LoggingRules' in class 'LoggingConfiguration'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 115,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'LoggingRules' in class 'LoggingConfiguration'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 115,
+                  "startColumn": 1,
+                  "startLine": 115
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'LoggingRules' in class 'LoggingConfiguration'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 117,
+                  "startColumn": 1,
+                  "startLine": 117
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'LoggingRules' in class 'LoggingConfiguration'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 118,
+                  "startColumn": 1,
+                  "startLine": 118
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'LoggingRules' in class 'LoggingConfiguration'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 474,
+                  "startColumn": 1,
+                  "startLine": 474
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'contextState' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs"
+                },
+                "region": {
+                  "startLine": 262,
+                  "endLine": 262,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'contextState' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs"
+                },
+                "region": {
+                  "startLine": 589,
+                  "endLine": 589,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'contextState' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs"
+                },
+                "region": {
+                  "startLine": 595,
+                  "endLine": 595,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'contextState' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs"
+                },
+                "region": {
+                  "startLine": 615,
+                  "endLine": 615,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Layout.Render(logEvent)' is always not null. The operator '??' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Filters/WhenRepeatedFilter.cs"
+                },
+                "region": {
+                  "startLine": 256,
+                  "endLine": 256,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3161",
+          "message": {
+            "text": "Comparing variables with 'ReferenceEquals' is incorrect because 'x' and 'y' will be boxed if they are instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Collections/SingleItemOptimizedHashSet.cs"
+                },
+                "region": {
+                  "startLine": 245,
+                  "endLine": 245,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The '_logFactory' object was used before it was verified against null. Check lines: 168, 193."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs"
+                },
+                "region": {
+                  "startLine": 168,
+                  "endLine": 168,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The '_logFactory' object was used before it was verified against null. Check lines: 168, 193."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 168,
+                  "startColumn": 1,
+                  "startLine": 168
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The '_logFactory' object was used before it was verified against null. Check lines: 168, 193."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 193,
+                  "startColumn": 1,
+                  "startLine": 193
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The '_logFactory' object was used before it was verified against null. Check lines: 201, 203."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs"
+                },
+                "region": {
+                  "startLine": 201,
+                  "endLine": 201,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The '_logFactory' object was used before it was verified against null. Check lines: 201, 203."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 201,
+                  "startColumn": 1,
+                  "startLine": 201
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The '_logFactory' object was used before it was verified against null. Check lines: 201, 203."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 203,
+                  "startColumn": 1,
+                  "startLine": 203
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3073",
+          "message": {
+            "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'MutexMultiProcessFileAppender' class. Inspect: _fileStream."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 62,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'MutexMultiProcessFileAppender' class. Inspect: _fileStream."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 62,
+                  "startColumn": 1,
+                  "startLine": 62
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'MutexMultiProcessFileAppender' class. Inspect: _fileStream."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 66,
+                  "startColumn": 1,
+                  "startLine": 66
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 105,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: _autoClosingTimer != null."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3106",
+          "message": {
+            "text": "The 2nd argument 'freeSpot' is potentially used inside method to point beyond collection's bounds."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs"
+                },
+                "region": {
+                  "startLine": 263,
+                  "endLine": 263,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 2nd argument 'freeSpot' is potentially used inside method to point beyond collection's bounds."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 263,
+                  "startColumn": 1,
+                  "startLine": 263
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 2nd argument 'freeSpot' is potentially used inside method to point beyond collection's bounds."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 277,
+                  "startColumn": 1,
+                  "startLine": 277
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'mustBeEmpty' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/ObjectPools/AppendBuilderCreator.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of '_value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/ScopeContextAsyncState.cs"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 121,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'Value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/ScopeContextAsyncState.cs"
+                },
+                "region": {
+                  "startLine": 185,
+                  "endLine": 185,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'objType' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Reflection/PropertyHelper.cs"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 101,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 115,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 115,
+                  "startColumn": 1,
+                  "startLine": 115
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 348,
+                  "startColumn": 1,
+                  "startLine": 348
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "startLine": 306,
+                  "endLine": 306,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 306,
+                  "startColumn": 1,
+                  "startLine": 306
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 348,
+                  "startColumn": 1,
+                  "startLine": 348
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The second argument of the 'ParseIncludeElement' method is passed as an argument to the 'GetFiles' method and is not expected to be null."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "startLine": 476,
+                  "endLine": 476,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The second argument of the 'ParseIncludeElement' method is passed as an argument to the 'GetFiles' method and is not expected to be null."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 476,
+                  "startColumn": 1,
+                  "startLine": 476
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The second argument of the 'ParseIncludeElement' method is passed as an argument to the 'GetFiles' method and is not expected to be null."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 573,
+                  "startColumn": 1,
+                  "startLine": 573
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3057",
+          "message": {
+            "text": "The 'Append' function could receive the '-4' value while non-negative value is expected. Inspect the second argument."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Strings/StringBuilderExt.cs"
+                },
+                "region": {
+                  "startLine": 186,
+                  "endLine": 186,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'ProcessInfoLayoutRenderer' class containing IDisposable members does not itself implement IDisposable. Inspect: _process."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/ProcessInfoLayoutRenderer.cs"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 52,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'ProcessInfoLayoutRenderer' class containing IDisposable members does not itself implement IDisposable. Inspect: _process."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/ProcessInfoLayoutRenderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 52,
+                  "startColumn": 1,
+                  "startLine": 52
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'ProcessInfoLayoutRenderer' class containing IDisposable members does not itself implement IDisposable. Inspect: _process."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/ProcessInfoLayoutRenderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 54,
+                  "startColumn": 1,
+                  "startLine": 54
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always false if it is evaluated: string.IsNullOrEmpty(version)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/AssemblyVersionLayoutRenderer.cs"
+                },
+                "region": {
+                  "startLine": 140,
+                  "endLine": 140,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The first argument of the 'InsertParsedConfigVariable' method is passed as an argument to the 'ContainsKey' method and is not expected to be null."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "startLine": 439,
+                  "endLine": 439,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The first argument of the 'InsertParsedConfigVariable' method is passed as an argument to the 'ContainsKey' method and is not expected to be null."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Collections/ThreadSafeDictionary.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 122,
+                  "startColumn": 1,
+                  "startLine": 122
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The first argument of the 'InsertParsedConfigVariable' method is passed as an argument to the 'ContainsKey' method and is not expected to be null."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 439,
+                  "startColumn": 1,
+                  "startLine": 439
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3139",
+          "message": {
+            "text": "Two or more case-branches perform the same actions."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "startLine": 581,
+                  "endLine": 581,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 581,
+                  "startColumn": 1,
+                  "startLine": 581
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 584,
+                  "startColumn": 1,
+                  "startLine": 584
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'targetTypeName'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "startLine": 825,
+                  "endLine": 825,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The first argument of the 'TryGetValue' method is not expected to be null. Potential null value: targetTypeName."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs"
+                },
+                "region": {
+                  "startLine": 879,
+                  "endLine": 879,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The 'logEvent.LoggerName' object was used before it was verified against null. Check lines: 78, 81."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/LoggerNameLayoutRenderer.cs"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 78,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'logEvent.LoggerName' object was used before it was verified against null. Check lines: 78, 81."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/LoggerNameLayoutRenderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 78,
+                  "startColumn": 1,
+                  "startLine": 78
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'logEvent.LoggerName' object was used before it was verified against null. Check lines: 78, 81."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/LoggerNameLayoutRenderer.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 81,
+                  "startColumn": 1,
+                  "startLine": 81
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '.GetGroupNames()' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/Wrappers/ReplaceLayoutRendererWrapper.cs"
+                },
+                "region": {
+                  "startLine": 125,
+                  "endLine": 125,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'text' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/Wrappers/ReplaceLayoutRendererWrapper.cs"
+                },
+                "region": {
+                  "startLine": 156,
+                  "endLine": 156,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'layout.Render(logEvent)' is always not null. The operator '??' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/ValueTypeLayoutInfo.cs"
+                },
+                "region": {
+                  "startLine": 197,
+                  "endLine": 197,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '_defaultValue.Render(LogEventInfo.CreateNullEvent())' is always not null. The operator '??' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/ValueTypeLayoutInfo.cs"
+                },
+                "region": {
+                  "startLine": 262,
+                  "endLine": 262,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '_defaultValue.Render(LogEventInfo.CreateNullEvent())' is always not null. The operator '??' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/ValueTypeLayoutInfo.cs"
+                },
+                "region": {
+                  "startLine": 267,
+                  "endLine": 267,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs"
+                },
+                "region": {
+                  "startLine": 428,
+                  "endLine": 428,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3125",
+          "message": {
+            "text": "The '_innerLayout' object was used after it was verified against null. Check lines: 240, 237."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs"
+                },
+                "region": {
+                  "startLine": 240,
+                  "endLine": 240,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The '_innerLayout' object was used after it was verified against null. Check lines: 240, 237."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 237,
+                  "startColumn": 1,
+                  "startLine": 237
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The '_innerLayout' object was used after it was verified against null. Check lines: 240, 237."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 240,
+                  "startColumn": 1,
+                  "startLine": 240
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'stringValue' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs"
+                },
+                "region": {
+                  "startLine": 273,
+                  "endLine": 273,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting '_properties.MessageProperties'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogEventInfo.cs"
+                },
+                "region": {
+                  "startLine": 738,
+                  "endLine": 738,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'ch != -1' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/LayoutParser.cs"
+                },
+                "region": {
+                  "startLine": 247,
+                  "endLine": 247,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'ch != -1' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/LayoutParser.cs"
+                },
+                "region": {
+                  "startLine": 285,
+                  "endLine": 285,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: ch != -1."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/LayoutParser.cs"
+                },
+                "region": {
+                  "startLine": 441,
+                  "endLine": 441,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs"
+                },
+                "region": {
+                  "startLine": 69,
+                  "endLine": 69,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 69,
+                  "startColumn": 1,
+                  "startLine": 69
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 257,
+                  "startColumn": 1,
+                  "startLine": 257
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 285,
+                  "startColumn": 1,
+                  "startLine": 285
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 369,
+                  "startColumn": 1,
+                  "startLine": 369
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 552,
+                  "startColumn": 1,
+                  "startLine": 552
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'message' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/MessageTemplates/MessageTemplateParameters.cs"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 96,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The 'fileTemplate' object was used before it was verified against null. Check lines: 112, 144."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDateAndSequence.cs"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'fileTemplate' object was used before it was verified against null. Check lines: 112, 144."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDateAndSequence.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "startLine": 112
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'fileTemplate' object was used before it was verified against null. Check lines: 112, 144."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDateAndSequence.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 144,
+                  "startColumn": 1,
+                  "startLine": 144
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs"
+                },
+                "region": {
+                  "startLine": 673,
+                  "endLine": 673,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3125",
+          "message": {
+            "text": "The 'reusableLogEvents' object was used after it was verified against null. Check lines: 743, 708."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs"
+                },
+                "region": {
+                  "startLine": 743,
+                  "endLine": 743,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'reusableLogEvents' object was used after it was verified against null. Check lines: 743, 708."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 708,
+                  "startColumn": 1,
+                  "startLine": 708
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'reusableLogEvents' object was used after it was verified against null. Check lines: 743, 708."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 743,
+                  "startColumn": 1,
+                  "startLine": 743
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: existingArchiveFiles.Count > 1."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeRolling.cs"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 131,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3002",
+          "message": {
+            "text": "The switch statement does not cover all values of the 'ArchiveNumberingMode' enum: Date."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDynamicSequence.cs"
+                },
+                "region": {
+                  "startLine": 152,
+                  "endLine": 152,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'password'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/MailTarget.cs"
+                },
+                "region": {
+                  "startLine": 486,
+                  "endLine": 486,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The first argument of the 'WriteBytesToCachedNetworkSender' method is passed as an argument to the 'TryGetValue' method and is not expected to be null."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/NetworkTarget.cs"
+                },
+                "region": {
+                  "startLine": 313,
+                  "endLine": 313,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The first argument of the 'WriteBytesToCachedNetworkSender' method is passed as an argument to the 'TryGetValue' method and is not expected to be null."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/NetworkTarget.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 313,
+                  "startColumn": 1,
+                  "startLine": 313
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The first argument of the 'WriteBytesToCachedNetworkSender' method is passed as an argument to the 'TryGetValue' method and is not expected to be null."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/NetworkTarget.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 529,
+                  "startColumn": 1,
+                  "startLine": 529
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3009",
+          "message": {
+            "text": "It's odd that this method always returns one and the same value of 'true'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/TargetWithContext.cs"
+                },
+                "region": {
+                  "startLine": 741,
+                  "endLine": 741,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3130",
+          "message": {
+            "text": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/WebServiceTarget.cs"
+                },
+                "region": {
+                  "startLine": 555,
+                  "endLine": 555,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'condition'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionParserTests.cs"
+                },
+                "region": {
+                  "startLine": 313,
+                  "endLine": 313,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionEvaluatorTests.cs"
+                },
+                "region": {
+                  "startLine": 137,
+                  "endLine": 137,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionEvaluatorTests.cs"
+                },
+                "region": {
+                  "startLine": 139,
+                  "endLine": 139,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'condition'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionEvaluatorTests.cs"
+                },
+                "region": {
+                  "startLine": 363,
+                  "endLine": 363,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'Convert_StringToShortTest' function is fully equivalent to the body of 'Convert_StringToNullableShortTest' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/PropertyTypeConverterTests.cs"
+                },
+                "region": {
+                  "startLine": 195,
+                  "endLine": 195,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'Convert_StringToShortTest' function is fully equivalent to the body of 'Convert_StringToNullableShortTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/PropertyTypeConverterTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 195,
+                  "startColumn": 1,
+                  "startLine": 195
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'Convert_StringToShortTest' function is fully equivalent to the body of 'Convert_StringToNullableShortTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/PropertyTypeConverterTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 206,
+                  "startColumn": 1,
+                  "startLine": 206
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/TargetConfigurationTests.cs"
+                },
+                "region": {
+                  "startLine": 612,
+                  "endLine": 612,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/TargetConfigurationTests.cs"
+                },
+                "region": {
+                  "startLine": 663,
+                  "endLine": 663,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3086",
+          "message": {
+            "text": "Variables EntryAssemblyLocation, UserTempFilePath are initialized through the call to the same function. It's probably an error or un-optimized code."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/ConfigFileLocatorTests.cs"
+                },
+                "region": {
+                  "startLine": 254,
+                  "endLine": 254,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Variables EntryAssemblyLocation, UserTempFilePath are initialized through the call to the same function. It's probably an error or un-optimized code."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/ConfigFileLocatorTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 253,
+                  "startColumn": 1,
+                  "startLine": 253
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Variables EntryAssemblyLocation, UserTempFilePath are initialized through the call to the same function. It's probably an error or un-optimized code."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/ConfigFileLocatorTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 254,
+                  "startColumn": 1,
+                  "startLine": 254
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileTarget.cs"
+                },
+                "region": {
+                  "startLine": 1789,
+                  "endLine": 1789,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'v == 1' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs"
+                },
+                "region": {
+                  "startLine": 240,
+                  "endLine": 240,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'v == 1' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs"
+                },
+                "region": {
+                  "startLine": 265,
+                  "endLine": 265,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'v > 1' is always false."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs"
+                },
+                "region": {
+                  "startLine": 278,
+                  "endLine": 278,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'ForDebugEvent' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs"
+                },
+                "region": {
+                  "startLine": 349,
+                  "endLine": 349,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'v == 1' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogBuilderTests.cs"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 289,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'v > 1' is always false."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogBuilderTests.cs"
+                },
+                "region": {
+                  "startLine": 302,
+                  "endLine": 302,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3081",
+          "message": {
+            "text": "The 'j' counter is not used inside a nested loop. Consider inspecting usage of 'i' counter."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/MruCacheTests.cs"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 118,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'j' counter is not used inside a nested loop. Consider inspecting usage of 'i' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/MruCacheTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 116,
+                  "startColumn": 1,
+                  "startLine": 116
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'j' counter is not used inside a nested loop. Consider inspecting usage of 'i' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/MruCacheTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 118,
+                  "startColumn": 1,
+                  "startLine": 118
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on 'this' instance in class 'MockSocket'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs"
+                },
+                "region": {
+                  "startLine": 288,
+                  "endLine": 288,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'MockSocket'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 288,
+                  "startColumn": 1,
+                  "startLine": 288
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'MockSocket'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 305,
+                  "startColumn": 1,
+                  "startLine": 305
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'MockSocket'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 321,
+                  "startColumn": 1,
+                  "startLine": 321
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'MockSocket'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 344,
+                  "startColumn": 1,
+                  "startLine": 344
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on 'this' instance in class 'MockSocket'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 352,
+                  "startColumn": 1,
+                  "startLine": 352
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3025",
+          "message": {
+            "text": "Incorrect format. A different number of format items is expected while calling 'Format' function. Arguments not used: friendlyname."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/ApplicationEnvironment/AppDomainLayoutRendererTests.cs"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 60,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'MdlcLayoutRendererTests' class containing IDisposable members does not itself implement IDisposable. Inspect: _target."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/MdlcLayoutRendererTests.cs"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 45,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'MdlcLayoutRendererTests' class containing IDisposable members does not itself implement IDisposable. Inspect: _target."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/MdlcLayoutRendererTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 45,
+                  "startColumn": 1,
+                  "startLine": 45
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'MdlcLayoutRendererTests' class containing IDisposable members does not itself implement IDisposable. Inspect: _target."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/MdlcLayoutRendererTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 47,
+                  "startColumn": 1,
+                  "startLine": 47
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159265359 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/AllEventPropertiesTests.cs"
+                },
+                "region": {
+                  "startLine": 96,
+                  "endLine": 96,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159265359 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/AllEventPropertiesTests.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'OneDigitMonthTest' function is fully equivalent to the body of 'OneDigitDayTest' function (114, line 136)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/DateTime/ShortDateTests.cs"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 114,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'OneDigitMonthTest' function is fully equivalent to the body of 'OneDigitDayTest' function (114, line 136)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/DateTime/ShortDateTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 114,
+                  "startColumn": 1,
+                  "startLine": 114
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'OneDigitMonthTest' function is fully equivalent to the body of 'OneDigitDayTest' function (114, line 136)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/DateTime/ShortDateTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 136,
+                  "startColumn": 1,
+                  "startLine": 136
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 52,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 64,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 88,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 100,
+                  "endLine": 100,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 124,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: foo."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/ReplaceNewLinesTests.cs"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 136,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: message."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/WhenEmptyTests.cs"
+                },
+                "region": {
+                  "startLine": 115,
+                  "endLine": 115,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'WrapLineAtPositionZeroTest' function is fully equivalent to the body of 'WrapLineAtNegativePositionTest' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/WrapLineTests.cs"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 128,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'WrapLineAtPositionZeroTest' function is fully equivalent to the body of 'WrapLineAtNegativePositionTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/WrapLineTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 128,
+                  "startColumn": 1,
+                  "startLine": 128
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'WrapLineAtPositionZeroTest' function is fully equivalent to the body of 'WrapLineAtNegativePositionTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String%20transformations/WrapLineTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 138,
+                  "startColumn": 1,
+                  "startLine": 138
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3164",
+          "message": {
+            "text": "Exception classes should be publicly accessible."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/ExceptionTests.cs"
+                },
+                "region": {
+                  "startLine": 728,
+                  "endLine": 728,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'AsyncMethod' function is fully equivalent to the body of 'AsyncMethod2b' function (756, line 827)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 756,
+                  "endLine": 756,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'AsyncMethod' function is fully equivalent to the body of 'AsyncMethod2b' function (756, line 827)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 756,
+                  "startColumn": 1,
+                  "startLine": 756
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'AsyncMethod' function is fully equivalent to the body of 'AsyncMethod2b' function (756, line 827)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 827,
+                  "startColumn": 1,
+                  "startLine": 827
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'AsyncMethod3b' function is fully equivalent to the body of 'MoveNext' function (885, line 1002)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 885,
+                  "endLine": 885,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'AsyncMethod3b' function is fully equivalent to the body of 'MoveNext' function (885, line 1002)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 885,
+                  "startColumn": 1,
+                  "startLine": 885
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'AsyncMethod3b' function is fully equivalent to the body of 'MoveNext' function (885, line 1002)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1002,
+                  "startColumn": 1,
+                  "startLine": 1002
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3032",
+          "message": {
+            "text": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 472,
+                  "endLine": 472,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'done == true' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 477,
+                  "endLine": 477,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3032",
+          "message": {
+            "text": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 505,
+                  "endLine": 505,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'done == true' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 510,
+                  "endLine": 510,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3032",
+          "message": {
+            "text": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 539,
+                  "endLine": 539,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'done == true' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 544,
+                  "endLine": 544,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3032",
+          "message": {
+            "text": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 572,
+                  "endLine": 572,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'done == true' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 577,
+                  "endLine": 577,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3032",
+          "message": {
+            "text": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 605,
+                  "endLine": 605,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'done == true' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 610,
+                  "endLine": 610,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3051",
+          "message": {
+            "text": "An excessive type cast. The object is already of the 'Logger' type."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 1128,
+                  "endLine": 1128,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: logger."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 1155,
+                  "endLine": 1155,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: logger."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs"
+                },
+                "region": {
+                  "startLine": 1163,
+                  "endLine": 1163,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InnerLayoutWithSlashSingleTest' function is fully equivalent to the body of 'InnerLayoutWithSlashTest' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs"
+                },
+                "region": {
+                  "startLine": 407,
+                  "endLine": 407,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InnerLayoutWithSlashSingleTest' function is fully equivalent to the body of 'InnerLayoutWithSlashTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 407,
+                  "startColumn": 1,
+                  "startLine": 407
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InnerLayoutWithSlashSingleTest' function is fully equivalent to the body of 'InnerLayoutWithSlashTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 416,
+                  "startColumn": 1,
+                  "startLine": 416
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'InnerLayoutWithBracketsTest_needEscape3' function is fully equivalent to the body of 'InnerLayoutWithBracketsTest_needEscape4' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs"
+                },
+                "region": {
+                  "startLine": 500,
+                  "endLine": 500,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'InnerLayoutWithBracketsTest_needEscape3' function is fully equivalent to the body of 'InnerLayoutWithBracketsTest_needEscape4' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 500,
+                  "startColumn": 1,
+                  "startLine": 500
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'InnerLayoutWithBracketsTest_needEscape3' function is fully equivalent to the body of 'InnerLayoutWithBracketsTest_needEscape4' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 509,
+                  "startColumn": 1,
+                  "startLine": 509
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'LayoutFixedEmptyNullableIntTest' function is fully equivalent to the body of 'LayoutFixedEmptyUrlTest' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'LayoutFixedEmptyNullableIntTest' function is fully equivalent to the body of 'LayoutFixedEmptyUrlTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "startLine": 120
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'LayoutFixedEmptyNullableIntTest' function is fully equivalent to the body of 'LayoutFixedEmptyUrlTest' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 205,
+                  "startColumn": 1,
+                  "startLine": 205
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<int>)' to the left and to the right of the '==' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 224,
+                  "endLine": 224,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<int>)' to the left and to the right of the '!=' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 225,
+                  "endLine": 225,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3109",
+          "message": {
+            "text": "The 'int?' sub-expression is present on both sides of the operator. The expression is incorrect or it can be simplified."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 227,
+                  "endLine": 227,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3109",
+          "message": {
+            "text": "The 'int?' sub-expression is present on both sides of the operator. The expression is incorrect or it can be simplified."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 228,
+                  "endLine": 228,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<int?>)' to the left and to the right of the '==' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 230,
+                  "endLine": 230,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<int?>)' to the left and to the right of the '!=' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 231,
+                  "endLine": 231,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '==' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 233,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '!=' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 234,
+                  "endLine": 234,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '==' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 236,
+                  "endLine": 236,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '!=' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs"
+                },
+                "region": {
+                  "startLine": 237,
+                  "endLine": 237,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'BeforeWrite', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Mocks/CSharpEventTarget.cs"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 72,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'EventWritten', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Mocks/CSharpEventTarget.cs"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 78,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3011",
+          "message": {
+            "text": "Two opposite conditions were encountered. The second condition is always false. Check lines: 131, 130."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs"
+                },
+                "region": {
+                  "startLine": 131,
+                  "endLine": 131,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two opposite conditions were encountered. The second condition is always false. Check lines: 131, 130."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 130,
+                  "startColumn": 1,
+                  "startLine": 130
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two opposite conditions were encountered. The second condition is always false. Check lines: 131, 130."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 131,
+                  "startColumn": 1,
+                  "startLine": 131
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3011",
+          "message": {
+            "text": "Two opposite conditions were encountered. The second condition is always false. Check lines: 272, 271."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs"
+                },
+                "region": {
+                  "startLine": 272,
+                  "endLine": 272,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two opposite conditions were encountered. The second condition is always false. Check lines: 272, 271."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 271,
+                  "startColumn": 1,
+                  "startLine": 271
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two opposite conditions were encountered. The second condition is always false. Check lines: 272, 271."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 272,
+                  "startColumn": 1,
+                  "startLine": 272
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 86,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 89,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 90,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 113,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 114,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 116,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs"
+                },
+                "region": {
+                  "startLine": 117,
+                  "endLine": 117,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3032",
+          "message": {
+            "text": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LogManagerTests.cs"
+                },
+                "region": {
+                  "startLine": 241,
+                  "endLine": 241,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameters 'param1', 'param2' are not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LogManagerTests.cs"
+                },
+                "region": {
+                  "startLine": 386,
+                  "endLine": 386,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159265 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/DefaultJsonSerializerTestsBase.cs"
+                },
+                "region": {
+                  "startLine": 180,
+                  "endLine": 180,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 844, 818."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 844,
+                  "endLine": 844,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 844, 818."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 818,
+                  "startColumn": 1,
+                  "startLine": 818
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 844, 818."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 844,
+                  "startColumn": 1,
+                  "startLine": 844
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 898, 873."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 898,
+                  "endLine": 898,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 898, 873."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 873,
+                  "startColumn": 1,
+                  "startLine": 873
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 898, 873."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 898,
+                  "startColumn": 1,
+                  "startLine": 898
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 953, 928."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 953,
+                  "endLine": 953,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 953, 928."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 928,
+                  "startColumn": 1,
+                  "startLine": 928
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 953, 928."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 953,
+                  "startColumn": 1,
+                  "startLine": 953
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3164",
+          "message": {
+            "text": "Exception classes should be publicly accessible."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs"
+                },
+                "region": {
+                  "startLine": 401,
+                  "endLine": 401,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs"
+                },
+                "region": {
+                  "startLine": 808,
+                  "endLine": 808,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3026",
+          "message": {
+            "text": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs"
+                },
+                "region": {
+                  "startLine": 871,
+                  "endLine": 871,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3114",
+          "message": {
+            "text": "IDisposable object 'wrapper' is not disposed before method returns."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 90,
+                  "endLine": 90,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on public member 'WrittenEvents' in class 'MyTarget'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 149,
+                  "endLine": 149,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'WrittenEvents' in class 'MyTarget'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 149,
+                  "startColumn": 1,
+                  "startLine": 149
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'WrittenEvents' in class 'MyTarget'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 154,
+                  "startColumn": 1,
+                  "startLine": 154
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'RegistryTestWrongKey_no_ex' function is fully equivalent to the body of 'RegistryTestWrongKey_ex' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "startLine": 285,
+                  "endLine": 285,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'RegistryTestWrongKey_no_ex' function is fully equivalent to the body of 'RegistryTestWrongKey_ex' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 285,
+                  "startColumn": 1,
+                  "startLine": 285
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'RegistryTestWrongKey_no_ex' function is fully equivalent to the body of 'RegistryTestWrongKey_ex' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 305,
+                  "startColumn": 1,
+                  "startLine": 305
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 66,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "startLine": 74,
+                  "endLine": 74,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 82,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'debugTarget'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs"
+                },
+                "region": {
+                  "startLine": 332,
+                  "endLine": 332,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'message'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/EventLogTarget.cs"
+                },
+                "region": {
+                  "startLine": 260,
+                  "endLine": 260,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3073",
+          "message": {
+            "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'DatabaseTarget' class. Inspect: _activeConnection."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs"
+                },
+                "region": {
+                  "startLine": 86,
+                  "endLine": 86,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'DatabaseTarget' class. Inspect: _activeConnection."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 86,
+                  "startColumn": 1,
+                  "startLine": 86
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'DatabaseTarget' class. Inspect: _activeConnection."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 88,
+                  "startColumn": 1,
+                  "startLine": 88
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!foundProvider' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs"
+                },
+                "region": {
+                  "startLine": 426,
+                  "endLine": 426,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'dbTransaction' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs"
+                },
+                "region": {
+                  "startLine": 749,
+                  "endLine": 749,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.Database.Tests/DatabaseTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 2478,
+                  "endLine": 2478,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'String.IsNullOrWhiteSpace(connectionString)' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.Database.Tests/DatabaseTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 2555,
+                  "endLine": 2555,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: logger."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 94,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: logger."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 580,
+                  "endLine": 580,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: logger."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 3103,
+                  "endLine": 3103,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: logger."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 4101,
+                  "endLine": 4101,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs"
+                },
+                "region": {
+                  "startLine": 4258,
+                  "endLine": 4258,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

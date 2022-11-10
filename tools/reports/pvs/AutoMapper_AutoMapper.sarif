@@ -1,0 +1,1427 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V3066",
+              "name": "RuleV3066",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3066/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3066/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-683"
+                ]
+              }
+            },
+            {
+              "id": "V3150",
+              "name": "RuleV3150",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3150/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3150/"
+            },
+            {
+              "id": "V3111",
+              "name": "RuleV3111",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3111/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3111/"
+            },
+            {
+              "id": "V3022",
+              "name": "RuleV3022",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3022/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3022/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3080",
+              "name": "RuleV3080",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3080/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3080/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3142",
+              "name": "RuleV3142",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3142/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3142/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-561"
+                ]
+              }
+            },
+            {
+              "id": "V3068",
+              "name": "RuleV3068",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3068/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3068/"
+            },
+            {
+              "id": "V3117",
+              "name": "RuleV3117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3117/"
+            },
+            {
+              "id": "V3013",
+              "name": "RuleV3013",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3013/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3013/"
+            },
+            {
+              "id": "V3072",
+              "name": "RuleV3072",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3072/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3072/"
+            },
+            {
+              "id": "V3074",
+              "name": "RuleV3074",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3074/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3074/"
+            },
+            {
+              "id": "V3146",
+              "name": "RuleV3146",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3146/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3146/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3115",
+              "name": "RuleV3115",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3115/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3115/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-684"
+                ]
+              }
+            },
+            {
+              "id": "V3010",
+              "name": "RuleV3010",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3010/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3010/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-252"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V3066",
+          "message": {
+            "text": "Possible incorrect order of arguments passed to 'Create' method: '_sourceExpression' and '_destinationExpression'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/PathConfigurationExpression.cs"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 75,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3066",
+          "message": {
+            "text": "Possible incorrect order of arguments passed to 'TypePair' constructor: 'DestinationType' and 'SourceType'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/MappingExpression.cs"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3066",
+          "message": {
+            "text": "Possible incorrect order of arguments passed to 'MappingExpression' constructor: 'DestinationType' and 'SourceType'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/MappingExpression.cs"
+                },
+                "region": {
+                  "startLine": 137,
+                  "endLine": 137,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3066",
+          "message": {
+            "text": "Possible incorrect order of arguments passed to 'IncludeCore' method: 'includedDerivedType.DestinationType' and 'includedDerivedType.SourceType'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/TypeMapConfiguration.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 116,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3066",
+          "message": {
+            "text": "Possible incorrect order of arguments passed to 'IncludeBaseCore' method: 'includedBaseType.DestinationType' and 'includedBaseType.SourceType'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/TypeMapConfiguration.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3150",
+          "message": {
+            "text": "Loop break conditions do not depend on the number of iterations."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Internal/ReflectionHelper.cs"
+                },
+                "region": {
+                  "startLine": 89,
+                  "endLine": 89,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'source' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Mapper.cs"
+                },
+                "region": {
+                  "startLine": 196,
+                  "endLine": 196,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'destination' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Mapper.cs"
+                },
+                "region": {
+                  "startLine": 196,
+                  "endLine": 196,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'variables == null' is always true."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Execution/ExpressionBuilder.cs"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 387,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'expressions'."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Execution/ExpressionBuilder.cs"
+                },
+                "region": {
+                  "startLine": 391,
+                  "endLine": 391,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Execution/ExpressionBuilder.cs"
+                },
+                "region": {
+                  "startLine": 391,
+                  "endLine": 391,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3068",
+          "message": {
+            "text": "Calling overrideable class member 'Because_of' from constructor is dangerous."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/AutoMapperSpecBase.cs"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 13,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'n == 3' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Bug/MultiThreadingIssues.cs"
+                },
+                "region": {
+                  "startLine": 109,
+                  "endLine": 109,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Bug/MultiThreadingIssues.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'value' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/ConfigurationValidation.cs"
+                },
+                "region": {
+                  "startLine": 151,
+                  "endLine": 151,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'value' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/ConfigurationValidation.cs"
+                },
+                "region": {
+                  "startLine": 177,
+                  "endLine": 177,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'value' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/ConfigurationValidation.cs"
+                },
+                "region": {
+                  "startLine": 207,
+                  "endLine": 207,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'ShouldMapEnumByMatchingNames' function is fully equivalent to the body of 'ShouldMapEnumByMatchingValues' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Enumerations.cs"
+                },
+                "region": {
+                  "startLine": 184,
+                  "endLine": 184,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'ShouldMapEnumByMatchingNames' function is fully equivalent to the body of 'ShouldMapEnumByMatchingValues' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Enumerations.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 184,
+                  "startColumn": 1,
+                  "startLine": 184
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'ShouldMapEnumByMatchingNames' function is fully equivalent to the body of 'ShouldMapEnumByMatchingValues' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Enumerations.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 200,
+                  "startColumn": 1,
+                  "startLine": 200
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'x' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Constructors.cs"
+                },
+                "region": {
+                  "startLine": 640,
+                  "endLine": 640,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'x' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Constructors.cs"
+                },
+                "region": {
+                  "startLine": 693,
+                  "endLine": 693,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 104,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 104,
+                  "startColumn": 1,
+                  "startLine": 104
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 106,
+                  "startColumn": 1,
+                  "startLine": 106
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'EnumeratorBase' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 114,
+                  "endLine": 114,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'EnumeratorBase' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 114,
+                  "startColumn": 1,
+                  "startLine": 114
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'EnumeratorBase' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 124,
+                  "startColumn": 1,
+                  "startLine": 124
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'CustomEnumerator' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 160,
+                  "endLine": 160,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CustomEnumerator' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 160,
+                  "startColumn": 1,
+                  "startLine": 160
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CustomEnumerator' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 170,
+                  "startColumn": 1,
+                  "startLine": 170
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 192,
+                  "endLine": 192,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 192,
+                  "startColumn": 1,
+                  "startLine": 192
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 194,
+                  "startColumn": 1,
+                  "startLine": 194
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 232,
+                  "endLine": 232,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 232,
+                  "startColumn": 1,
+                  "startLine": 232
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 234,
+                  "startColumn": 1,
+                  "startLine": 234
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 278,
+                  "endLine": 278,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 278,
+                  "startColumn": 1,
+                  "startLine": 278
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 280,
+                  "startColumn": 1,
+                  "startLine": 280
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "startLine": 322,
+                  "endLine": 322,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 322,
+                  "startColumn": 1,
+                  "startLine": 322
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 324,
+                  "startColumn": 1,
+                  "startLine": 324
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference. The 'FirstOrDefault' can return default null value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CustomMapping.cs"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 233,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference. The 'src.SubModels.FirstOrDefault' can return default null value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CustomMapping.cs"
+                },
+                "region": {
+                  "startLine": 233,
+                  "endLine": 233,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedBaseMappingShouldInheritBaseMappings.cs"
+                },
+                "region": {
+                  "startLine": 236,
+                  "endLine": 236,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedBaseMappingShouldInheritBaseMappings.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 236,
+                  "startColumn": 1,
+                  "startLine": 236
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedBaseMappingShouldInheritBaseMappings.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 257,
+                  "startColumn": 1,
+                  "startLine": 257
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedMappingShouldInheritBaseMappings.cs"
+                },
+                "region": {
+                  "startLine": 269,
+                  "endLine": 269,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedMappingShouldInheritBaseMappings.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 269,
+                  "startColumn": 1,
+                  "startLine": 269
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedMappingShouldInheritBaseMappings.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 291,
+                  "startColumn": 1,
+                  "startLine": 291
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'GetValue1' function is fully equivalent to the body of 'GetValue2' function (121, line 126)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingOrder.cs"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 121,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'GetValue1' function is fully equivalent to the body of 'GetValue2' function (121, line 126)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingOrder.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 121,
+                  "startColumn": 1,
+                  "startLine": 121
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'GetValue1' function is fully equivalent to the body of 'GetValue2' function (121, line 126)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingOrder.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 126,
+                  "startColumn": 1,
+                  "startLine": 126
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference. The 'src.Subs.FirstOrDefault' can return default null value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/NullBehavior.cs"
+                },
+                "region": {
+                  "startLine": 558,
+                  "endLine": 558,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference. The 'src.Subs.FirstOrDefault' can return default null value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/NullBehavior.cs"
+                },
+                "region": {
+                  "startLine": 653,
+                  "endLine": 653,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3115",
+          "message": {
+            "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Projection/ProjectCollectionEnumerableTest.cs"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 66,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3115",
+          "message": {
+            "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Projection/ProjectCollectionListTest.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 88,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference. The 's.InnerSources.FirstOrDefault' can return default null value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/IMappingExpression/IncludeMembers.cs"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'SequenceEqual' is required to be utilized."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/IntegrationTests/MaxDepth/NavigationPropertySO.cs"
+                },
+                "region": {
+                  "startLine": 88,
+                  "endLine": 88,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference. The 'FirstOrDefault' can return default null value."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/IntegrationTests/NullCheckCollections.cs"
+                },
+                "region": {
+                  "startLine": 30,
+                  "endLine": 30,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'ToString' is required to be utilized."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/AutoMapper/src/IntegrationTests/ProjectionOrderTest.cs"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 63,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

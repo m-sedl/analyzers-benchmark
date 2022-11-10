@@ -1,0 +1,2427 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V051",
+              "name": "RuleV051",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v051/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v051/"
+            },
+            {
+              "id": "V3163",
+              "name": "RuleV3163",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3163/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3163/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-1069"
+                ]
+              }
+            },
+            {
+              "id": "V3115",
+              "name": "RuleV3115",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3115/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3115/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-684"
+                ]
+              }
+            },
+            {
+              "id": "V3062",
+              "name": "RuleV3062",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3062/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3062/"
+            },
+            {
+              "id": "V3080",
+              "name": "RuleV3080",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3080/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3080/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3111",
+              "name": "RuleV3111",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3111/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3111/"
+            },
+            {
+              "id": "V3051",
+              "name": "RuleV3051",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3051/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3051/"
+            },
+            {
+              "id": "V3099",
+              "name": "RuleV3099",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3099/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3099/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-684"
+                ]
+              }
+            },
+            {
+              "id": "V3123",
+              "name": "RuleV3123",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3123/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3123/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-783"
+                ]
+              }
+            },
+            {
+              "id": "V3117",
+              "name": "RuleV3117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3117/"
+            },
+            {
+              "id": "V3008",
+              "name": "RuleV3008",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3008/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3008/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-563"
+                ]
+              }
+            },
+            {
+              "id": "V3119",
+              "name": "RuleV3119",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3119/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3119/"
+            },
+            {
+              "id": "V3061",
+              "name": "RuleV3061",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3061/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3061/"
+            },
+            {
+              "id": "V3010",
+              "name": "RuleV3010",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3010/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3010/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-252"
+                ]
+              }
+            },
+            {
+              "id": "V3022",
+              "name": "RuleV3022",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3022/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3022/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-570"
+                ]
+              }
+            },
+            {
+              "id": "V3013",
+              "name": "RuleV3013",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3013/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3013/"
+            },
+            {
+              "id": "V3084",
+              "name": "RuleV3084",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3084/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3084/"
+            },
+            {
+              "id": "V3083",
+              "name": "RuleV3083",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3083/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3083/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-367"
+                ]
+              }
+            },
+            {
+              "id": "V3068",
+              "name": "RuleV3068",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3068/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3068/"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'Moq.Tests(netcoreapp3.1)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ActionObserver.cs"
+                },
+                "region": {
+                  "startLine": 138,
+                  "endLine": 138,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3115",
+          "message": {
+            "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Interception/InterfaceProxy.cs"
+                },
+                "region": {
+                  "startLine": 34,
+                  "endLine": 34,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3062",
+          "message": {
+            "text": "An object is used as an argument to its own method. Consider checking the first actual argument of the method."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 210,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs"
+                },
+                "region": {
+                  "startLine": 273,
+                  "endLine": 273,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Guard.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "startLine": 87
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 273,
+                  "startColumn": 1,
+                  "startLine": 273
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs"
+                },
+                "region": {
+                  "startLine": 332,
+                  "endLine": 332,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Guard.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "startLine": 87
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 332,
+                  "startColumn": 1,
+                  "startLine": 332
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'argument' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 64,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs"
+                },
+                "region": {
+                  "startLine": 217,
+                  "endLine": 217,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3051",
+          "message": {
+            "text": "An excessive type check. The object is already of the 'TValue' type."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 64,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3051",
+          "message": {
+            "text": "An excessive type check. The object is already of the 'TValue' type."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3099",
+          "message": {
+            "text": "Not all the members of 'MockException' type are serialized inside 'GetObjectData' method: Reasons."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MockException.cs"
+                },
+                "region": {
+                  "startLine": 275,
+                  "endLine": 275,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Not all the members of 'MockException' type are serialized inside 'GetObjectData' method: Reasons."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MockException.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 240,
+                  "startColumn": 1,
+                  "startLine": 240
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Not all the members of 'MockException' type are serialized inside 'GetObjectData' method: Reasons."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MockException.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 275,
+                  "startColumn": 1,
+                  "startLine": 275
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MethodCall.cs"
+                },
+                "region": {
+                  "startLine": 94,
+                  "endLine": 94,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'this.Item1' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Pair.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'this.Item2' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Pair.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3123",
+          "message": {
+            "text": "Perhaps the '??' operator works in a different way than it was expected. Its priority is lower than priority of other operators in its left part."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Pair.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'skipInitialize' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Mock%601.cs"
+                },
+                "region": {
+                  "startLine": 107,
+                  "endLine": 107,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 27, 24."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 27, 24."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 24,
+                  "startColumn": 1,
+                  "startLine": 24
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 27, 24."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "startLine": 27
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 55, 48."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 55,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 55, 48."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 48,
+                  "startColumn": 1,
+                  "startLine": 48
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 55, 48."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 55,
+                  "startColumn": 1,
+                  "startLine": 55
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 76, 74."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 76, 74."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 74,
+                  "startColumn": 1,
+                  "startLine": 74
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 76, 74."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "startLine": 76
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 104, 97."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 104,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 104, 97."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 97,
+                  "startColumn": 1,
+                  "startLine": 97
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 104, 97."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 104,
+                  "startColumn": 1,
+                  "startLine": 104
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 136, 129."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "startLine": 136,
+                  "endLine": 136,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 136, 129."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 129,
+                  "startColumn": 1,
+                  "startLine": 129
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 136, 129."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 136,
+                  "startColumn": 1,
+                  "startLine": 136
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 157, 155."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 157,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 157, 155."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 155,
+                  "startColumn": 1,
+                  "startLine": 155
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 157, 155."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 157,
+                  "startColumn": 1,
+                  "startLine": 157
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CustomMatcherFixture.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 46,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3119",
+          "message": {
+            "text": "Calling virtual event 'LeftButtonClicked' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlerTypesMustMatchFixture.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling virtual event 'LeftButtonClicked' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlerTypesMustMatchFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "startLine": 61
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling virtual event 'LeftButtonClicked' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlerTypesMustMatchFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "startLine": 65
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3119",
+          "message": {
+            "text": "Calling virtual event 'Event' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlersFixture.cs"
+                },
+                "region": {
+                  "startLine": 152,
+                  "endLine": 152,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling virtual event 'Event' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlersFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 150,
+                  "startColumn": 1,
+                  "startLine": 150
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling virtual event 'Event' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlersFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 152,
+                  "startColumn": 1,
+                  "startLine": 152
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3061",
+          "message": {
+            "text": "Parameter 'arg2' is always rewritten in method body before being used."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CallbacksFixture.cs"
+                },
+                "region": {
+                  "startLine": 472,
+                  "endLine": 472,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Parameter 'arg2' is always rewritten in method body before being used."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CallbacksFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 470,
+                  "startColumn": 1,
+                  "startLine": 470
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Parameter 'arg2' is always rewritten in method body before being used."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CallbacksFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 472,
+                  "startColumn": 1,
+                  "startLine": 472
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'Next' is required to be utilized."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/InvocationsFixture.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 93,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'Clone' is required to be utilized."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/InvocationsFixture.cs"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 108,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'x.NonVirtualValue == \"bar\"' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs"
+                },
+                "region": {
+                  "startLine": 20,
+                  "endLine": 20,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'x.VirtualBar.NonVirtualValue == \"bar\"' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 26,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'x.NonVirtual() == \"foo\"' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'x.Virtual().NonVirtual() == \"foo\"' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 93,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'ShouldRaiseEventIfAttachedAfterUse' function is fully equivalent to the body of 'ShouldExpectAddGenericHandler' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 37,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'ShouldRaiseEventIfAttachedAfterUse' function is fully equivalent to the body of 'ShouldExpectAddGenericHandler' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 37,
+                  "startColumn": 1,
+                  "startLine": 37
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'ShouldRaiseEventIfAttachedAfterUse' function is fully equivalent to the body of 'ShouldExpectAddGenericHandler' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 49,
+                  "startColumn": 1,
+                  "startLine": 49
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'ShouldRaiseEventWhenExpectationMet' function is fully equivalent to the body of 'ShouldRaiseEventWithArgWhenExpectationMet' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 71,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'ShouldRaiseEventWhenExpectationMet' function is fully equivalent to the body of 'ShouldRaiseEventWithArgWhenExpectationMet' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 71,
+                  "startColumn": 1,
+                  "startLine": 71
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'ShouldRaiseEventWhenExpectationMet' function is fully equivalent to the body of 'ShouldRaiseEventWithArgWhenExpectationMet' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "startLine": 87
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3084",
+          "message": {
+            "text": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 679,
+                  "endLine": 679,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3084",
+          "message": {
+            "text": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 682,
+                  "endLine": 682,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3084",
+          "message": {
+            "text": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 683,
+                  "endLine": 683,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3084",
+          "message": {
+            "text": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 699,
+                  "endLine": 699,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3084",
+          "message": {
+            "text": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 850,
+                  "endLine": 850,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3119",
+          "message": {
+            "text": "Calling virtual event 'VirtualEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 872,
+                  "endLine": 872,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling virtual event 'VirtualEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 870,
+                  "startColumn": 1,
+                  "startLine": 870
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling virtual event 'VirtualEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 872,
+                  "startColumn": 1,
+                  "startLine": 872
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'Fired', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs"
+                },
+                "region": {
+                  "startLine": 909,
+                  "endLine": 909,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'mock.Object.Count' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 651, 646."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs"
+                },
+                "region": {
+                  "startLine": 651,
+                  "endLine": 651,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'mock.Object.Count' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 651, 646."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 646,
+                  "startColumn": 1,
+                  "startLine": 646
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'mock.Object.Count' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 651, 646."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 651,
+                  "startColumn": 1,
+                  "startLine": 651
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_2' function is fully equivalent to the body of 'When_manually_set_up_2' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs"
+                },
+                "region": {
+                  "startLine": 350,
+                  "endLine": 350,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_2' function is fully equivalent to the body of 'When_manually_set_up_2' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 350,
+                  "startColumn": 1,
+                  "startLine": 350
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_2' function is fully equivalent to the body of 'When_manually_set_up_2' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 360,
+                  "startColumn": 1,
+                  "startLine": 360
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_3' function is fully equivalent to the body of 'When_manually_set_up_3' function."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs"
+                },
+                "region": {
+                  "startLine": 370,
+                  "endLine": 370,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_3' function is fully equivalent to the body of 'When_manually_set_up_3' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 370,
+                  "startColumn": 1,
+                  "startLine": 370
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_3' function is fully equivalent to the body of 'When_manually_set_up_3' function."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 379,
+                  "startColumn": 1,
+                  "startLine": 379
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'a' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 134, 130."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 134,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'a' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 134, 130."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 130,
+                  "startColumn": 1,
+                  "startLine": 130
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'a' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 134, 130."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 134,
+                  "startColumn": 1,
+                  "startLine": 134
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3061",
+          "message": {
+            "text": "Parameter 'arg2' is always rewritten in method body before being used."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs"
+                },
+                "region": {
+                  "startLine": 335,
+                  "endLine": 335,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Parameter 'arg2' is always rewritten in method body before being used."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 333,
+                  "startColumn": 1,
+                  "startLine": 333
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Parameter 'arg2' is always rewritten in method body before being used."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 335,
+                  "startColumn": 1,
+                  "startLine": 335
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 202, 201."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/SequenceExtensionsFixture.cs"
+                },
+                "region": {
+                  "startLine": 202,
+                  "endLine": 202,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 202, 201."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/SequenceExtensionsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 201,
+                  "startColumn": 1,
+                  "startLine": 201
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 202, 201."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/SequenceExtensionsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 202,
+                  "startColumn": 1,
+                  "startLine": 202
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 643,
+                  "endLine": 643,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 690,
+                  "endLine": 690,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 699,
+                  "endLine": 699,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 700,
+                  "endLine": 700,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 749,
+                  "endLine": 749,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 765,
+                  "endLine": 765,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 774,
+                  "endLine": 774,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'GetProtectedValue' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs"
+                },
+                "region": {
+                  "startLine": 775,
+                  "endLine": 775,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'value' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 710, 706."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs"
+                },
+                "region": {
+                  "startLine": 710,
+                  "endLine": 710,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'value' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 710, 706."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 706,
+                  "startColumn": 1,
+                  "startLine": 706
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'value' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 710, 706."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 710,
+                  "startColumn": 1,
+                  "startLine": 710
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 1347, 1346."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs"
+                },
+                "region": {
+                  "startLine": 1347,
+                  "endLine": 1347,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 1347, 1346."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1346,
+                  "startColumn": 1,
+                  "startLine": 1346
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 1347, 1346."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1347,
+                  "startColumn": 1,
+                  "startLine": 1347
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3068",
+          "message": {
+            "text": "Calling overrideable class member 'ExecuteMe' from constructor is dangerous."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "startLine": 1817,
+                  "endLine": 1817,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "startLine": 2900,
+                  "endLine": 2900,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'Foo', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "startLine": 5203,
+                  "endLine": 5203,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'Bar', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "startLine": 5207,
+                  "endLine": 5207,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3119",
+          "message": {
+            "text": "Calling virtual event 'MyEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "startLine": 5239,
+                  "endLine": 5239,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling virtual event 'MyEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 5233,
+                  "startColumn": 1,
+                  "startLine": 5233
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling virtual event 'MyEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 5239,
+                  "startColumn": 1,
+                  "startLine": 5239
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3083",
+          "message": {
+            "text": "Unsafe invocation of event 'MyEvent', NullReferenceException is possible. Consider assigning event to a local variable before invoking it."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs"
+                },
+                "region": {
+                  "startLine": 5239,
+                  "endLine": 5239,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

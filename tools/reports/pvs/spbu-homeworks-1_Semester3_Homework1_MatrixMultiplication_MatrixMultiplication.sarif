@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V3081",
+              "name": "RuleV3081",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3081/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3081/"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V3081",
+          "message": {
+            "text": "The 'k' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework1/MatrixMultiplication/MethodsComparison.cs"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 33,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'k' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework1/MatrixMultiplication/MethodsComparison.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "startLine": 27
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'k' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework1/MatrixMultiplication/MethodsComparison.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 33,
+                  "startColumn": 1,
+                  "startLine": 33
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

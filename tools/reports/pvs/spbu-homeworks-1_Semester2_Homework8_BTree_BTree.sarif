@@ -1,0 +1,55 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V3106",
+              "name": "RuleV3106",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3106/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3106/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-125"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V3106",
+          "message": {
+            "text": "Possible negative index value. The value of 'position - 1' index could reach -1."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester2/Homework8/BTree/BTree.cs"
+                },
+                "region": {
+                  "startLine": 196,
+                  "endLine": 196,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

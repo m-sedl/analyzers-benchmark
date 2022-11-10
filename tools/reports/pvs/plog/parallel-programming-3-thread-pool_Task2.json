@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V3114",
+      "cwe": 404,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/parallel-programming-3-thread-pool/hometask_2/Program.cs",
+          "line": 14,
+          "endLine": 14,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1564364336,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hometask_2"
+      ],
+      "message": "IDisposable object 'pool' is not disposed before method returns.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3147",
+      "cwe": 567,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/parallel-programming-3-thread-pool/hometask_2/MyThreadPool.cs",
+          "line": 162,
+          "endLine": 162,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1966765266,
+            "nextLine": 413,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hometask_2"
+      ],
+      "message": "Non-atomic modification of volatile variable 'this.availableThreadCount'",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

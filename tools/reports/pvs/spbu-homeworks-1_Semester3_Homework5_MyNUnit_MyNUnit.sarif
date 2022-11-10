@@ -1,0 +1,49 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V3031",
+              "name": "RuleV3031",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3031/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3031/"
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V3031",
+          "message": {
+            "text": "An excessive check can be simplified. The '||' operator is surrounded by opposite expressions."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework5/MyNUnit/MyNUnitClass.cs"
+                },
+                "region": {
+                  "startLine": 153,
+                  "endLine": 153,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

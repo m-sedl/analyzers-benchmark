@@ -1,0 +1,4239 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V3111",
+              "name": "RuleV3111",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3111/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3111/"
+            },
+            {
+              "id": "V3138",
+              "name": "RuleV3138",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3138/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3138/"
+            },
+            {
+              "id": "V3149",
+              "name": "RuleV3149",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3149/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3149/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3139",
+              "name": "RuleV3139",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3139/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3139/"
+            },
+            {
+              "id": "V3163",
+              "name": "RuleV3163",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3163/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3163/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-1069"
+                ]
+              }
+            },
+            {
+              "id": "V3022",
+              "name": "RuleV3022",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3022/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3022/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3156",
+              "name": "RuleV3156",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3156/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3156/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-628"
+                ]
+              }
+            },
+            {
+              "id": "V3114",
+              "name": "RuleV3114",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3114/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3114/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-404"
+                ]
+              }
+            },
+            {
+              "id": "V3142",
+              "name": "RuleV3142",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3142/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3142/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-561"
+                ]
+              }
+            },
+            {
+              "id": "V3080",
+              "name": "RuleV3080",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3080/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3080/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3068",
+              "name": "RuleV3068",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3068/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3068/"
+            },
+            {
+              "id": "V3117",
+              "name": "RuleV3117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3117/"
+            },
+            {
+              "id": "V3055",
+              "name": "RuleV3055",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3055/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3055/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-481"
+                ]
+              }
+            },
+            {
+              "id": "V3146",
+              "name": "RuleV3146",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3146/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3146/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3115",
+              "name": "RuleV3115",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3115/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3115/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-684"
+                ]
+              }
+            },
+            {
+              "id": "V3063",
+              "name": "RuleV3063",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3063/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3063/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3010",
+              "name": "RuleV3010",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3010/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3010/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-252"
+                ]
+              }
+            },
+            {
+              "id": "V3001",
+              "name": "RuleV3001",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3001/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3001/"
+            },
+            {
+              "id": "V3072",
+              "name": "RuleV3072",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3072/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3072/"
+            },
+            {
+              "id": "V3024",
+              "name": "RuleV3024",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3024/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3024/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-682"
+                ]
+              }
+            },
+            {
+              "id": "V3095",
+              "name": "RuleV3095",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3095/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3095/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3013",
+              "name": "RuleV3013",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3013/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3013/"
+            },
+            {
+              "id": "V3008",
+              "name": "RuleV3008",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3008/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3008/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-563"
+                ]
+              }
+            },
+            {
+              "id": "V3179",
+              "name": "RuleV3179",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3179/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3179/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-628"
+                ]
+              }
+            },
+            {
+              "id": "V3127",
+              "name": "RuleV3127",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3127/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3127/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-682"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'entity' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Insert.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 17,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'entity' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Insert.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'entity' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Update.cs"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 18,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'entity' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Update.cs"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 31,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3138",
+          "message": {
+            "text": "String literal contains potential interpolated expression. Consider inspecting: Name."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Update.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 64,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'entity' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Upsert.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 17,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'entity' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Database/Collections/Upsert.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 37,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 146,
+                  "endLine": 146,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 146,
+                  "startColumn": 1,
+                  "startLine": 146
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 223,
+                  "startColumn": 1,
+                  "startLine": 223
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 150,
+                  "endLine": 150,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 150,
+                  "startColumn": 1,
+                  "startLine": 150
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 223,
+                  "startColumn": 1,
+                  "startLine": 223
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 154,
+                  "endLine": 154,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 154,
+                  "startColumn": 1,
+                  "startLine": 154
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 241,
+                  "startColumn": 1,
+                  "startLine": 241
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 164,
+                  "endLine": 164,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 164,
+                  "startColumn": 1,
+                  "startLine": 164
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 297,
+                  "startColumn": 1,
+                  "startLine": 297
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'doc'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 170,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'doc'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 170,
+                  "startColumn": 1,
+                  "startLine": 170
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'doc'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 201,
+                  "endLine": 201,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 201,
+                  "startColumn": 1,
+                  "startLine": 201
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 262,
+                  "startColumn": 1,
+                  "startLine": 262
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 205,
+                  "endLine": 205,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 205,
+                  "startColumn": 1,
+                  "startLine": 205
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 4th argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 262,
+                  "startColumn": 1,
+                  "startLine": 262
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 3rd argument: doc."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "startLine": 210,
+                  "endLine": 210,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 3rd argument: doc."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 210,
+                  "startColumn": 1,
+                  "startLine": 210
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 3rd argument: doc."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 3rd argument: doc."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/BsonMapper.Deserialize.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 275,
+                  "startColumn": 1,
+                  "startLine": 275
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'bind'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "startLine": 392,
+                  "endLine": 392,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'bind'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 391,
+                  "startColumn": 1,
+                  "startLine": 391
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'bind'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 392,
+                  "startColumn": 1,
+                  "startLine": 392
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "startLine": 531,
+                  "endLine": 531,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 531,
+                  "startColumn": 1,
+                  "startLine": 531
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 545,
+                  "startColumn": 1,
+                  "startLine": 545
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3139",
+          "message": {
+            "text": "Two or more case-branches perform the same actions."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "startLine": 603,
+                  "endLine": 603,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 603,
+                  "startColumn": 1,
+                  "startLine": 603
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Mapper/Linq/LinqExpressionVisitor.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 604,
+                  "startColumn": 1,
+                  "startLine": 604
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Shared/SharedEngine.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'collection' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonArray.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'otherArray'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonArray.cs"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 126,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'otherArray'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonArray.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 126,
+                  "startColumn": 1,
+                  "startLine": 126
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'otherArray'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'id' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Storage/LiteStorage.cs"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 35,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'id' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Storage/LiteStorage.cs"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 95,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'id' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Client/Storage/LiteStorage.cs"
+                },
+                "region": {
+                  "startLine": 232,
+                  "endLine": 232,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'otherDoc'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonDocument.cs"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'otherDoc'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonDocument.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "startLine": 76
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'otherDoc'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Methods/DataTypes.cs"
+                },
+                "region": {
+                  "startLine": 229,
+                  "endLine": 229,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Methods/DataTypes.cs"
+                },
+                "region": {
+                  "startLine": 258,
+                  "endLine": 258,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Methods/DataTypes.cs"
+                },
+                "region": {
+                  "startLine": 287,
+                  "endLine": 287,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Methods/DataTypes.cs"
+                },
+                "region": {
+                  "startLine": 316,
+                  "endLine": 316,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Methods/Misc.cs"
+                },
+                "region": {
+                  "startLine": 31,
+                  "endLine": 31,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3139",
+          "message": {
+            "text": "Two or more case-branches perform the same actions."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "startLine": 651,
+                  "endLine": 651,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 651,
+                  "startColumn": 1,
+                  "startLine": 651
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 657,
+                  "startColumn": 1,
+                  "startLine": 657
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'arr'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionOperators.cs"
+                },
+                "region": {
+                  "startLine": 184,
+                  "endLine": 184,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'arr'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionOperators.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 184,
+                  "startColumn": 1,
+                  "startLine": 184
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'arr'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'doc'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionOperators.cs"
+                },
+                "region": {
+                  "startLine": 258,
+                  "endLine": 258,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'doc'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'doc'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionOperators.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 258,
+                  "startColumn": 1,
+                  "startLine": 258
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'arr'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionOperators.cs"
+                },
+                "region": {
+                  "startLine": 291,
+                  "endLine": 291,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'arr'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator can lead to NullReferenceException. Consider inspecting 'arr'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionOperators.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 291,
+                  "startColumn": 1,
+                  "startLine": 291
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'origin == FileOrigin.Data' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/DiskService.cs"
+                },
+                "region": {
+                  "startLine": 289,
+                  "endLine": 289,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "startLine": 56
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 143,
+                  "startColumn": 1,
+                  "startLine": 143
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 60,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 60,
+                  "startColumn": 1,
+                  "startLine": 60
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 126,
+                  "startColumn": 1,
+                  "startLine": 126
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The first argument of the 'ToBase64String' method is not expected to be null. Potential null value: bytes."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Json/JsonWriter.cs"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 91,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3114",
+          "message": {
+            "text": "IDisposable object 'pdb' is not disposed before method returns."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Streams/AesStream.cs"
+                },
+                "region": {
+                  "startLine": 80,
+                  "endLine": 80,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '_header.GetCollectionPageID(newName) != uint.MaxValue' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Engine/Collection.cs"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 78,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Engine/Collection.cs"
+                },
+                "region": {
+                  "startLine": 84,
+                  "endLine": 84,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "startLine": 397,
+                  "endLine": 397,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 363,
+                  "startColumn": 1,
+                  "startLine": 363
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 397,
+                  "startColumn": 1,
+                  "startLine": 397
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "startLine": 403,
+                  "endLine": 403,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 344,
+                  "startColumn": 1,
+                  "startLine": 344
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 403,
+                  "startColumn": 1,
+                  "startLine": 403
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Engine/Update.cs"
+                },
+                "region": {
+                  "startLine": 76,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Methods/Misc.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 48,
+                  "startColumn": 1,
+                  "startLine": 48
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Engine/Update.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 76,
+                  "startColumn": 1,
+                  "startLine": 76
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 2nd argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'index.MaxLevel'. Consider inspecting the 1st argument: index."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Engine/Update.cs"
+                },
+                "region": {
+                  "startLine": 159,
+                  "endLine": 159,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'index.MaxLevel'. Consider inspecting the 1st argument: index."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 77,
+                  "startColumn": 1,
+                  "startLine": 77
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'index.MaxLevel'. Consider inspecting the 1st argument: index."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Engine/Update.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 159,
+                  "startColumn": 1,
+                  "startLine": 159
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'remaining' is always not null. The operator '?.' is excessive."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferReader.cs"
+                },
+                "region": {
+                  "startLine": 435,
+                  "endLine": 435,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3114",
+          "message": {
+            "text": "IDisposable object 'pdb' is not disposed before method returns."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/Legacy/AesEncryption.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 23,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3068",
+          "message": {
+            "text": "Calling overrideable class member 'Dispose' from constructor is dangerous."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/LiteEngine.cs"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 116,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'this.PageType != PageType.Collection' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Pages/CollectionPage.cs"
+                },
+                "region": {
+                  "startLine": 46,
+                  "endLine": 46,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'this.PageType != PageType.Data' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Pages/DataPage.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 23,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'pageID' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Pages/HeaderPage.cs"
+                },
+                "region": {
+                  "startLine": 78,
+                  "endLine": 78,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'this.PageType != PageType.Index' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Pages/IndexPage.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 23,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting '_header'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 35,
+                  "endLine": 35,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The first argument of the 'SequenceEqual' method is not expected to be null. Potential null value: _header[\"password\"].AsBinary."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 48,
+                  "endLine": 48,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'page'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 75,
+                  "endLine": 75,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'col'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 100,
+                  "endLine": 100,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'indexPage'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 108,
+                  "endLine": 108,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'dataPage'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 118,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'page'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/FileReader/FileReaderV7.cs"
+                },
+                "region": {
+                  "startLine": 363,
+                  "endLine": 363,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Lookup/IndexKeyLoader.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 26,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'node.DataBlock'. Consider inspecting the 1st argument: node."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Lookup/IndexKeyLoader.cs"
+                },
+                "region": {
+                  "startLine": 40,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'node.DataBlock'. Consider inspecting the 1st argument: node."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Lookup/IndexKeyLoader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 24,
+                  "startColumn": 1,
+                  "startLine": 24
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'node.DataBlock'. Consider inspecting the 1st argument: node."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Lookup/IndexKeyLoader.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'expr.IsScalar'. Consider inspecting the 1st argument: expr."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/BsonExpression.cs"
+                },
+                "region": {
+                  "startLine": 352,
+                  "endLine": 352,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'expr.IsScalar'. Consider inspecting the 1st argument: expr."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/BsonExpression.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 352,
+                  "startColumn": 1,
+                  "startLine": 352
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'expr.IsScalar'. Consider inspecting the 1st argument: expr."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/BsonExpression.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 361,
+                  "startColumn": 1,
+                  "startLine": 361
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Pipeline/DocumentCacheEnumerable.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "endLine": 64,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Pipeline/BasePipe.cs"
+                },
+                "region": {
+                  "startLine": 67,
+                  "endLine": 67,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Pipeline/BasePipe.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 67,
+                  "startColumn": 1,
+                  "startLine": 67
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Pipeline/BasePipe.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 88,
+                  "startColumn": 1,
+                  "startLine": 88
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3055",
+          "message": {
+            "text": "Suspicious assignment inside the condition expression of 'while' operator: done.Running = enumerator.MoveNext()."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Query/Pipeline/GroupByPipe.cs"
+                },
+                "region": {
+                  "startLine": 91,
+                  "endLine": 91,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/LockService.cs"
+                },
+                "region": {
+                  "startLine": 148,
+                  "endLine": 148,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '_state != TransactionState.Disposed' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/TransactionService.cs"
+                },
+                "region": {
+                  "startLine": 404,
+                  "endLine": 404,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3146",
+          "message": {
+            "text": "Possible null dereference of 'current'. The '_containers.FirstOrDefault' can return default null value."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Sort/SortService.cs"
+                },
+                "region": {
+                  "startLine": 153,
+                  "endLine": 153,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference of 'current'. The '_containers.FirstOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Sort/SortService.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 153,
+                  "startColumn": 1,
+                  "startLine": 153
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference of 'current'. The '_containers.FirstOrDefault' can return default null value."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Sort/SortService.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 160,
+                  "startColumn": 1,
+                  "startLine": 160
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3115",
+          "message": {
+            "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Structures/PageAddress.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 37,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Structures/PageAddress.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 37,
+                  "startColumn": 1,
+                  "startLine": 37
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Structures/PageAddress.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 39,
+                  "startColumn": 1,
+                  "startLine": 39
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3115",
+          "message": {
+            "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Structures/PagePosition.cs"
+                },
+                "region": {
+                  "startLine": 33,
+                  "endLine": 33,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Structures/PagePosition.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 33,
+                  "startColumn": 1,
+                  "startLine": 33
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Structures/PagePosition.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 35,
+                  "startColumn": 1,
+                  "startLine": 35
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3156",
+          "message": {
+            "text": "The first argument of the 'ToBase64String' method is not expected to be null. Potential null value: value.AsBinary."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/SystemCollections/SysFileCsv.cs"
+                },
+                "region": {
+                  "startLine": 170,
+                  "endLine": 170,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: quote != ' '."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/DictionaryExtensions.cs"
+                },
+                "region": {
+                  "startLine": 93,
+                  "endLine": 93,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/BufferSliceExtensions.cs"
+                },
+                "region": {
+                  "startLine": 286,
+                  "endLine": 286,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 219,
+                  "startColumn": 1,
+                  "startLine": 219
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/BufferSliceExtensions.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 286,
+                  "startColumn": 1,
+                  "startLine": 286
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsDocument."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 363,
+                  "startColumn": 1,
+                  "startLine": 363
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3149",
+          "message": {
+            "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/BufferSliceExtensions.cs"
+                },
+                "region": {
+                  "startLine": 293,
+                  "endLine": 293,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/BsonValue.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 216,
+                  "startColumn": 1,
+                  "startLine": 216
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/BufferSliceExtensions.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 293,
+                  "startColumn": 1,
+                  "startLine": 293
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Dereferencing the result of 'as' operator inside method can lead to NullReferenceException. Consider inspecting 1st argument: value.AsArray."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Disk/Serializer/BufferWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 344,
+                  "startColumn": 1,
+                  "startLine": 344
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always false if it is evaluated: isCharSetOn."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 123,
+                  "endLine": 123,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'isCharSetOn' is always false."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Utils/Extensions/StringExtensions.cs"
+                },
+                "region": {
+                  "startLine": 128,
+                  "endLine": 128,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'cur'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 113,
+                  "endLine": 113,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'cache'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 122,
+                  "endLine": 122,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'last'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 156,
+                  "endLine": 156,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'last'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 232,
+                  "endLine": 232,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'node'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 300,
+                  "endLine": 300,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: GetNode(...)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 317,
+                  "endLine": 317,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: GetNode(...)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 318,
+                  "endLine": 318,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'cur'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 330,
+                  "endLine": 330,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'cur'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 352,
+                  "endLine": 352,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference. Consider inspecting 'next'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Engine/Services/IndexService.cs"
+                },
+                "region": {
+                  "startLine": 355,
+                  "endLine": 355,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'ToArray' is required to be utilized."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Database/Create_Database_Tests.cs"
+                },
+                "region": {
+                  "startLine": 27,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3114",
+          "message": {
+            "text": "IDisposable object 'm' is not disposed before method returns."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Internals/Cache_Tests.cs"
+                },
+                "region": {
+                  "startLine": 165,
+                  "endLine": 165,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions '!x.Active' to the left and to the right of the '&&' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqEval_Tests.cs"
+                },
+                "region": {
+                  "startLine": 104,
+                  "endLine": 104,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'x.Active || !x.Active' is always true. Probably the '&&' operator should be used here."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqEval_Tests.cs"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 105,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'BenchmarkBase' class containing IDisposable members does not itself implement IDisposable. Inspect: DatabaseInstance."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/BenchmarkBase.cs"
+                },
+                "region": {
+                  "startLine": 7,
+                  "endLine": 7,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'BenchmarkBase' class containing IDisposable members does not itself implement IDisposable. Inspect: DatabaseInstance."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/BenchmarkBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 7,
+                  "startColumn": 1,
+                  "startLine": 7
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'BenchmarkBase' class containing IDisposable members does not itself implement IDisposable. Inspect: DatabaseInstance."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/BenchmarkBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 31,
+                  "startColumn": 1,
+                  "startLine": 31
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: x.Salary != 50. Consider using a comparison with defined precision: Math.Abs(A - B) > Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqBsonExpression_Tests.cs"
+                },
+                "region": {
+                  "startLine": 238,
+                  "endLine": 238,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: x.Salary == x.Id. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqBsonExpression_Tests.cs"
+                },
+                "region": {
+                  "startLine": 239,
+                  "endLine": 239,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'x.Active' to the left and to the right of the '&&' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqBsonExpression_Tests.cs"
+                },
+                "region": {
+                  "startLine": 247,
+                  "endLine": 247,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3001",
+          "message": {
+            "text": "There are identical sub-expressions 'x.Active' to the left and to the right of the '&&' operator."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqBsonExpression_Tests.cs"
+                },
+                "region": {
+                  "startLine": 248,
+                  "endLine": 248,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'x.Active && !x.Active' is always false. Probably the '||' operator should be used here."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqBsonExpression_Tests.cs"
+                },
+                "region": {
+                  "startLine": 249,
+                  "endLine": 249,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: x.Salary == 50. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Tests/Mapper/LinqBsonExpression_Tests.cs"
+                },
+                "region": {
+                  "startLine": 252,
+                  "endLine": 252,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The 'DatabaseInstance' object was used before it was verified against null. Check lines: 52, 53."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QueryCountBenchmark.cs"
+                },
+                "region": {
+                  "startLine": 52,
+                  "endLine": 52,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'DatabaseInstance' object was used before it was verified against null. Check lines: 52, 53."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QueryCountBenchmark.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 52,
+                  "startColumn": 1,
+                  "startLine": 52
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'DatabaseInstance' object was used before it was verified against null. Check lines: 52, 53."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QueryCountBenchmark.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 53,
+                  "startColumn": 1,
+                  "startLine": 53
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The 'DatabaseInstance' object was used before it was verified against null. Check lines: 65, 68."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QueryIgnoreExpressionPropertiesBenchmark.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'DatabaseInstance' object was used before it was verified against null. Check lines: 65, 68."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QueryIgnoreExpressionPropertiesBenchmark.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "startLine": 65
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'DatabaseInstance' object was used before it was verified against null. Check lines: 65, 68."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QueryIgnoreExpressionPropertiesBenchmark.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 68,
+                  "startColumn": 1,
+                  "startLine": 68
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'FindWithQuery' function is fully equivalent to the body of 'FindWithIndexQuery' function (49, line 61)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QuerySimpleIndexBenchmarks.cs"
+                },
+                "region": {
+                  "startLine": 49,
+                  "endLine": 49,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'FindWithQuery' function is fully equivalent to the body of 'FindWithIndexQuery' function (49, line 61)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QuerySimpleIndexBenchmarks.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 49,
+                  "startColumn": 1,
+                  "startLine": 49
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'FindWithQuery' function is fully equivalent to the body of 'FindWithIndexQuery' function (49, line 61)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Benchmarks/Queries/QuerySimpleIndexBenchmarks.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "startLine": 61
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'generatedFileMeta.ValidFrom' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 29, 28."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Models/Generators/FileMetaGenerator.cs"
+                },
+                "region": {
+                  "startLine": 29,
+                  "endLine": 29,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'generatedFileMeta.ValidFrom' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 29, 28."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Models/Generators/FileMetaGenerator.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "startLine": 28
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'generatedFileMeta.ValidFrom' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 29, 28."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB.Benchmarks/Models/Generators/FileMetaGenerator.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 29,
+                  "startColumn": 1,
+                  "startLine": 29
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3179",
+          "message": {
+            "text": "Calling the 'Single' method for potentially empty collection 'values' may result in exception."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 205,
+                  "endLine": 205,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: fields.Count == 1."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 310,
+                  "endLine": 310,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: fields.Count == 1."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 313,
+                  "endLine": 313,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!tokenizer.CheckEOF()' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 358,
+                  "endLine": 358,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!tokenizer.CheckEOF()' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 619,
+                  "endLine": 619,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!tokenizer.CheckEOF()' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 769,
+                  "endLine": 769,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!tokenizer.CheckEOF()' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 902,
+                  "endLine": 902,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression '!tokenizer.CheckEOF()' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 1241,
+                  "endLine": 1241,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3127",
+          "message": {
+            "text": "Two similar code fragments were found. Perhaps, this is a typo and 'item1' variable should be used instead of 'item0'"
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "startLine": 1290,
+                  "endLine": 1290,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two similar code fragments were found. Perhaps, this is a typo and 'item1' variable should be used instead of 'item0'"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1289,
+                  "startColumn": 1,
+                  "startLine": 1289
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two similar code fragments were found. Perhaps, this is a typo and 'item1' variable should be used instead of 'item0'"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/litedb/LiteDB/Document/Expression/Parser/BsonExpressionParser.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1290,
+                  "startColumn": 1,
+                  "startLine": 1290
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

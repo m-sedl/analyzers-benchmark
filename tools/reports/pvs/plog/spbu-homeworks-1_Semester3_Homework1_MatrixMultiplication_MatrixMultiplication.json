@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V3081",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework1/MatrixMultiplication/MethodsComparison.cs",
+          "line": 33,
+          "endLine": 33,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -870247198,
+            "currentLine": -2101182526,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester3/Homework1/MatrixMultiplication/MethodsComparison.cs",
+          "line": 27,
+          "endLine": 27,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "MatrixMultiplication"
+      ],
+      "message": "The 'k' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

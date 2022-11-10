@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V3106",
+      "cwe": 125,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/spbu-homeworks-1/Semester2/Homework8/BTree/BTree.cs",
+          "line": 196,
+          "endLine": 196,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 2018845983,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "BTree"
+      ],
+      "message": "Possible negative index value. The value of 'position - 1' index could reach -1.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

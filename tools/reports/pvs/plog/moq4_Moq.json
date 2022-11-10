@@ -1,0 +1,1811 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Some of the references in 'Moq.Tests(netcoreapp3.1)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ActionObserver.cs",
+          "line": 138,
+          "endLine": 138,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3115",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Interception/InterfaceProxy.cs",
+          "line": 34,
+          "endLine": 34,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1624494316,
+            "currentLine": 1476514888,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3062",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs",
+          "line": 210,
+          "endLine": 210,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1365949814,
+            "currentLine": -1339463527,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "An object is used as an argument to its own method. Consider checking the first actual argument of the method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs",
+          "line": 273,
+          "endLine": 273,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 86718,
+            "currentLine": 4792,
+            "nextLine": 38746,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Guard.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/ExpressionExtensions.cs",
+          "line": 332,
+          "endLine": 332,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 86718,
+            "currentLine": 4792,
+            "nextLine": 1556783168,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Guard.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Possible null dereference inside method at 'method.IsStatic'. Consider inspecting the 2nd argument: method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1533790473,
+            "currentLine": -96293663,
+            "nextLine": 430885005,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Checking value of 'argument' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs",
+          "line": 217,
+          "endLine": 217,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1484649,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3051",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1533790473,
+            "currentLine": -96293663,
+            "nextLine": 430885005,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "An excessive type check. The object is already of the 'TValue' type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3051",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/It.cs",
+          "line": 112,
+          "endLine": 112,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1533790473,
+            "currentLine": 803439363,
+            "nextLine": -1695852404,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "An excessive type check. The object is already of the 'TValue' type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3099",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MockException.cs",
+          "line": 275,
+          "endLine": 275,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 12894281,
+            "currentLine": 1553185246,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MockException.cs",
+          "line": 240,
+          "endLine": 240,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Not all the members of 'MockException' type are serialized inside 'GetObjectData' method: Reasons.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/MethodCall.cs",
+          "line": 94,
+          "endLine": 94,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Pair.cs",
+          "line": 40,
+          "endLine": 40,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1186435620,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Checking value of 'this.Item1' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Pair.cs",
+          "line": 40,
+          "endLine": 40,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1186435620,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Checking value of 'this.Item2' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3123",
+      "cwe": 783,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Pair.cs",
+          "line": 40,
+          "endLine": 40,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1186435620,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Perhaps the '??' operator works in a different way than it was expected. Its priority is lower than priority of other operators in its left part.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/src/Moq/Mock`1.cs",
+          "line": 107,
+          "endLine": 107,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 216764,
+            "currentLine": 1640630726,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq(netstandard2.1)"
+      ],
+      "message": "Constructor parameter 'skipInitialize' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 27,
+          "endLine": 27,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 44373,
+            "nextLine": -545605732,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 24,
+          "endLine": 24,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 27, 24.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 55,
+          "endLine": 55,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 44373,
+            "nextLine": 1251661,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 48,
+          "endLine": 48,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 55, 48.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 76,
+          "endLine": 76,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2121959986,
+            "currentLine": 73429,
+            "nextLine": -545607244,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 74,
+          "endLine": 74,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 76, 74.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 104,
+          "endLine": 104,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 44373,
+            "nextLine": 1251661,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 97,
+          "endLine": 97,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 104, 97.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 136,
+          "endLine": 136,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 44373,
+            "nextLine": 1251661,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 129,
+          "endLine": 129,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'when' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 136, 129.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 157,
+          "endLine": 157,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -271624915,
+            "currentLine": 73429,
+            "nextLine": 1005539933,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ConditionalSetupFixture.cs",
+          "line": 155,
+          "endLine": 155,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'first' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 157, 155.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CustomMatcherFixture.cs",
+          "line": 46,
+          "endLine": 46,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1484649,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3119",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlerTypesMustMatchFixture.cs",
+          "line": 65,
+          "endLine": 65,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -475601849,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlerTypesMustMatchFixture.cs",
+          "line": 61,
+          "endLine": 61,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Calling virtual event 'LeftButtonClicked' may lead to unpredictable behavior. Consider implementing event accessors explicitly.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3119",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlersFixture.cs",
+          "line": 152,
+          "endLine": 152,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1231003567,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/EventHandlersFixture.cs",
+          "line": 150,
+          "endLine": 150,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Calling virtual event 'Event' may lead to unpredictable behavior. Consider implementing event accessors explicitly.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3061",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CallbacksFixture.cs",
+          "line": 472,
+          "endLine": 472,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 559431,
+            "nextLine": 805,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/CallbacksFixture.cs",
+          "line": 470,
+          "endLine": 470,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Parameter 'arg2' is always rewritten in method body before being used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/InvocationsFixture.cs",
+          "line": 93,
+          "endLine": 93,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 20626121,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'Next' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/InvocationsFixture.cs",
+          "line": 108,
+          "endLine": 108,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 41250913,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'Clone' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs",
+          "line": 20,
+          "endLine": 20,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1516190322,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'x.NonVirtualValue == \"bar\"' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs",
+          "line": 26,
+          "endLine": 26,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -375264697,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'x.VirtualBar.NonVirtualValue == \"bar\"' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -347478776,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'x.NonVirtual() == \"foo\"' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Linq/UnsupportedQuerying.cs",
+          "line": 93,
+          "endLine": 93,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -117105044,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'x.Virtual().NonVirtual() == \"foo\"' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 37,
+          "endLine": 37,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 1892138807,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 49,
+          "endLine": 49,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'ShouldRaiseEventIfAttachedAfterUse' function is fully equivalent to the body of 'ShouldExpectAddGenericHandler' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 71,
+          "endLine": 71,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 1883366339,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'ShouldRaiseEventWhenExpectationMet' function is fully equivalent to the body of 'ShouldRaiseEventWithArgWhenExpectationMet' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3084",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 679,
+          "endLine": 679,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 710856772,
+            "currentLine": 316270592,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3084",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 682,
+          "endLine": 682,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": -444633721,
+            "nextLine": -444633721,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3084",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 683,
+          "endLine": 683,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -444633721,
+            "currentLine": -444633721,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3084",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 699,
+          "endLine": 699,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -447779449,
+            "currentLine": -444633721,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3084",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 850,
+          "endLine": 850,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": -354068631,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Anonymous function is used to unsubscribe from 'Added' event. No handlers will be unsubscribed, as a separate delegate instance is created for each anonymous function declaration.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3119",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 872,
+          "endLine": 872,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -722916779,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 870,
+          "endLine": 870,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Calling virtual event 'VirtualEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockedEventsFixture.cs",
+          "line": 909,
+          "endLine": 909,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 115790730,
+            "nextLine": 255197555,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe invocation of event 'Fired', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs",
+          "line": 651,
+          "endLine": 651,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 41251593,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/MockFixture.cs",
+          "line": 646,
+          "endLine": 646,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'mock.Object.Count' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 651, 646.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs",
+          "line": 350,
+          "endLine": 350,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 298429950,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs",
+          "line": 360,
+          "endLine": 360,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_2' function is fully equivalent to the body of 'When_manually_set_up_2' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs",
+          "line": 370,
+          "endLine": 370,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 298429946,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/RecursiveMocksFixture.cs",
+          "line": 379,
+          "endLine": 379,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'When_set_up_by_DefaultValue_Mock_3' function is fully equivalent to the body of 'When_manually_set_up_3' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs",
+          "line": 134,
+          "endLine": 134,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 7407,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs",
+          "line": 130,
+          "endLine": 130,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'a' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 134, 130.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3061",
+      "cwe": 0,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs",
+          "line": 335,
+          "endLine": 335,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 559431,
+            "nextLine": 181233365,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ReturnsFixture.cs",
+          "line": 333,
+          "endLine": 333,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Parameter 'arg2' is always rewritten in method body before being used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/SequenceExtensionsFixture.cs",
+          "line": 202,
+          "endLine": 202,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1358600692,
+            "currentLine": -1358564020,
+            "nextLine": 1631502568,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/SequenceExtensionsFixture.cs",
+          "line": 201,
+          "endLine": 201,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 202, 201.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 643,
+          "endLine": 643,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1330309448,
+            "currentLine": 1461472342,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 690,
+          "endLine": 690,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1330309448,
+            "currentLine": 1461472342,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 699,
+          "endLine": 699,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1330309448,
+            "currentLine": 1461472342,
+            "nextLine": 1461472342,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 700,
+          "endLine": 700,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1461472342,
+            "currentLine": 1461472342,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 749,
+          "endLine": 749,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1330309448,
+            "currentLine": 1461472342,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 765,
+          "endLine": 765,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1330309448,
+            "currentLine": 1461472342,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 774,
+          "endLine": 774,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1330309448,
+            "currentLine": 1461472342,
+            "nextLine": 1461472342,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/ProtectedMockFixture.cs",
+          "line": 775,
+          "endLine": 775,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1461472342,
+            "currentLine": 1461472342,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'GetProtectedValue' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs",
+          "line": 710,
+          "endLine": 710,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 718364181,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs",
+          "line": 706,
+          "endLine": 706,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The 'value' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 710, 706.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs",
+          "line": 1347,
+          "endLine": 1347,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 10770283,
+            "currentLine": 689295637,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/VerifyFixture.cs",
+          "line": 1346,
+          "endLine": 1346,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "The '_' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 1347, 1346.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3068",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 1817,
+          "endLine": 1817,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1744313,
+            "currentLine": 216337,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Calling overrideable class member 'ExecuteMe' from constructor is dangerous.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 2900,
+          "endLine": 2900,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 461964806,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 5203,
+          "endLine": 5203,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1681044440,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe invocation of event 'Foo', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 5207,
+          "endLine": 5207,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1823650776,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe invocation of event 'Bar', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3119",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 5239,
+          "endLine": 5239,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1588769435,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 5233,
+          "endLine": 5233,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Calling virtual event 'MyEvent' may lead to unpredictable behavior. Consider implementing event accessors explicitly.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/moq4/tests/Moq.Tests/Regressions/IssueReportsFixture.cs",
+          "line": 5239,
+          "endLine": 5239,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1588769435,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Moq.Tests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe invocation of event 'MyEvent', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
