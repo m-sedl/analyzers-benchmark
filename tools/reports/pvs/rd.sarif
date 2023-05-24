@@ -1,0 +1,3083 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.21.0.0",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "V051",
+              "name": "RuleV051",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v051/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v051/"
+            },
+            {
+              "id": "V3111",
+              "name": "RuleV3111",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3111/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3111/"
+            },
+            {
+              "id": "V3068",
+              "name": "RuleV3068",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3068/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3068/"
+            },
+            {
+              "id": "V3063",
+              "name": "RuleV3063",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3063/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3063/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3163",
+              "name": "RuleV3163",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3163/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3163/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-1069"
+                ]
+              }
+            },
+            {
+              "id": "V3072",
+              "name": "RuleV3072",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3072/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3072/"
+            },
+            {
+              "id": "V3134",
+              "name": "RuleV3134",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3134/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3134/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-128"
+                ]
+              }
+            },
+            {
+              "id": "V3022",
+              "name": "RuleV3022",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3022/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3022/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-571"
+                ]
+              }
+            },
+            {
+              "id": "V3074",
+              "name": "RuleV3074",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3074/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3074/"
+            },
+            {
+              "id": "V3013",
+              "name": "RuleV3013",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3013/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3013/"
+            },
+            {
+              "id": "V3029",
+              "name": "RuleV3029",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3029/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3029/"
+            },
+            {
+              "id": "V3100",
+              "name": "RuleV3100",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3100/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3100/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3095",
+              "name": "RuleV3095",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3095/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3095/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3119",
+              "name": "RuleV3119",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3119/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3119/"
+            },
+            {
+              "id": "V3142",
+              "name": "RuleV3142",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3142/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3142/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-561"
+                ]
+              }
+            },
+            {
+              "id": "V3080",
+              "name": "RuleV3080",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3080/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3080/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            },
+            {
+              "id": "V3165",
+              "name": "RuleV3165",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3165/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3165/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-628"
+                ]
+              }
+            },
+            {
+              "id": "V3066",
+              "name": "RuleV3066",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3066/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3066/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-683"
+                ]
+              }
+            },
+            {
+              "id": "V3139",
+              "name": "RuleV3139",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3139/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3139/"
+            },
+            {
+              "id": "V3010",
+              "name": "RuleV3010",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3010/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3010/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-252"
+                ]
+              }
+            },
+            {
+              "id": "V3008",
+              "name": "RuleV3008",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3008/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3008/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-563"
+                ]
+              }
+            },
+            {
+              "id": "V3065",
+              "name": "RuleV3065",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3065/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3065/"
+            },
+            {
+              "id": "V3024",
+              "name": "RuleV3024",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3024/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3024/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-682"
+                ]
+              }
+            },
+            {
+              "id": "V3117",
+              "name": "RuleV3117",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3117/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3117/"
+            },
+            {
+              "id": "V3090",
+              "name": "RuleV3090",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3090/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3090/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-833"
+                ]
+              }
+            },
+            {
+              "id": "V3105",
+              "name": "RuleV3105",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3105/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3105/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-690"
+                ]
+              }
+            },
+            {
+              "id": "V3027",
+              "name": "RuleV3027",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v3027/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v3027/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-476"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'RdFramework(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'RdFramework.Reflection(netstandard2.0)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'Test.RdFramework(netcoreapp3.1)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'Test.Lifetimes(netcoreapp3.1)' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'Test.Cross' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'Test.RdFramework.Generator' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V051",
+          "message": {
+            "text": "Some of the references in 'Test.Reflection.App' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file://"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'item' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/CollectionEx.cs"
+                },
+                "region": {
+                  "startLine": 32,
+                  "endLine": 32,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'item' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableList.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 54,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableList.cs"
+                },
+                "region": {
+                  "startLine": 101,
+                  "endLine": 101,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'item' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableList.cs"
+                },
+                "region": {
+                  "startLine": 134,
+                  "endLine": 134,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3068",
+          "message": {
+            "text": "Calling overrideable class member 'Value' from constructor is dangerous."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableProperty.cs"
+                },
+                "region": {
+                  "startLine": 26,
+                  "endLine": 26,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3063",
+          "message": {
+            "text": "A part of conditional expression is always true if it is evaluated: Equals((Unit) obj)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Core/Unit.cs"
+                },
+                "region": {
+                  "startLine": 25,
+                  "endLine": 25,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/SingleThreadScheduler.cs"
+                },
+                "region": {
+                  "startLine": 152,
+                  "endLine": 152,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'WriteOnceSignal' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/WriteOnceProperty.cs"
+                },
+                "region": {
+                  "startLine": 73,
+                  "endLine": 73,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'WriteOnceSignal' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/WriteOnceProperty.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 73,
+                  "startColumn": 1,
+                  "startLine": 73
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'WriteOnceSignal' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/WriteOnceProperty.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 75,
+                  "startColumn": 1,
+                  "startLine": 75
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Diagnostics/ProcessWatchdog.cs"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 82,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Diagnostics/StringInterpolation/JetDefaultInterpolatedStringHandler.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 41,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ReactiveEx.cs"
+                },
+                "region": {
+                  "startLine": 399,
+                  "endLine": 399,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Threading/SpinWaitLock.cs"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 97,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3134",
+          "message": {
+            "text": "Shift by [32..61] bits is greater than the size of 'Int32' type of expression '1'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitHacks.cs"
+                },
+                "region": {
+                  "startLine": 60,
+                  "endLine": 60,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Mode.IsAssertion' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 44,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Mode.IsAssertion' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs"
+                },
+                "region": {
+                  "startLine": 45,
+                  "endLine": 45,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Mode.IsAssertion' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 53,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Mode.IsAssertion' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs"
+                },
+                "region": {
+                  "startLine": 54,
+                  "endLine": 54,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'RentedValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/SingleThreadObjectPool.cs"
+                },
+                "region": {
+                  "startLine": 59,
+                  "endLine": 59,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'RentedValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/SingleThreadObjectPool.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 59,
+                  "startColumn": 1,
+                  "startLine": 59
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'RentedValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/SingleThreadObjectPool.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 70,
+                  "startColumn": 1,
+                  "startLine": 70
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/Lifetime.cs"
+                },
+                "region": {
+                  "startLine": 1248,
+                  "endLine": 1248,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/Lifetime.cs"
+                },
+                "region": {
+                  "startLine": 1272,
+                  "endLine": 1272,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3163",
+          "message": {
+            "text": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/ReflectionUtil.cs"
+                },
+                "region": {
+                  "startLine": 204,
+                  "endLine": 204,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3013",
+          "message": {
+            "text": "It is odd that the body of 'SetValue' function is fully equivalent to the body of 'Set' function (17, line 22)."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/IRdReactive.cs"
+                },
+                "region": {
+                  "startLine": 17,
+                  "endLine": 17,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "It is odd that the body of 'SetValue' function is fully equivalent to the body of 'Set' function (17, line 22)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/IRdReactive.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 17,
+                  "startColumn": 1,
+                  "startLine": 17
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "It is odd that the body of 'SetValue' function is fully equivalent to the body of 'Set' function (17, line 22)."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/IRdReactive.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 22,
+                  "startColumn": 1,
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/RdReactiveBase.cs"
+                },
+                "region": {
+                  "startLine": 43,
+                  "endLine": 43,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'LocalChangeCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/RdReactiveBase.cs"
+                },
+                "region": {
+                  "startLine": 71,
+                  "endLine": 71,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'LocalChangeCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/RdReactiveBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 71,
+                  "startColumn": 1,
+                  "startLine": 71
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'LocalChangeCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/RdReactiveBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 82,
+                  "startColumn": 1,
+                  "startLine": 82
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3029",
+          "message": {
+            "text": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 502, 503."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs"
+                },
+                "region": {
+                  "startLine": 502,
+                  "endLine": 502,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 502, 503."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 502,
+                  "startColumn": 1,
+                  "startLine": 502
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 502, 503."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 503,
+                  "startColumn": 1,
+                  "startLine": 503
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3100",
+          "message": {
+            "text": "NullReferenceException is possible when dereferencing 'Log' variable. Unhandled exceptions in destructor lead to termination of runtime."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs"
+                },
+                "region": {
+                  "startLine": 1055,
+                  "endLine": 1055,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "NullReferenceException is possible when dereferencing 'Log' variable. Unhandled exceptions in destructor lead to termination of runtime."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1053,
+                  "startColumn": 1,
+                  "startLine": 1053
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "NullReferenceException is possible when dereferencing 'Log' variable. Unhandled exceptions in destructor lead to termination of runtime."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 1055,
+                  "startColumn": 1,
+                  "startLine": 1055
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/IRdBindable.cs"
+                },
+                "region": {
+                  "startLine": 97,
+                  "endLine": 97,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Base/IRdBindable.cs"
+                },
+                "region": {
+                  "startLine": 141,
+                  "endLine": 141,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/LightSingleContextHandler.cs"
+                },
+                "region": {
+                  "startLine": 23,
+                  "endLine": 23,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/LightSingleContextHandler.cs"
+                },
+                "region": {
+                  "startLine": 24,
+                  "endLine": 24,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/HeavySingleContextHandler.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/HeavySingleContextHandler.cs"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 98,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 's' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/MessageBroker.cs"
+                },
+                "region": {
+                  "startLine": 118,
+                  "endLine": 118,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'mq' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/MessageBroker.cs"
+                },
+                "region": {
+                  "startLine": 186,
+                  "endLine": 186,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3095",
+          "message": {
+            "text": "The 'subscription' object was used before it was verified against null. Check lines: 151, 160."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/MessageBroker.cs"
+                },
+                "region": {
+                  "startLine": 151,
+                  "endLine": 151,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'subscription' object was used before it was verified against null. Check lines: 151, 160."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/MessageBroker.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 151,
+                  "startColumn": 1,
+                  "startLine": 151
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'subscription' object was used before it was verified against null. Check lines: 151, 160."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/MessageBroker.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 160,
+                  "startColumn": 1,
+                  "startLine": 160
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'SendWithoutContextsCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/ProtocolContexts.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'SendWithoutContextsCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/ProtocolContexts.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "startLine": 28
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'SendWithoutContextsCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/ProtocolContexts.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'MessageContextCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/ProtocolContexts.cs"
+                },
+                "region": {
+                  "startLine": 175,
+                  "endLine": 175,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'MessageContextCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/ProtocolContexts.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 175,
+                  "startColumn": 1,
+                  "startLine": 175
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'MessageContextCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/ProtocolContexts.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 184,
+                  "startColumn": 1,
+                  "startLine": 184
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3119",
+          "message": {
+            "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdProperty.cs"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdProperty.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 19,
+                  "startColumn": 1,
+                  "startLine": 19
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdProperty.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3119",
+          "message": {
+            "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdList.cs"
+                },
+                "region": {
+                  "startLine": 41,
+                  "endLine": 41,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdList.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 41,
+                  "startColumn": 1,
+                  "startLine": 41
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdList.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 42,
+                  "startColumn": 1,
+                  "startLine": 42
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Calling an overridden event may lead to unpredictable behavior. Consider implementing event accessors explicitly or use 'sealed' keyword."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdList.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 53,
+                  "startColumn": 1,
+                  "startLine": 53
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'UpdateValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/RdContext.cs"
+                },
+                "region": {
+                  "startLine": 151,
+                  "endLine": 151,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'UpdateValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/RdContext.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 151,
+                  "startColumn": 1,
+                  "startLine": 151
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'UpdateValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/RdContext.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 163,
+                  "startColumn": 1,
+                  "startLine": 163
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3142",
+          "message": {
+            "text": "Unreachable code detected. It is possible that an error is present."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/RdMap.cs"
+                },
+                "region": {
+                  "startLine": 387,
+                  "endLine": 387,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: ReadString()."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Tasks/RdFault.cs"
+                },
+                "region": {
+                  "startLine": 53,
+                  "endLine": 53,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/Serializers.cs"
+                },
+                "region": {
+                  "startLine": 310,
+                  "endLine": 310,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3165",
+          "message": {
+            "text": "The variable 'value' of the 'char' type is passed as an argument of the 'Boolean' type whereas similar overload with the string parameter exists. Perhaps, the variable should be converted to string."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/Serializers.cs"
+                },
+                "region": {
+                  "startLine": 120,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The variable 'value' of the 'char' type is passed as an argument of the 'Boolean' type whereas similar overload with the string parameter exists. Perhaps, the variable should be converted to string."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Impl/Serializers.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 120,
+                  "startColumn": 1,
+                  "startLine": 120
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The variable 'value' of the 'char' type is passed as an argument of the 'Boolean' type whereas similar overload with the string parameter exists. Perhaps, the variable should be converted to string."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Serialization/UnsafeWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 359,
+                  "startColumn": 1,
+                  "startLine": 359
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The variable 'value' of the 'char' type is passed as an argument of the 'Boolean' type whereas similar overload with the string parameter exists. Perhaps, the variable should be converted to string."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Serialization/UnsafeWriter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 463,
+                  "startColumn": 1,
+                  "startLine": 463
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3066",
+          "message": {
+            "text": "Possible incorrect order of arguments passed to 'RdTextChange' constructor: 'New' and 'Old'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Intrinsics/RdTextChange.cs"
+                },
+                "region": {
+                  "startLine": 55,
+                  "endLine": 55,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3139",
+          "message": {
+            "text": "Two or more case-branches perform the same actions."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Intrinsics/RdTextChange.cs"
+                },
+                "region": {
+                  "startLine": 61,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Intrinsics/RdTextChange.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "startLine": 61
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Intrinsics/RdTextChange.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 66,
+                  "startColumn": 1,
+                  "startLine": 66
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Two or more case-branches perform the same actions."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Intrinsics/RdTextChange.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 67,
+                  "startColumn": 1,
+                  "startLine": 67
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: ReadString()."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Impl/Intrinsics/RdAssertion.cs"
+                },
+                "region": {
+                  "startLine": 37,
+                  "endLine": 37,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: ReadString()."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Text/Intrinsics/RdTextChangeSerializer.cs"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 11,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'Endpoint' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Tasks/WiredRdTask.cs"
+                },
+                "region": {
+                  "startLine": 105,
+                  "endLine": 105,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'Endpoint' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Tasks/WiredRdTask.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 105,
+                  "startColumn": 1,
+                  "startLine": 105
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'Endpoint' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Tasks/WiredRdTask.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 107,
+                  "startColumn": 1,
+                  "startLine": 107
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3010",
+          "message": {
+            "text": "The return value of function 'ReadVoid' is required to be utilized."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Tasks/WiredRdTask.cs"
+                },
+                "region": {
+                  "startLine": 156,
+                  "endLine": 156,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'PrettyPrinterIndentCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Util/PrettyPrinter.cs"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'PrettyPrinterIndentCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Util/PrettyPrinter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "startLine": 10
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'PrettyPrinterIndentCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework/Util/PrettyPrinter.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 20,
+                  "startColumn": 1,
+                  "startLine": 20
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'Disposable' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/Disposable.cs"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 5,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'Disposable' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/Disposable.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 5,
+                  "startColumn": 1,
+                  "startLine": 5
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'Disposable' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/Disposable.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 14,
+                  "startColumn": 1,
+                  "startLine": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'LifetimesTestBase' class containing IDisposable members does not itself implement IDisposable. Inspect: LifetimeDefinition."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/LifetimesTestBase.cs"
+                },
+                "region": {
+                  "startLine": 9,
+                  "endLine": 9,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'LifetimesTestBase' class containing IDisposable members does not itself implement IDisposable. Inspect: LifetimeDefinition."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/LifetimesTestBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 9,
+                  "startColumn": 1,
+                  "startLine": 9
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'LifetimesTestBase' class containing IDisposable members does not itself implement IDisposable. Inspect: LifetimeDefinition."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/LifetimesTestBase.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 13,
+                  "startColumn": 1,
+                  "startLine": 13
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'serverList[0]' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 58, 57."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/RdListTest.cs"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 58,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'serverList[0]' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 58, 57."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/RdListTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 57,
+                  "startColumn": 1,
+                  "startLine": 57
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'serverList[0]' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 58, 57."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/RdListTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 58,
+                  "startColumn": 1,
+                  "startLine": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3008",
+          "message": {
+            "text": "The 'serverMap[1]' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 65."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/RdMapTest.cs"
+                },
+                "region": {
+                  "startLine": 66,
+                  "endLine": 66,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'serverMap[1]' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 65."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/RdMapTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "startLine": 65
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'serverMap[1]' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 66, 65."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/RdMapTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 66,
+                  "startColumn": 1,
+                  "startLine": 66
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'LifetimeTest' class containing IDisposable members does not itself implement IDisposable. Inspect: def."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/Lifetimes/LifetimeTest.cs"
+                },
+                "region": {
+                  "startLine": 18,
+                  "endLine": 18,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'LifetimeTest' class containing IDisposable members does not itself implement IDisposable. Inspect: def."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/Lifetimes/LifetimeTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 18,
+                  "startColumn": 1,
+                  "startLine": 18
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'LifetimeTest' class containing IDisposable members does not itself implement IDisposable. Inspect: def."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Lifetimes/Lifetimes/LifetimeTest.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 22,
+                  "startColumn": 1,
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'TestWireTapping' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/TestWireTapping.cs"
+                },
+                "region": {
+                  "startLine": 8,
+                  "endLine": 8,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'TestWireTapping' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/TestWireTapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 8,
+                  "startColumn": 1,
+                  "startLine": 8
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'TestWireTapping' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/TestWireTapping.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 22,
+                  "startColumn": 1,
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3065",
+          "message": {
+            "text": "Parameter 'a' is not utilized inside method's body."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.RdFramework/Reflection/ScalarTests.cs"
+                },
+                "region": {
+                  "startLine": 226,
+                  "endLine": 226,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3072",
+          "message": {
+            "text": "The 'CrossTest_Cs_Base' class containing IDisposable members does not itself implement IDisposable. Inspect: ModelLifetimeDef, SocketLifetimeDef."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Base/CrossTest_Cs_Base.cs"
+                },
+                "region": {
+                  "startLine": 14,
+                  "endLine": 14,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'CrossTest_Cs_Base' class containing IDisposable members does not itself implement IDisposable. Inspect: ModelLifetimeDef, SocketLifetimeDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Base/CrossTest_Cs_Base.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 14,
+                  "startColumn": 1,
+                  "startLine": 14
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CrossTest_Cs_Base' class containing IDisposable members does not itself implement IDisposable. Inspect: ModelLifetimeDef, SocketLifetimeDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Base/CrossTest_Cs_Base.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 23,
+                  "startColumn": 1,
+                  "startLine": 23
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'CrossTest_Cs_Base' class containing IDisposable members does not itself implement IDisposable. Inspect: ModelLifetimeDef, SocketLifetimeDef."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Base/CrossTest_Cs_Base.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 24,
+                  "startColumn": 1,
+                  "startLine": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3024",
+          "message": {
+            "text": "An odd precise comparison: errorMilliseconds == -1. Consider using a comparison with defined precision: Math.Abs(A - B) < Epsilon."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/Attributes.cs"
+                },
+                "region": {
+                  "startLine": 82,
+                  "endLine": 82,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3117",
+          "message": {
+            "text": "Constructor parameter 'rawValues' is not used."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/Attributes.cs"
+                },
+                "region": {
+                  "startLine": 87,
+                  "endLine": 87,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3090",
+          "message": {
+            "text": "Unsafe locking on public member 'Writer' in class 'CrossTestsLog'."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Util/Logging.cs"
+                },
+                "region": {
+                  "startLine": 65,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'Writer' in class 'CrossTestsLog'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Util/Logging.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 65,
+                  "startColumn": 1,
+                  "startLine": 65
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Unsafe locking on public member 'Writer' in class 'CrossTestsLog'."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Cross/Util/Logging.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 101,
+                  "startColumn": 1,
+                  "startLine": 101
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3022",
+          "message": {
+            "text": "Expression 'Util.Fork(args)' is always true."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/Test.Reflection.App/Program.cs"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 62,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ScalarSerializer.cs"
+                },
+                "region": {
+                  "startLine": 157,
+                  "endLine": 157,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ScalarSerializer.cs"
+                },
+                "region": {
+                  "startLine": 158,
+                  "endLine": 158,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3074",
+          "message": {
+            "text": "The 'SwitchCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/SwitchingScheduler.cs"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'SwitchCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/SwitchingScheduler.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "startLine": 56
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'SwitchCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/SwitchingScheduler.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 70,
+                  "startColumn": 1,
+                  "startLine": 70
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3105",
+          "message": {
+            "text": "The 'taskFactoryMethod' variable was used after it was assigned through null-conditional operator. NullReferenceException is possible."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ProxyGenerator.cs"
+                },
+                "region": {
+                  "startLine": 255,
+                  "endLine": 255,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: ActivateMember(...)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionRdActivator.cs"
+                },
+                "region": {
+                  "startLine": 121,
+                  "endLine": 121,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference of method return value. Consider inspecting: ActivateGenericMember(...)."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionRdActivator.cs"
+                },
+                "region": {
+                  "startLine": 225,
+                  "endLine": 225,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionSerializers.cs"
+                },
+                "region": {
+                  "startLine": 256,
+                  "endLine": 256,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionSerializers.cs"
+                },
+                "region": {
+                  "startLine": 257,
+                  "endLine": 257,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionSerializers.cs"
+                },
+                "region": {
+                  "startLine": 261,
+                  "endLine": 261,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3111",
+          "message": {
+            "text": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type."
+          },
+          "level": "note",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionSerializers.cs"
+                },
+                "region": {
+                  "startLine": 396,
+                  "endLine": 396,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3080",
+          "message": {
+            "text": "Possible null dereference inside method at 'serializers.Writer'. Consider inspecting the 1st argument: builtIn."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionSerializers.cs"
+                },
+                "region": {
+                  "startLine": 124,
+                  "endLine": 124,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'serializers.Writer'. Consider inspecting the 1st argument: builtIn."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/SerializerReflectionUtil.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 88,
+                  "startColumn": 1,
+                  "startLine": 88
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "Possible null dereference inside method at 'serializers.Writer'. Consider inspecting the 1st argument: builtIn."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/ReflectionSerializers.cs"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 124,
+                  "startColumn": 1,
+                  "startLine": 124
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V3027",
+          "message": {
+            "text": "The variable 'type' was utilized in the logical expression before it was verified against null in the same logical expression."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/msedlyarskiy/benchmark/projects/rd/rd-net/RdFramework.Reflection/SerializerReflectionUtil.cs"
+                },
+                "region": {
+                  "startLine": 77,
+                  "endLine": 77,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4565 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Conditions/Parsing/ConditionTokenizer.cs",
+          "line": 180,
+          "endLine": 180,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2570761,
+            "currentLine": 24551,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'i == -1' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Conditions/Parsing/ConditionTokenizer.cs",
+          "line": 424,
+          "endLine": 424,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 24551,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'i == -1' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs",
+          "line": 231,
+          "endLine": 231,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1102206888,
+            "currentLine": -296334795,
+            "nextLine": -1508452699,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: normalName != null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs",
+          "line": 240,
+          "endLine": 240,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -442753892,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'normalName' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs",
+          "line": 244,
+          "endLine": 244,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -437322596,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'normalName' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs",
+          "line": 248,
+          "endLine": 248,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 891240410,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'normalName' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs",
+          "line": 252,
+          "endLine": 252,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1419575997,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'normalName' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/Factory.cs",
+          "line": 256,
+          "endLine": 256,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -700839069,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'normalName' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/ConfigurationItemFactory.cs",
+          "line": 253,
+          "endLine": 253,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 663726325,
+            "currentLine": 303544901,
+            "nextLine": 1471101,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Unsafe invocation of event 'AssemblyLoading', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingRule.cs",
+          "line": 128,
+          "endLine": 128,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 216764,
+            "currentLine": 1360954975,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingRule.cs",
+          "line": 130,
+          "endLine": 130,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Unsafe locking on public member 'ChildRules' in class 'LoggingRule'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/ServiceRepositoryExtensions.cs",
+          "line": 209,
+          "endLine": 209,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1904852586,
+            "currentLine": 1629787129,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'messageFormatter' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3062",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/ServiceRepositoryExtensions.cs",
+          "line": 214,
+          "endLine": 214,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -712925392,
+            "nextLine": -59360686,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "An object is used as an argument to its own method. Consider checking the first actual argument of the method.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs",
+          "line": 113,
+          "endLine": 113,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 216764,
+            "currentLine": 656650944,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs",
+          "line": 115,
+          "endLine": 115,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs",
+          "line": 116,
+          "endLine": 116,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfiguration.cs",
+          "line": 472,
+          "endLine": 472,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Unsafe locking on public member 'LoggingRules' in class 'LoggingConfiguration'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs",
+          "line": 260,
+          "endLine": 260,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1089743868,
+            "nextLine": 375075817,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'contextState' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs",
+          "line": 587,
+          "endLine": 587,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -517075519,
+            "nextLine": 1695802004,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'contextState' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs",
+          "line": 593,
+          "endLine": 593,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 107750715,
+            "currentLine": -385278012,
+            "nextLine": 1695802006,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'contextState' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Contexts/ScopeContext.cs",
+          "line": 613,
+          "endLine": 613,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 492028928,
+            "currentLine": 845157026,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'contextState' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Filters/WhenRepeatedFilter.cs",
+          "line": 254,
+          "endLine": 254,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1621284520,
+            "nextLine": -1251097519,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'Layout.Render(logEvent)' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3161",
+      "cwe": 686,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Collections/SingleItemOptimizedHashSet.cs",
+          "line": 243,
+          "endLine": 243,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1523089324,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Comparing variables with 'ReferenceEquals' is incorrect because 'x' and 'y' will be boxed if they are instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3095",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs",
+          "line": 166,
+          "endLine": 166,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 417079986,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs",
+          "line": 191,
+          "endLine": 191,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The '_logFactory' object was used before it was verified against null. Check lines: 166, 191.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3095",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs",
+          "line": 199,
+          "endLine": 199,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 779729906,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationWatchableFileLoader.cs",
+          "line": 201,
+          "endLine": 201,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The '_logFactory' object was used before it was verified against null. Check lines: 199, 201.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3073",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs",
+          "line": 60,
+          "endLine": 60,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 206413897,
+            "currentLine": -1769023538,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'MutexMultiProcessFileAppender' class. Inspect: _fileStream.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/MutexMultiProcessFileAppender.cs",
+          "line": 103,
+          "endLine": 103,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1798325879,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs",
+          "line": 110,
+          "endLine": 110,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 786921902,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: _autoClosingTimer != null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3106",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs",
+          "line": 261,
+          "endLine": 261,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 2018781960,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/FileAppenders/FileAppenderCache.cs",
+          "line": 275,
+          "endLine": 275,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The 2nd argument 'freeSpot' is potentially used inside method to point beyond collection's bounds.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/ObjectPools/AppendBuilderCreator.cs",
+          "line": 54,
+          "endLine": 54,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -851274681,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Constructor parameter 'mustBeEmpty' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/ScopeContextAsyncState.cs",
+          "line": 119,
+          "endLine": 119,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1517049239,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Checking value of '_value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/ScopeContextAsyncState.cs",
+          "line": 183,
+          "endLine": 183,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1984698074,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Checking value of 'Value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Reflection/PropertyHelper.cs",
+          "line": 99,
+          "endLine": 99,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1201548049,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'objType' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs",
+          "line": 113,
+          "endLine": 113,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1225799689,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs",
+          "line": 346,
+          "endLine": 346,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs",
+          "line": 304,
+          "endLine": 304,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1939191558,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs",
+          "line": 346,
+          "endLine": 346,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Possible null dereference inside method at 'reader.MoveToContent'. Consider inspecting the 1st argument: reader.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3156",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs",
+          "line": 474,
+          "endLine": 474,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1802120710,
+            "currentLine": -1308042697,
+            "nextLine": 88117,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/XmlLoggingConfiguration.cs",
+          "line": 571,
+          "endLine": 571,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The second argument of the 'ParseIncludeElement' method is passed as an argument to the 'GetFiles' method and is not expected to be null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/ProcessInfoLayoutRenderer.cs",
+          "line": 50,
+          "endLine": 50,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -2087729532,
+            "currentLine": -1063018586,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/ProcessInfoLayoutRenderer.cs",
+          "line": 52,
+          "endLine": 52,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The 'ProcessInfoLayoutRenderer' class containing IDisposable members does not itself implement IDisposable. Inspect: _process.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3057",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Strings/StringBuilderExt.cs",
+          "line": 184,
+          "endLine": 184,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 833990858,
+            "currentLine": -1015503470,
+            "nextLine": 57886362,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The 'Append' function could receive the '-4' value while non-negative value is expected. Inspect the second argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 570,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/ApplicationEnvironment/AssemblyVersionLayoutRenderer.cs",
+          "line": 138,
+          "endLine": 138,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1230043612,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always false if it is evaluated: string.IsNullOrEmpty(version).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3156",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs",
+          "line": 437,
+          "endLine": 437,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1185842602,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Internal/Collections/ThreadSafeDictionary.cs",
+          "line": 120,
+          "endLine": 120,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The first argument of the 'InsertParsedConfigVariable' method is passed as an argument to the 'ContainsKey' method and is not expected to be null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3139",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs",
+          "line": 579,
+          "endLine": 579,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1086754,
+            "currentLine": 387583434,
+            "nextLine": 2337,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs",
+          "line": 582,
+          "endLine": 582,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Two or more case-branches perform the same actions.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs",
+          "line": 823,
+          "endLine": 823,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1424585042,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'targetTypeName'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3156",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Config/LoggingConfigurationParser.cs",
+          "line": 877,
+          "endLine": 877,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 140761638,
+            "currentLine": -1129365792,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The first argument of the 'TryGetValue' method is not expected to be null. Potential null value: targetTypeName.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3095",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/LoggerNameLayoutRenderer.cs",
+          "line": 76,
+          "endLine": 76,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1623130806,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/LoggerNameLayoutRenderer.cs",
+          "line": 79,
+          "endLine": 79,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The 'logEvent.LoggerName' object was used before it was verified against null. Check lines: 76, 79.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/Wrappers/ReplaceLayoutRendererWrapper.cs",
+          "line": 123,
+          "endLine": 123,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 894761789,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression '.GetGroupNames()' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LayoutRenderers/Wrappers/ReplaceLayoutRendererWrapper.cs",
+          "line": 154,
+          "endLine": 154,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1632543887,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Constructor parameter 'text' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/ValueTypeLayoutInfo.cs",
+          "line": 195,
+          "endLine": 195,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1694749352,
+            "nextLine": 653954845,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'layout.Render(logEvent)' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/ValueTypeLayoutInfo.cs",
+          "line": 260,
+          "endLine": 260,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 197553449,
+            "currentLine": -869018605,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression '_defaultValue.Render(LogEventInfo.CreateNullEvent())' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/ValueTypeLayoutInfo.cs",
+          "line": 265,
+          "endLine": 265,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1628132869,
+            "nextLine": 2106791860,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression '_defaultValue.Render(LogEventInfo.CreateNullEvent())' is always not null. The operator '??' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs",
+          "line": 426,
+          "endLine": 426,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 939470596,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3125",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs",
+          "line": 238,
+          "endLine": 238,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -328227220,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs",
+          "line": 235,
+          "endLine": 235,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The '_innerLayout' object was used after it was verified against null. Check lines: 238, 235.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/Typed/Layout.cs",
+          "line": 271,
+          "endLine": 271,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 2129135287,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'stringValue' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogEventInfo.cs",
+          "line": 736,
+          "endLine": 736,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 95920588,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Possible null dereference. Consider inspecting '_properties.MessageProperties'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/LayoutParser.cs",
+          "line": 245,
+          "endLine": 245,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 580295,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'ch != -1' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/LayoutParser.cs",
+          "line": 283,
+          "endLine": 283,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 580295,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Expression 'ch != -1' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Layouts/LayoutParser.cs",
+          "line": 439,
+          "endLine": 439,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 351664857,
+            "currentLine": 173513435,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: ch != -1.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs",
+          "line": 67,
+          "endLine": 67,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 215572,
+            "currentLine": 1939144863,
+            "nextLine": 582022190,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs",
+          "line": 255,
+          "endLine": 255,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs",
+          "line": 283,
+          "endLine": 283,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs",
+          "line": 367,
+          "endLine": 367,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/LogFactory.cs",
+          "line": 550,
+          "endLine": 550,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Unsafe locking on public member '_syncRoot' in class 'LogFactory'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/MessageTemplates/MessageTemplateParameters.cs",
+          "line": 94,
+          "endLine": 94,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 216764,
+            "currentLine": 1549221447,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Constructor parameter 'message' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3095",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDateAndSequence.cs",
+          "line": 110,
+          "endLine": 110,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1195021373,
+            "currentLine": -1425949974,
+            "nextLine": 978711191,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDateAndSequence.cs",
+          "line": 142,
+          "endLine": 142,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The 'fileTemplate' object was used before it was verified against null. Check lines: 110, 142.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs",
+          "line": 671,
+          "endLine": 671,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3125",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs",
+          "line": 741,
+          "endLine": 741,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -737447896,
+            "currentLine": -866685234,
+            "nextLine": -624786622,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/AsyncTaskTarget.cs",
+          "line": 706,
+          "endLine": 706,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The 'reusableLogEvents' object was used after it was verified against null. Check lines: 741, 706.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeRolling.cs",
+          "line": 129,
+          "endLine": 129,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1932147745,
+            "currentLine": 1325198865,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: existingArchiveFiles.Count > 1.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3002",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileArchiveModes/FileArchiveModeDynamicSequence.cs",
+          "line": 150,
+          "endLine": 150,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1499970199,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The switch statement does not cover all values of the 'ArchiveNumberingMode' enum: Date.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/MailTarget.cs",
+          "line": 484,
+          "endLine": 484,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -5104666,
+            "nextLine": -1381952721,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'password'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3156",
+      "cwe": 628,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/NetworkTarget.cs",
+          "line": 311,
+          "endLine": 311,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1741489008,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/NetworkTarget.cs",
+          "line": 527,
+          "endLine": 527,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "The first argument of the 'WriteBytesToCachedNetworkSender' method is passed as an argument to the 'TryGetValue' method and is not expected to be null.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3009",
+      "cwe": 393,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/TargetWithContext.cs",
+          "line": 739,
+          "endLine": 739,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1152523865,
+            "currentLine": -1462868393,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "It's odd that this method always returns one and the same value of 'true'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3130",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/WebServiceTarget.cs",
+          "line": 553,
+          "endLine": 553,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 556492207,
+            "currentLine": 1141527783,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "Priority of the '&&' operator is higher than that of the '||' operator. Possible missing parentheses.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionParserTests.cs",
+          "line": 311,
+          "endLine": 311,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -62637578,
+            "currentLine": -466772435,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'condition'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionEvaluatorTests.cs",
+          "line": 135,
+          "endLine": 135,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1150292460,
+            "currentLine": -1078159756,
+            "nextLine": -306206385,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionEvaluatorTests.cs",
+          "line": 137,
+          "endLine": 137,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -306206385,
+            "currentLine": -22170321,
+            "nextLine": -604182601,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Conditions/ConditionEvaluatorTests.cs",
+          "line": 361,
+          "endLine": 361,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -791035350,
+            "currentLine": -313116122,
+            "nextLine": 1371220400,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'condition'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/PropertyTypeConverterTests.cs",
+          "line": 193,
+          "endLine": 193,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": -1001782187,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/PropertyTypeConverterTests.cs",
+          "line": 204,
+          "endLine": 204,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'Convert_StringToShortTest' function is fully equivalent to the body of 'Convert_StringToNullableShortTest' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/TargetConfigurationTests.cs",
+          "line": 610,
+          "endLine": 610,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -2139747939,
+            "currentLine": -1982544423,
+            "nextLine": 1524652505,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Config/TargetConfigurationTests.cs",
+          "line": 661,
+          "endLine": 661,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -2139747939,
+            "currentLine": -1982544423,
+            "nextLine": 1524652505,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3086",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/ConfigFileLocatorTests.cs",
+          "line": 252,
+          "endLine": 252,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -637377442,
+            "currentLine": -390599587,
+            "nextLine": -1341383345,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/ConfigFileLocatorTests.cs",
+          "line": 251,
+          "endLine": 251,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Variables EntryAssemblyLocation, UserTempFilePath are initialized through the call to the same function. It's probably an error or un-optimized code.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/FileTarget.cs",
+          "line": 1787,
+          "endLine": 1787,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1798325879,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs",
+          "line": 238,
+          "endLine": 238,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1081066699,
+            "currentLine": -368873872,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'v == 1' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs",
+          "line": 263,
+          "endLine": 263,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1081066699,
+            "currentLine": -368873872,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'v == 1' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs",
+          "line": 276,
+          "endLine": 276,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1081066699,
+            "currentLine": -190615951,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'v > 1' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogEventBuilderTests.cs",
+          "line": 347,
+          "endLine": 347,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1028053801,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The return value of function 'ForDebugEvent' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogBuilderTests.cs",
+          "line": 287,
+          "endLine": 287,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1081066699,
+            "currentLine": 290389,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'v == 1' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 570,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Fluent/LogBuilderTests.cs",
+          "line": 300,
+          "endLine": 300,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1081066699,
+            "currentLine": 145213,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'v > 1' is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3081",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/MruCacheTests.cs",
+          "line": 116,
+          "endLine": 116,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 322134975,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/MruCacheTests.cs",
+          "line": 114,
+          "endLine": 114,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'j' counter is not used inside a nested loop. Consider inspecting usage of 'i' counter.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs",
+          "line": 286,
+          "endLine": 286,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1026236555,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs",
+          "line": 303,
+          "endLine": 303,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs",
+          "line": 319,
+          "endLine": 319,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs",
+          "line": 342,
+          "endLine": 342,
+          "column": 1,
+          "endColumn": 2147483647
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Internal/NetworkSenders/TcpNetworkSenderTests.cs",
+          "line": 350,
+          "endLine": 350,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe locking on 'this' instance in class 'MockSocket'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3025",
+      "cwe": 685,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/ApplicationEnvironment/AppDomainLayoutRendererTests.cs",
+          "line": 58,
+          "endLine": 58,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 87699,
+            "currentLine": -2091025442,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Incorrect format. A different number of format items is expected while calling 'Format' function. Arguments not used: friendlyname.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/MdlcLayoutRendererTests.cs",
+          "line": 43,
+          "endLine": 43,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 908487205,
+            "currentLine": 244401425,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/MdlcLayoutRendererTests.cs",
+          "line": 45,
+          "endLine": 45,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'MdlcLayoutRendererTests' class containing IDisposable members does not itself implement IDisposable. Inspect: _target.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/AllEventPropertiesTests.cs",
+          "line": 94,
+          "endLine": 94,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 28366566,
+            "currentLine": -1338329775,
+            "nextLine": 524892435,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159265359 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Contexts/AllEventPropertiesTests.cs",
+          "line": 118,
+          "endLine": 118,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 606879823,
+            "currentLine": -1338329775,
+            "nextLine": 1634579851,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159265359 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/DateTime/ShortDateTests.cs",
+          "line": 112,
+          "endLine": 112,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": -1260045596,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/DateTime/ShortDateTests.cs",
+          "line": 134,
+          "endLine": 134,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'OneDigitMonthTest' function is fully equivalent to the body of 'OneDigitDayTest' function (112, line 134).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 50,
+          "endLine": 50,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 62,
+          "endLine": 62,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 74,
+          "endLine": 74,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 86,
+          "endLine": 86,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 98,
+          "endLine": 98,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 110,
+          "endLine": 110,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 122,
+          "endLine": 122,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/ReplaceNewLinesTests.cs",
+          "line": 134,
+          "endLine": 134,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 574,
+            "currentLine": 540696415,
+            "nextLine": 4556,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: foo.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/WhenEmptyTests.cs",
+          "line": 113,
+          "endLine": 113,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 9147,
+            "currentLine": -65716245,
+            "nextLine": 1203266985,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: message.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/WrapLineTests.cs",
+          "line": 126,
+          "endLine": 126,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 1458497096,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/Wrappers/String transformations/WrapLineTests.cs",
+          "line": 136,
+          "endLine": 136,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'WrapLineAtPositionZeroTest' function is fully equivalent to the body of 'WrapLineAtNegativePositionTest' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/ExceptionTests.cs",
+          "line": 726,
+          "endLine": 726,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1798686687,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 754,
+          "endLine": 754,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1630833239,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 825,
+          "endLine": 825,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'AsyncMethod' function is fully equivalent to the body of 'AsyncMethod2b' function (754, line 825).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 883,
+          "endLine": 883,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1998154782,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 1000,
+          "endLine": 1000,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'AsyncMethod3b' function is fully equivalent to the body of 'MoveNext' function (883, line 1000).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3032",
+      "cwe": 835,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 470,
+          "endLine": 470,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10853471,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 475,
+          "endLine": 475,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 728967,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'done == true' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3032",
+      "cwe": 835,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 503,
+          "endLine": 503,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10853471,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 508,
+          "endLine": 508,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 728967,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'done == true' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3032",
+      "cwe": 835,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 537,
+          "endLine": 537,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10853471,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 542,
+          "endLine": 542,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 728967,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'done == true' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3032",
+      "cwe": 835,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 570,
+          "endLine": 570,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10853471,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 575,
+          "endLine": 575,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 728967,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'done == true' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3032",
+      "cwe": 835,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 603,
+          "endLine": 603,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10853471,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 608,
+          "endLine": 608,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 728967,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'done == true' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3051",
+      "cwe": 704,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 1126,
+          "endLine": 1126,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -760041269,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "An excessive type cast. The object is already of the 'Logger' type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 1153,
+          "endLine": 1153,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -377407909,
+            "currentLine": 843654476,
+            "nextLine": -756781699,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: logger.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LayoutRenderers/CallSite/CallSiteTests.cs",
+          "line": 1161,
+          "endLine": 1161,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -377407909,
+            "currentLine": 1571540201,
+            "nextLine": -756781699,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: logger.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs",
+          "line": 405,
+          "endLine": 405,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": -1475432387,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs",
+          "line": 414,
+          "endLine": 414,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'InnerLayoutWithSlashSingleTest' function is fully equivalent to the body of 'InnerLayoutWithSlashTest' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs",
+          "line": 498,
+          "endLine": 498,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 647471533,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/SimpleLayoutParserTests.cs",
+          "line": 507,
+          "endLine": 507,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'InnerLayoutWithBracketsTest_needEscape3' function is fully equivalent to the body of 'InnerLayoutWithBracketsTest_needEscape4' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 118,
+          "endLine": 118,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 1161132767,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 203,
+          "endLine": 203,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'LayoutFixedEmptyNullableIntTest' function is fully equivalent to the body of 'LayoutFixedEmptyUrlTest' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 222,
+          "endLine": 222,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1474120441,
+            "nextLine": -673374470,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<int>)' to the left and to the right of the '==' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 223,
+          "endLine": 223,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1474120441,
+            "currentLine": -673374470,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<int>)' to the left and to the right of the '!=' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3109",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 225,
+          "endLine": 225,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1970828458,
+            "nextLine": 1946974890,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'int?' sub-expression is present on both sides of the operator. The expression is incorrect or it can be simplified.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3109",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 226,
+          "endLine": 226,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1970828458,
+            "currentLine": 1946974890,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'int?' sub-expression is present on both sides of the operator. The expression is incorrect or it can be simplified.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 228,
+          "endLine": 228,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1346716471,
+            "nextLine": -1346763058,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<int?>)' to the left and to the right of the '==' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 229,
+          "endLine": 229,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1346716471,
+            "currentLine": -1346763058,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<int?>)' to the left and to the right of the '!=' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 231,
+          "endLine": 231,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -568456110,
+            "nextLine": -565571630,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '==' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 232,
+          "endLine": 232,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -568456110,
+            "currentLine": -565571630,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '!=' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 234,
+          "endLine": 234,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1474174713,
+            "nextLine": -673297670,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '==' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3001",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Layouts/LayoutTypedTests.cs",
+          "line": 235,
+          "endLine": 235,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1474174713,
+            "currentLine": -673297670,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "There are identical sub-expressions 'default(Layout<Uri>)' to the left and to the right of the '!=' operator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Mocks/CSharpEventTarget.cs",
+          "line": 70,
+          "endLine": 70,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1303548485,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe invocation of event 'BeforeWrite', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3083",
+      "cwe": 367,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Mocks/CSharpEventTarget.cs",
+          "line": 76,
+          "endLine": 76,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -976605638,
+            "currentLine": 659010294,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe invocation of event 'EventWritten', NullReferenceException is possible. Consider assigning event to a local variable before invoking it.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3011",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs",
+          "line": 129,
+          "endLine": 129,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1482730031,
+            "currentLine": 1105245938,
+            "nextLine": -1388043645,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs",
+          "line": 128,
+          "endLine": 128,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Two opposite conditions were encountered. The second condition is always false. Check lines: 129, 128.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3011",
+      "cwe": 570,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs",
+          "line": 270,
+          "endLine": 270,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1482730031,
+            "currentLine": 1105245938,
+            "nextLine": -1388043645,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTestBase.cs",
+          "line": 269,
+          "endLine": 269,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Two opposite conditions were encountered. The second condition is always false. Check lines: 270, 269.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 84,
+          "endLine": 84,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 67087445,
+            "nextLine": -1591674316,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 85,
+          "endLine": 85,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 67087445,
+            "currentLine": -1591674316,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -2737712,
+            "nextLine": 605929037,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 88,
+          "endLine": 88,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -2737712,
+            "currentLine": 605929037,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 111,
+          "endLine": 111,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1073734741,
+            "nextLine": -1591674316,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 112,
+          "endLine": 112,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1073734741,
+            "currentLine": -1591674316,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 114,
+          "endLine": 114,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -902706,
+            "nextLine": 605929037,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/NLogTraceListenerTests.cs",
+          "line": 115,
+          "endLine": 115,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -902706,
+            "currentLine": 605929037,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.1415 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3032",
+      "cwe": 835,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LogManagerTests.cs",
+          "line": 239,
+          "endLine": 239,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 547015932,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Waiting on this expression is unreliable, as compiler may optimize some of the variables. Use volatile variable(s) or synchronization primitives to avoid this.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/LogManagerTests.cs",
+          "line": 384,
+          "endLine": 384,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1565128459,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Constructor parameters 'param1', 'param2' are not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/DefaultJsonSerializerTestsBase.cs",
+          "line": 178,
+          "endLine": 178,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1219732203,
+            "currentLine": -1999041764,
+            "nextLine": 1238059591,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159265 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs",
+          "line": 842,
+          "endLine": 842,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1019385316,
+            "nextLine": 163609,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs",
+          "line": 816,
+          "endLine": 816,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 842, 816.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs",
+          "line": 896,
+          "endLine": 896,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 2654637,
+            "nextLine": 163609,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs",
+          "line": 871,
+          "endLine": 871,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 896, 871.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3008",
+      "cwe": 563,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs",
+          "line": 951,
+          "endLine": 951,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 2654637,
+            "nextLine": 163609,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/NetworkTargetTests.cs",
+          "line": 926,
+          "endLine": 926,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The 'pendingWrites' variable is assigned values twice successively. Perhaps this is a mistake. Check lines: 951, 926.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3164",
+      "cwe": 544,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs",
+          "line": 399,
+          "endLine": 399,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1408021072,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Exception classes should be publicly accessible.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs",
+          "line": 806,
+          "endLine": 806,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1337038282,
+            "currentLine": -1507046789,
+            "nextLine": 46942946,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3026",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/TargetTests.cs",
+          "line": 869,
+          "endLine": 869,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1185863261,
+            "currentLine": -382716956,
+            "nextLine": 618547171,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "The constant 3.14159 is being utilized. The resulting value could be inaccurate. Consider using Math.PI.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3114",
+      "cwe": 404,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs",
+          "line": 88,
+          "endLine": 88,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 9147,
+            "currentLine": 1178509420,
+            "nextLine": 337648710,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "IDisposable object 'wrapper' is not disposed before method returns.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3090",
+      "cwe": 833,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs",
+          "line": 147,
+          "endLine": 147,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1727339560,
+            "currentLine": -918661212,
+            "nextLine": 0,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/Wrappers/SplitGroupTargetTests.cs",
+          "line": 152,
+          "endLine": 152,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "Unsafe locking on public member 'WrittenEvents' in class 'MyTarget'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs",
+          "line": 283,
+          "endLine": 283,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 768119496,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs",
+          "line": 303,
+          "endLine": 303,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.WindowsRegistry.Tests(netcoreapp3.1)"
+      ],
+      "message": "It is odd that the body of 'RegistryTestWrongKey_no_ex' function is fully equivalent to the body of 'RegistryTestWrongKey_ex' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.WindowsRegistry.Tests(netcoreapp3.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs",
+          "line": 72,
+          "endLine": 72,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.WindowsRegistry.Tests(netcoreapp3.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs",
+          "line": 80,
+          "endLine": 80,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.WindowsRegistry.Tests(netcoreapp3.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.WindowsRegistry.Tests/RegistryTests.cs",
+          "line": 330,
+          "endLine": 330,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 104571062,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.WindowsRegistry.Tests(netcoreapp3.1)"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'debugTarget'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog/Targets/EventLogTarget.cs",
+          "line": 258,
+          "endLine": 258,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 712571557,
+            "currentLine": -689788491,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.WindowsEventLog"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'message'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3073",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+          "line": 84,
+          "endLine": 84,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 52319935,
+            "currentLine": -30353030,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+          "line": 86,
+          "endLine": 86,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "NLog.Database(netstandard2.0)"
+      ],
+      "message": "Not all IDisposable members are properly disposed. Call 'Dispose' when disposing 'DatabaseTarget' class. Inspect: _activeConnection.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+          "line": 424,
+          "endLine": 424,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 10539241,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.Database(netstandard2.0)"
+      ],
+      "message": "Expression '!foundProvider' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/src/NLog.Database/DatabaseTarget.cs",
+          "line": 747,
+          "endLine": 747,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1798316799,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.Database(netstandard2.0)"
+      ],
+      "message": "Expression 'dbTransaction' is always not null. The operator '?.' is excessive.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.Database.Tests/DatabaseTargetTests.cs",
+          "line": 2476,
+          "endLine": 2476,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.Database.Tests(netcoreapp3.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.Database.Tests/DatabaseTargetTests.cs",
+          "line": 2553,
+          "endLine": 2553,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 100,
+            "currentLine": -1518177699,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.Database.Tests(netcoreapp3.1)"
+      ],
+      "message": "Expression 'String.IsNullOrWhiteSpace(connectionString)' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+          "line": 92,
+          "endLine": 92,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -459697530,
+            "nextLine": 916249,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: logger.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+          "line": 578,
+          "endLine": 578,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 817559954,
+            "nextLine": 816987186,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: logger.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+          "line": 3101,
+          "endLine": 3101,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1383598395,
+            "nextLine": 110845300,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: logger.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3138",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+          "line": 4099,
+          "endLine": 4099,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 910961042,
+            "nextLine": 297431211,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "String literal contains potential interpolated expression. Consider inspecting: logger.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/NLog/tests/NLog.UnitTests/Targets/FileTargetTests.cs",
+          "line": 4256,
+          "endLine": 4256,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "NLog.UnitTests(netcoreapp3.1)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

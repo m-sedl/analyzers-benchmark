@@ -1,0 +1,631 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/CollectionEx.cs",
+          "line": 32,
+          "endLine": 32,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1689735938,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Checking value of 'item' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableList.cs",
+          "line": 54,
+          "endLine": 54,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -715283784,
+            "nextLine": 41686677,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Checking value of 'item' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableList.cs",
+          "line": 101,
+          "endLine": 101,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1070410230,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableList.cs",
+          "line": 134,
+          "endLine": 134,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 725865,
+            "nextLine": 1684746936,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Checking value of 'item' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3068",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ViewableProperty.cs",
+          "line": 26,
+          "endLine": 26,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1997293526,
+            "currentLine": 241237,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Calling overrideable class member 'Value' from constructor is dangerous.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3063",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Core/Unit.cs",
+          "line": 25,
+          "endLine": 25,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2106519357,
+            "currentLine": 503752049,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "A part of conditional expression is always true if it is evaluated: Equals((Unit) obj).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/SingleThreadScheduler.cs",
+          "line": 152,
+          "endLine": 152,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1126649064,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/WriteOnceProperty.cs",
+          "line": 73,
+          "endLine": 73,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -594413879,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/WriteOnceProperty.cs",
+          "line": 75,
+          "endLine": 75,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "The 'WriteOnceSignal' class containing IDisposable members does not itself implement IDisposable. Inspect: myDef.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Diagnostics/StringInterpolation/JetDefaultInterpolatedStringHandler.cs",
+          "line": 41,
+          "endLine": 41,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -16297274,
+            "currentLine": 4297649,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Diagnostics/ProcessWatchdog.cs",
+          "line": 82,
+          "endLine": 82,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1094,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Collections/Viewable/ReactiveEx.cs",
+          "line": 399,
+          "endLine": 399,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 457022436,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Checking value of 'value' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Threading/SpinWaitLock.cs",
+          "line": 97,
+          "endLine": 97,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 72188289,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3134",
+      "cwe": 128,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitHacks.cs",
+          "line": 60,
+          "endLine": 60,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 40252139,
+            "currentLine": 87885,
+            "nextLine": 11089,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Shift by [32..61] bits is greater than the size of 'Int32' type of expression '1'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs",
+          "line": 44,
+          "endLine": 44,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -1520847778,
+            "nextLine": 1494676243,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Expression 'Mode.IsAssertion' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs",
+          "line": 45,
+          "endLine": 45,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1520847778,
+            "currentLine": 1494676243,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Expression 'Mode.IsAssertion' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs",
+          "line": 53,
+          "endLine": 53,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1423851546,
+            "nextLine": 1552551989,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Expression 'Mode.IsAssertion' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/BitSlice.cs",
+          "line": 54,
+          "endLine": 54,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1423851546,
+            "currentLine": 1552551989,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "Expression 'Mode.IsAssertion' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3074",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/SingleThreadObjectPool.cs",
+          "line": 59,
+          "endLine": 59,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 250094803,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/SingleThreadObjectPool.cs",
+          "line": 70,
+          "endLine": 70,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "The 'RentedValueCookie' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/Lifetime.cs",
+          "line": 1248,
+          "endLine": 1248,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1303328315,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/Lifetime.cs",
+          "line": 1272,
+          "endLine": 1272,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 71053464,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3163",
+      "cwe": 1069,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Util/ReflectionUtil.cs",
+          "line": 204,
+          "endLine": 204,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 2244993,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "An empty exception handler. Silent suppression of exceptions may hide the presence of bugs or vulnerabilities.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3029",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs",
+          "line": 502,
+          "endLine": 502,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5333369,
+            "currentLine": 122527835,
+            "nextLine": -844071519,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs",
+          "line": 503,
+          "endLine": 503,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 502, 503.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3100",
+      "cwe": 476,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs",
+          "line": 1055,
+          "endLine": 1055,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1830298128,
+            "nextLine": 125,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/rd/rd-net/Lifetimes/Lifetimes/LifetimeDefinition.cs",
+          "line": 1053,
+          "endLine": 1053,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "Lifetimes(netstandard2.0)"
+      ],
+      "message": "NullReferenceException is possible when dereferencing 'Log' variable. Unhandled exceptions in destructor lead to termination of runtime.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

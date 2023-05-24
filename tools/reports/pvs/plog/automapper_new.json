@@ -1,0 +1,1122 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V3066",
+      "cwe": 683,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/PathConfigurationExpression.cs",
+          "line": 73,
+          "endLine": 73,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -223164726,
+            "currentLine": -1548222418,
+            "nextLine": -153938931,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Possible incorrect order of arguments passed to 'Create' method: '_sourceExpression' and '_destinationExpression'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3066",
+      "cwe": 683,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/MappingExpression.cs",
+          "line": 8,
+          "endLine": 8,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 1354105850,
+            "nextLine": 239134493,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Possible incorrect order of arguments passed to 'TypePair' constructor: 'DestinationType' and 'SourceType'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3066",
+      "cwe": 683,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/MappingExpression.cs",
+          "line": 135,
+          "endLine": 135,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 721519689,
+            "nextLine": -782728688,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Possible incorrect order of arguments passed to 'MappingExpression' constructor: 'DestinationType' and 'SourceType'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3066",
+      "cwe": 683,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/TypeMapConfiguration.cs",
+          "line": 114,
+          "endLine": 114,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 947415473,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Possible incorrect order of arguments passed to 'IncludeCore' method: 'includedDerivedType.DestinationType' and 'includedDerivedType.SourceType'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3066",
+      "cwe": 683,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Configuration/TypeMapConfiguration.cs",
+          "line": 118,
+          "endLine": 118,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 846239668,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Possible incorrect order of arguments passed to 'IncludeBaseCore' method: 'includedBaseType.DestinationType' and 'includedBaseType.SourceType'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3150",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Internal/ReflectionHelper.cs",
+          "line": 87,
+          "endLine": 87,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1391550249,
+            "currentLine": 84647,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Loop break conditions do not depend on the number of iterations.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Mapper.cs",
+          "line": 194,
+          "endLine": 194,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2044264097,
+            "currentLine": 940964309,
+            "nextLine": -857714692,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Checking value of 'source' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3111",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Mapper.cs",
+          "line": 194,
+          "endLine": 194,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2044264097,
+            "currentLine": 940964309,
+            "nextLine": -857714692,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Checking value of 'destination' for null will always return false when generic type is instantiated with a value type.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Execution/ExpressionBuilder.cs",
+          "line": 385,
+          "endLine": 385,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -420556012,
+            "currentLine": 23697513,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Expression 'variables == null' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3080",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Execution/ExpressionBuilder.cs",
+          "line": 389,
+          "endLine": 389,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1830538733,
+            "nextLine": -1848951778,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Possible null dereference. Consider inspecting 'expressions'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3142",
+      "cwe": 561,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/AutoMapper/Execution/ExpressionBuilder.cs",
+          "line": 389,
+          "endLine": 389,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 1830538733,
+            "nextLine": -1848951778,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper"
+      ],
+      "message": "Unreachable code detected. It is possible that an error is present.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3068",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/AutoMapperSpecBase.cs",
+          "line": 11,
+          "endLine": 11,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 400681,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Calling overrideable class member 'Because_of' from constructor is dangerous.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3022",
+      "cwe": 571,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Bug/MultiThreadingIssues.cs",
+          "line": 107,
+          "endLine": 107,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 12211,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Expression 'n == 3' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3142",
+      "cwe": 561,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Bug/MultiThreadingIssues.cs",
+          "line": 118,
+          "endLine": 118,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 44275305,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Unreachable code detected. It is possible that an error is present.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/ConfigurationValidation.cs",
+          "line": 149,
+          "endLine": 149,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1182576734,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Constructor parameter 'value' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/ConfigurationValidation.cs",
+          "line": 175,
+          "endLine": 175,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1182576734,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Constructor parameter 'value' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/ConfigurationValidation.cs",
+          "line": 205,
+          "endLine": 205,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1182576734,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Constructor parameter 'value' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Enumerations.cs",
+          "line": 182,
+          "endLine": 182,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": 1183490505,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Enumerations.cs",
+          "line": 198,
+          "endLine": 198,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "It is odd that the body of 'ShouldMapEnumByMatchingNames' function is fully equivalent to the body of 'ShouldMapEnumByMatchingValues' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 102,
+          "endLine": 102,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1897967146,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 104,
+          "endLine": 104,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3074",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 112,
+          "endLine": 112,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -655076319,
+            "currentLine": 1528070231,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 122,
+          "endLine": 122,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'EnumeratorBase' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3074",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 158,
+          "endLine": 158,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -655076319,
+            "currentLine": -610148298,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 168,
+          "endLine": 168,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'CustomEnumerator' class contains 'Dispose' method. Consider making it implement 'IDisposable' interface.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 190,
+          "endLine": 190,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1897967146,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 192,
+          "endLine": 192,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 230,
+          "endLine": 230,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1897967146,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 232,
+          "endLine": 232,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 276,
+          "endLine": 276,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1897967146,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 278,
+          "endLine": 278,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3072",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 320,
+          "endLine": 320,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1897967146,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CollectionMapping.cs",
+          "line": 322,
+          "endLine": 322,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "The 'CustomList' class containing IDisposable members does not itself implement IDisposable. Inspect: _enumerator.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Constructors.cs",
+          "line": 638,
+          "endLine": 638,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1063423490,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Constructor parameter 'x' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3117",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Constructors.cs",
+          "line": 691,
+          "endLine": 691,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1063423490,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Constructor parameter 'x' is not used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CustomMapping.cs",
+          "line": 231,
+          "endLine": 231,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2034991408,
+            "currentLine": 637955558,
+            "nextLine": 413,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Possible null dereference. The 'FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/CustomMapping.cs",
+          "line": 231,
+          "endLine": 231,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2034991408,
+            "currentLine": 637955558,
+            "nextLine": 413,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Possible null dereference. The 'src.SubModels.FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedBaseMappingShouldInheritBaseMappings.cs",
+          "line": 234,
+          "endLine": 234,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": -1912776874,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedBaseMappingShouldInheritBaseMappings.cs",
+          "line": 255,
+          "endLine": 255,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedMappingShouldInheritBaseMappings.cs",
+          "line": 267,
+          "endLine": 267,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3377,
+            "currentLine": -1912776874,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingInheritance/IncludedMappingShouldInheritBaseMappings.cs",
+          "line": 289,
+          "endLine": 289,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "It is odd that the body of 'include_should_allow_automapper_to_select_more_specific_included_type_with_one_parameter' function is fully equivalent to the body of 'include_should_allow_automapper_to_select_more_specific_included_type' function.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3013",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingOrder.cs",
+          "line": 119,
+          "endLine": 119,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 187160469,
+            "currentLine": 47822853,
+            "nextLine": 123,
+            "columns": 0
+          }
+        },
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/MappingOrder.cs",
+          "line": 124,
+          "endLine": 124,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "It is odd that the body of 'GetValue1' function is fully equivalent to the body of 'GetValue2' function (119, line 124).",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/NullBehavior.cs",
+          "line": 556,
+          "endLine": 556,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1210680021,
+            "currentLine": -467403941,
+            "nextLine": 676530174,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Possible null dereference. The 'src.Subs.FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/NullBehavior.cs",
+          "line": 651,
+          "endLine": 651,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1210680021,
+            "currentLine": -467403941,
+            "nextLine": 676530174,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Possible null dereference. The 'src.Subs.FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3115",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Projection/ProjectCollectionEnumerableTest.cs",
+          "line": 64,
+          "endLine": 64,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1013922194,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/IMappingExpression/IncludeMembers.cs",
+          "line": 85,
+          "endLine": 85,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -449490041,
+            "nextLine": -1531922925,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Possible null dereference. The 's.InnerSources.FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3115",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/UnitTests/Projection/ProjectCollectionListTest.cs",
+          "line": 86,
+          "endLine": 86,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1013922194,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.UnitTests"
+      ],
+      "message": "Passing 'null' to 'Equals' method should not result in 'NullReferenceException'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/IntegrationTests/MaxDepth/NavigationPropertySO.cs",
+          "line": 86,
+          "endLine": 86,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -131296258,
+            "currentLine": -1686705085,
+            "nextLine": 852618488,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.IntegrationTests"
+      ],
+      "message": "The return value of function 'SequenceEqual' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3146",
+      "cwe": 476,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/IntegrationTests/NullCheckCollections.cs",
+          "line": 28,
+          "endLine": 28,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -482282677,
+            "currentLine": 1754207469,
+            "nextLine": 3377,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.IntegrationTests"
+      ],
+      "message": "Possible null dereference. The 'FirstOrDefault' can return default null value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3010",
+      "cwe": 252,
+      "level": 1,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/AutoMapper/src/IntegrationTests/ProjectionOrderTest.cs",
+          "line": 61,
+          "endLine": 61,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": 188468450,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "AutoMapper.IntegrationTests"
+      ],
+      "message": "The return value of function 'ToString' is required to be utilized.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

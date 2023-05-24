@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V051",
+      "cwe": 0,
+      "level": 3,
+      "positions": [
+        {
+          "file": "",
+          "line": 1,
+          "endLine": 1,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "LoanExam"
+      ],
+      "message": "Some of the references in 'LoanExam' project are missing or incorrect. The analysis results could be incomplete. Consider making the project fully compilable and building it before analysis.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3115",
+      "cwe": 684,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/LoanExam/Models/Passport.cs",
+          "line": 20,
+          "endLine": 20,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 123,
+            "currentLine": -1684242454,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "LoanExam"
+      ],
+      "message": "Passing 'null' to '==' operator should not result in 'NullReferenceException'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3002",
+      "cwe": 0,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/LoanExam/EmploymentHandler.cs",
+          "line": 27,
+          "endLine": 27,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 150647,
+            "currentLine": 657719402,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "LoanExam"
+      ],
+      "message": "The switch statement does not cover all values of the 'Employment' enum: Unemployed.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V3137",
+      "cwe": 563,
+      "level": 2,
+      "positions": [
+        {
+          "file": "/home/msedlyarskiy/benchmark/projects/LoanExam/CreditCalculator.cs",
+          "line": 143,
+          "endLine": 143,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1475272405,
+            "currentLine": 254583,
+            "nextLine": 352987,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "LoanExam"
+      ],
+      "message": "The 'SumPoints' variable is assigned but is not used by the end of the function.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}
